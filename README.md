@@ -64,6 +64,4 @@ This project is licensed under the MIT License.
 ---
 
 For more details, visit **[www.goritmit.co.uk](http://www.goritmit.co.uk)**
-
-generat code for readme.md file
-
+ 
