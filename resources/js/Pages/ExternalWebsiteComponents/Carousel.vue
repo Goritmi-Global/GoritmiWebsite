@@ -23,12 +23,12 @@
                                 digital solutions that captivate customers and
                                 enhance efficiency.
                             </p>
-                            <a
+                            <!-- <a
                                 href="#"
                                 class="btn quote-btn border bg-primary link-light"
                             >
                                 Let's Discuss →
-                            </a>
+                            </a> -->
                         </div>
 
                         <!-- Right Side: Image -->
@@ -149,6 +149,7 @@ h1 {
 .carousel__item::before {
     content: "";
     position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
@@ -161,7 +162,9 @@ h1 {
     position: relative;
     z-index: 2;
 }
-
  
-
+.carousel__item {
+    height: 420px !important;
+    justify-content: left !important; 
+}
 </style>

@@ -4,6 +4,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
  
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -53,3 +54,4 @@ Route::middleware(['web'])->group(function () {
 Route::get('/productA/details', [ProductController::class, 'ext_productA_details'])->name('productA.details');
 Route::get('/productB/details', [ProductController::class, 'ext_productB_details'])->name('productB.details');
 Route::get('/productC/details', [ProductController::class, 'ext_productC_details'])->name('productC.details');
+Route::get('/service/details', [ServiceController::class, 'service_details'])->name('service.details');

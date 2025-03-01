@@ -424,6 +424,6 @@ export default {
     color: white !important;
 }
 .logo {
-    width: 190px !important;
+    width: 170px !important;
 }
 </style>
