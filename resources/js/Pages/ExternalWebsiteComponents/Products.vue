@@ -38,7 +38,7 @@
                                 </div>
 
                                 <!-- Button -->
-                                <a :href="solution.link" class="btn btn-primary see-more-btn">See More</a>
+                                <a :href="solution.link" class="btn c-theme-button see-more-btn">See More</a>
                             </div>
                         </div>
                     </div>

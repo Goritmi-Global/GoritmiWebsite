@@ -1,33 +1,35 @@
 <template>
-  <div class="bg-white">
-    <div class="container">
+    <div class="bg-white">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h1 class="fw-bold c-theme-text-color">
-                        Custom Mobile Application
-                        <span class="text-black">Development</span>
-                    </h1>
-                    <p class="c-theme-text-color">
-                        Crafting engaging and robust mobile apps to transform
-                        your business on the go.
-                    </p>
-                    <h4 class="btn btn-primary text-white rounded-6 mt-4">
-                        Get a Free Consultation
-                    </h4>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <img
-                        src="/images/app.png"
-                        alt=""
-                        class="img-fluid"
-                        width="501px"
-                        height="501px"
-                    />
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="fw-bold c-theme-text-color">
+                            Custom Mobile Application
+                            <span class="text-black">Development</span>
+                        </h1>
+                        <p class="c-theme-text-color">
+                            Crafting engaging and robust mobile apps to
+                            transform your business on the go.
+                        </p>
+                        <h4
+                            class="btn c-theme-button text-white rounded-6 mt-4"
+                        >
+                            Get a Free Consultation
+                        </h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img
+                            src="/images/app.png"
+                            alt=""
+                            class="img-fluid"
+                            width="501px"
+                            height="501px"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="container mt-5">
@@ -36,7 +38,7 @@
             <div class="text-black fw-bold">
                 <h1>
                     Why Choose Our Mobile App Development
-                    <br>
+                    <br />
                     <span class="c-theme-text-color">Solutions?</span>
                 </h1>
             </div>
@@ -85,140 +87,183 @@
 
     <!--WEB FEATURES-->
     <div class="bg-white">
+        <div class="container mt-5 py-4">
+            <div class="fw-bold">
+                <h1 class="text-black mb-4">
+                    Our Web Development
+                    <span class="c-theme-text-color">Features</span>
+                </h1>
+            </div>
+
+            <div class="row g-1 justify-content-center">
+                <div
+                    v-for="(feature, index) in features"
+                    :key="index"
+                    class="col-2 d-flex justify-content-center"
+                >
+                    <div class="feature-card">
+                        <div class="c-feature-icon">
+                            <div
+                                v-html="feature.icon"
+                                class="c-feature-icon"
+                            ></div>
+                        </div>
+                        <h5 class="title">{{ feature.title }}</h5>
+                        <p
+                            v-if="feature.description"
+                            class="c-feature-description"
+                        >
+                            {{ feature.description }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container mt-5 py-4">
         <div class="fw-bold">
-            <h1 class="text-black ms-5 mb-4">
-                Our Web Development <span class="c-theme-text-color">Features</span>
+            <h1>
+                Our Process & <span class="c-theme-text-color">Technology</span>
             </h1>
         </div>
 
-        <div class="features-container">
-            <div
-                v-for="(feature, index) in features"
-                :key="index"
-                class="feature-card"
-            >
-                <div class="c-feature-icon">
-                    <div v-html="feature.icon" class="c-feature-icon"></div>
-                </div>
-                <h5 class="title">{{ feature.title }}</h5>
-                <p v-if="feature.description" class="c-feature-description">
-                    {{ feature.description }}
-                </p>
-            </div>
-        </div>
-    </div>
-    </div>
- 
-    <div class="container mt-5 py-4">
-      <div class="fw-bold">
-        <h1>Our Process & <span class="c-theme-text-color">Technology</span></h1>
-        </div>
+        <h1 class="mb-5 c-theme-text-color">
+            Our Mobile App Development Process
+        </h1>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="flow-container">
+                    <!-- Step 1 -->
+                    <div class="arrow">&#8594;</div>
+                    <div class="circle">
+                        <div class="step-number">01</div>
+                        <h6
+                            class="c-theme-text-color fw-bold mt-2 c-circle-title"
+                        >
+                            Discovery & Consultation
+                        </h6>
+                        <p class="small c-circle-description">
+                            Understand your business objectives and app
+                            requirements
+                        </p>
+                    </div>
 
-        <h1 class="mb-5 c-theme-text-color">Our Mobile App Development Process</h1>
-        
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-3 text-center">
-                <div class="circle">
-                    <div class="step-number mb-4">01</div>
-                    <h6 class="c-theme-text-color">Discovery & Consultation</h6>
-                    <p class="small">
-                        Understand your business objectives and app requirements
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-1 arrow">&#8595;</div>
-            <div class="col-md-3 text-center">
-                <div class="circle">
-                    <div class="step-number mb-4">02</div>
-                    <h6 class="c-theme-text-color">Design & Prototyping</h6>
-                    <p class="small">
-                        Develop wireframes and interactive prototypes
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-1 arrow">&#8595;</div>
-            <div class="col-md-3 text-center">
-                <div class="circle">
-                    <div class="step-number mb-4">03</div>
-                    <h6 class="c-theme-text-color">Development</h6>
-                    <p class="small">Build the app using agile methodologies</p>
+                    <!-- Step 2 -->
+                    <div class="arrow">&#8594;</div>
+                    <div class="circle">
+                        <div class="step-number">02</div>
+                        <h6
+                            class="c-theme-text-color fw-bold mt-2 c-circle-title"
+                        >
+                            Design & Prototyping
+                        </h6>
+                        <p class="small c-circle-description">
+                            Develop wireframes and interactive prototypes
+                        </p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="arrow">&#8594;</div>
+                    <div class="circle">
+                        <div class="step-number">03</div>
+                        <h6
+                            class="c-theme-text-color fw-bold mt-2 c-circle-title"
+                        >
+                            Development
+                        </h6>
+                        <p class="small c-circle-description">
+                            Build the app using agile methodologies
+                        </p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="arrow">&#8594;</div>
+                    <div class="circle">
+                        <div class="step-number">04</div>
+                        <h6
+                            class="c-theme-text-color fw-bold mt-2 c-circle-title"
+                        >
+                            Testing & QA
+                        </h6>
+                        <p class="small c-circle-description">
+                            Thorough testing for usability and security
+                        </p>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="arrow">&#8594;</div>
+                    <div class="circle">
+                        <div class="step-number">05</div>
+                        <h6
+                            class="c-theme-text-color fw-bold mt-2 c-circle-title"
+                        >
+                            Launch & Post-Launch Support
+                        </h6>
+                        <p class="small c-circle-description">
+                            Seamless deployment and maintenance
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center mt-4">
-            <div class="col-md-3 text-center">
-                <div class="circle">
-                    <div class="step-number mb-4">04</div>
-                    <h6 class="c-theme-text-color">Testing & QA</h6>
-                    <p class="small">
-                        Thorough testing for usability and security
-                    </p>
-                </div>
+    </div>
+    <!-- the, portfolio -->
+    <div class="bg-white">
+        <div class="container py-4">
+            <h1 class="c-theme-text-color">Technology Stack Notes</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, consequatur.
+            </p>
+            <div class="">
+                <img
+                    src="/images/Licon1.png"
+                    class=""
+                    alt="Program Icon"
+                    width="80px"
+                />
+                <img
+                    src="/images/kotlin.png"
+                    class="ms-4"
+                    alt="Kotlin"
+                    width="80px"
+                />
+                <img
+                    src="/images/react.png"
+                    class="ms-4"
+                    alt="React"
+                    width="80px"
+                />
+                <img
+                    src="/images/flutter.png"
+                    class="ms-4"
+                    alt="Flutter"
+                    width="49px"
+                    height="44px"
+                />
             </div>
-            <div class="col-md-1 arrow">&#8595;</div>
-            <div class="col-md-3 text-center">
-                <div class="circle">
-                    <div class="step-number mb-4">05</div>
-                    <h6 class="c-theme-text-color">Launch & Post-Launch Support</h6>
-                    <p class="small">Seamless deployment and maintenance</p>
-                </div>
-            </div>
-        </div>
-        <h4 class="mb-5 c-theme-text-color">Technology Stack Notes</h4>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-            consequatur.
-        </p>
-        <div class="">
-            <img
-                src="images/Licon1.png"
-                class=""
-                alt="Program Icon"
-                width="49px"
-                height="44px"
-            />
-            <img
-                src="images/kotlin.png"
-                class="ms-4"
-                alt="Kotlin"
-                width="49px"
-                height="44px"
-            />
-            <img
-                src="images/react.png"
-                class="ms-4"
-                alt="React"
-                width="49px"
-                height="44px"
-            />
-            <img
-                src="images/flutter.png"
-                class="ms-4"
-                alt="Flutter"
-                width="49px"
-                height="44px"
-            />
         </div>
     </div>
 
     <div class="container mt-5 py-4">
         <div>
-            <h2 class="fw-bold mb-5">
+            <h1 class="fw-bold mb-5">
                 Our Portfolio & Success <br />
                 <span class="c-theme-text-color">Stories</span>
-            </h2>
+            </h1>
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <img src="images/mobiles.png" class="shadow c-image" alt="" />
+                <img src="/images/mobiles.png" class="shadow c-image" alt="" />
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="mt-5">
-                    <h2 class="fw-bold">
+                    <h1 class="fw-bold">
                         Smart Workforce <br />
-                        <span class="c-theme-text-color">Manager Application</span>
-                    </h2>
+                        <span class="c-theme-text-color"
+                            >Manager Application</span
+                        >
+                    </h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Dolores quidem omnis sed aut dignissimos repellat
@@ -226,23 +271,11 @@
                         doloremque nihil cupiditate et reprehenderit inventore
                         obcaecati. Porro explicabo impedit earum mollitia?
                     </p>
-                    <button
-                        class="text-white bg-primary fw-bold rounded border-primary"
-                    >
-                        Case Study
-                    </button>
-                    <button
-                        class="c-theme-text-color bg-white fw-bold border-primary rounded"
-                    >
-                        Contact Us
-                    </button>
+                    <button class="btn c-theme-button">Case Study</button>
                 </div>
             </div>
         </div>
     </div>
-
-    
-    
 </template>
 
 <script>
@@ -365,29 +398,7 @@ export default {
     text-align: center;
     margin-top: 50px;
 }
-.circle {
-    width: 253px;
-    height: 253px;
-    border: 3px solid #296fb6;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 16px;
-    font-weight: bol;
-    text-align: center;
-    margin: 20px auto;
-    background-color: white;
-    position: relative;
-}
-.circle .step-number {
-    background-color: #296fb6;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    font-size: 20px;
-}
+
 .arrow {
     font-size: 100px;
     color: #296fb6;
@@ -404,7 +415,7 @@ export default {
     width: 220px;
     padding: 30px;
     text-align: center;
-    background: linear-gradient(to bottom, #296fb6, #74b4fd);
+    background: linear-gradient(to bottom, #296fb6, #2d7bc9);
     color: white;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -476,10 +487,139 @@ export default {
     transform: translateY(10px);
 }
 
+@media (max-width: 768px) {
+    .col-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
 h1 {
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: bold;
 }
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #2f6eb5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+.step-number {
+    background-color: #2f6eb5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.arrow {
+    font-size: 40px;
+    color: #2f6eb5;
+    font-weight: bold;
+    margin: 0 20px;
+}
+.flow-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/* Hide arrows on mobile */
+@media (max-width: 768px) {
+    .arrow {
+        display: none;
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+}
 
+/* Initially hidden description */
+.c-circle-description {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* On hover, show description and hide title & number */
+.circle:hover .step-number,
+.circle:hover .c-circle-title {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.circle:hover .c-circle-description {
+    opacity: 1;
+    visibility: visible;
+}
+
+.circle:hover {
+    background-color: #2f6eb5;
+    color: white;
+}
+
+/* Step Number */
+.step-number {
+    background-color: #2f6eb5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Step Title */
+.c-circle-title {
+    font-weight: bold;
+    margin-top: 10px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Description (Initially Hidden) */
+.c-circle-description {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 80%;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.circle:hover {
+    background-color: #2f6eb5;
+    color: white;
+    transform: translateY(-10px);
+}
+
+/* Hide Title & Number, Show Description */
+.circle:hover .step-number,
+.circle:hover .c-circle-title {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.circle:hover .c-circle-description {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Responsive: Hide Arrows on Mobile */
+@media (max-width: 768px) {
+    .arrow {
+        display: none;
+    }
+}
 </style>

@@ -12,7 +12,7 @@
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 text-md-end text-center">
-                    <a href="#" class="btn btn-primary btn-lg">Contact Us</a>
+                    <a href="#" class="btn c-theme-button btn-lg">Contact Us</a>
                 </div>
             </div>
         </div>

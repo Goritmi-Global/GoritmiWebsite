@@ -16,7 +16,7 @@
                             A Powerful Accounting Solution for Businesses and
                             Individuals.
                         </h5>
-                        <h4 class="btn btn-primary text-white rounded-6 mt-4">
+                        <h4 class="btn c-theme-button text-white rounded-6 mt-4">
                             Book a Demo
                         </h4>
                     </div>
@@ -57,7 +57,7 @@
                 <!-- Text Content Section -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="text-end">
-                        <h4 class="btn btn-primary text-white rounded-6">
+                        <h4 class="btn c-theme-button text-white rounded-6">
                             View more
                         </h4>
                     </div>
@@ -319,7 +319,7 @@
                                     <li>Basic Reports</li>
                                     <li>Email Support</li>
                                 </ul>
-                                <button class="btn btn-primary">Get Started</button>
+                                <button class="btn c-theme-button">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                                     <li>Priority Support</li>
                                     <li>Automated Reports</li>
                                 </ul>
-                                <button class="btn btn-primary">Get Started</button>
+                                <button class="btn c-theme-button">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -349,7 +349,7 @@
                                     <li>Dedicated Support</li>
                                     <li>Unlimited Users</li>
                                 </ul>
-                                <button class="btn btn-primary">Get Started</button>
+                                <button class="btn c-theme-button">Get Started</button>
                             </div>
                         </div>
                     </div>

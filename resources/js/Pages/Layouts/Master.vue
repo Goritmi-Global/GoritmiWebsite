@@ -426,4 +426,47 @@ export default {
 .logo {
     width: 170px !important;
 }
+
+ /* Custom Button */
+ .c-theme-button {
+            background-color: #296fb6;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border: 2px solid #296fb6;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Hover Effect */
+        .c-theme-button:hover {
+            background-color: #1f5a8e;
+            border-color: #1f5a8e;
+            color: white;
+        }
+
+        /* Focus Effect */
+        .c-theme-button:focus, .c-theme-button:active {
+            outline: none;
+            box-shadow: 0 0 8px rgba(41, 111, 182, 0.6);
+            background-color: #1c5183;
+            border-color: #1c5183;
+        }
+
+        /* Visited Link */
+        .c-theme-button:visited {
+            color: white;
+        }
+
+        /* Disabled State */
+        .c-theme-button:disabled {
+            background-color: #a0c4e8;
+            border-color: #a0c4e8;
+            color: white;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
 </style>

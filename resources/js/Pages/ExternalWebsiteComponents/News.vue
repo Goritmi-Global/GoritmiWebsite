@@ -29,7 +29,7 @@
                         {{ project.description }}
                     </p>
                     <div class="mt-4">
-                        <a :href="project.caseStudyLink" class="btn btn-primary fw-bold">
+                        <a :href="project.caseStudyLink" class="btn c-theme-button fw-bold">
                             Case Study
                         </a>
                         <a :href="project.contactLink" class="btn border-primary fw-bold c-theme-text-color ms-2">

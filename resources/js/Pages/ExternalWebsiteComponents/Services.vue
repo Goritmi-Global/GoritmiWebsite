@@ -44,7 +44,7 @@
                                     <p class="text-muted">
                                         {{ service.description }}
                                     </p>
-                                    <a :href="'/service/details'" class="btn btn-primary see-more-btn"> 
+                                    <a :href="'/service/details'" class="btn c-theme-button see-more-btn"> 
                                    
                                         See More
                                     </a>
