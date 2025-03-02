@@ -419,6 +419,9 @@ export default {
 .c-theme-bg-color {
     background-color: #296fb6 !important;
 }
+.c-theme-border {
+    border: 1px solid #296fb6 !important;
+}
 .c-top-bar-section {
     display: block !important;
     color: white !important;
