@@ -8,15 +8,15 @@
                 </div> -->
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h1 class="fw-bold c-product-text-color">
-                            Simplify Your Business & Personal
-                            <span class="text-black">Finances</span>
+                            Smart Secure & Efficient Healthcare
+                            <span class="text-black">Management</span>
                         </h1>
                         <h5 class="c-product-text-color">
-                            Track Income, Expenses, and Transaction with ease.
+                            Complete Solution to Manage Doctors,Patients, and
+                            Medical Records Seamlessly.
                         </h5>
                         <h5 class="c-product-text-color">
-                            A Powerful Accounting Solution for Businesses and
-                            Individuals.
+                            Simplify Healthcare with Automation ans Security.
                         </h5>
                         <h4
                             class="btn c-theme-button text-white rounded-6 mt-4"
@@ -26,7 +26,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img
-                            src="/images/Balance2.png"
+                            src="/images/Active1.png"
                             alt=""
                             class="img-fluid"
                             width="460px"
@@ -50,7 +50,7 @@
                         </h1>
                     </div>
                     <img
-                        src="/images/Bmobile.png"
+                        src="/images/Active1.png"
                         alt=""
                         class="img-fluid"
                         width="500px"
@@ -59,11 +59,7 @@
                 </div>
                 <!-- Text Content Section -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="text-end">
-                        <h4 class="btn c-theme-button text-white rounded-6">
-                            View more
-                        </h4>
-                    </div>
+
                     <h1 class="fw-bold">
                         <span class="c-product-text-color">
                             Manage Your Finances Effortlessly with</span
@@ -198,49 +194,45 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-12 text-center">
+                    <div class="col-md-3 text-center">
                         <p class="fw-bold">Sign Up & Setup</p>
                         <img
-                            src="/images/Bmobile1.png"
+                            src="/images/Analysis5.png"
                             alt=""
-                            width="227px"
-                            height="404px"
+                            class="img-fluid" 
                         />
                         <p>
                             Register and set up your business or personal
                             account.
                         </p>
                     </div>
-                    <div class="col-md-3 col-sm-12 text-center">
+                    <div class="col-md-3 col-12 text-center">
                         <p class="fw-bold">Add Transactions</p>
                         <img
-                            src="/images/Bmobile2.png"
+                            src="/images/Analysis6.png"
                             alt=""
-                            width="227px"
-                            height="404px"
+                            class="img-fluid" 
                         />
                         <p>
                             Log Income, expenses, invoices, and bank
                             transactions.
                         </p>
                     </div>
-                    <div class="col-md-3 col-sm-12 text-center">
+                    <div class="col-md-3 col-12 text-center">
                         <p class="fw-bold">Generate Reports</p>
                         <img
-                            src="/images/Bmobile3.png"
+                            src="/images/Analysis5.png"
                             alt=""
-                            width="227px"
-                            height="404px"
+                            class="img-fluid" 
                         />
                         <p>Get real-time insights on your financial health.</p>
                     </div>
-                    <div class="col-md-3 col-sm-12 text-center">
+                    <div class="col-md-3 col-12 text-center">
                         <p class="fw-bold">Manage Accounts</p>
                         <img
-                            src="/images/Bmobile4.png"
+                            src="/images/Analysis6.png"
                             alt=""
-                            width="227px"
-                            height="404px"
+                            class="img-fluid" 
                         />
                         <p>Access from desktop or mobile app.</p>
                     </div>
@@ -307,12 +299,12 @@
             <div class="container mt-4">
                 <h1>
                     Affordable Pricing for Every <br />
-                    <span class="c-theme-text-color"> Financial Need</span>
+                    <span class="c-product-text-color"> Financial Need</span>
                 </h1>
                 <div class="row pt-4">
                     <div class="col-lg-4">
-                        <div class="pricing-box c-theme-border">
-                            <h4 class="f-20 text-center c-theme-text-color">
+                        <div class="pricing-box c-product-border-color">
+                            <h4 class="f-20 text-center c-product-text-color">
                                 Basic Plan
                             </h4>
                             <div
@@ -512,8 +504,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="pricing-box c-theme-border">
-                            <h4 class="f-20 text-center c-theme-text-color">
+                        <div class="pricing-box c-product-border-color">
+                            <h4 class="f-20 text-center c-product-text-color">
                                 Business Plan
                             </h4>
                             <div
@@ -713,8 +705,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="pricing-box c-theme-border">
-                            <h4 class="f-20 text-center c-theme-text-color">
+                        <div class="pricing-box c-product-border-color">
+                            <h4 class="f-20 text-center c-product-text-color">
                                 Enterprise Plan
                             </h4>
                             <div
@@ -975,6 +967,11 @@ h1 {
 }
 .c-product-text-color {
     color: var(--product-color) !important;
+}
+.c-product-border-color {
+ 
+    border: 1px solid var(--product-color) !important;
+
 }
 .c-product-bg-color {
     background-color: var(--product-color) !important;

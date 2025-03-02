@@ -18,7 +18,9 @@
                             A Powerful Accounting Solution for Businesses and
                             Individuals.
                         </h5>
-                        <h4 class="btn c-theme-button text-white rounded-6 mt-4">
+                        <h4
+                            class="btn c-theme-button text-white rounded-6 mt-4"
+                        >
                             Book a Demo
                         </h4>
                     </div>
@@ -37,9 +39,8 @@
 
         <div class="container mt-5">
             <!-- Background Image -->
- 
-           
-                <div class="row align-items-center position-relative z-2">
+
+            <div class="row align-items-center position-relative z-2">
                 <!-- Image Section -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="text-black fw-bold">
@@ -58,15 +59,12 @@
                 </div>
                 <!-- Text Content Section -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="text-end">
-                        <h4 class="btn c-theme-button text-white rounded-6">
-                            View more
-                        </h4>
-                    </div>
                     <h1 class="fw-bold">
-                    <span class="c-product-text-color"> Manage Your Finances Effortlessly with</span> Goritmi Balance
-                </h1>
-                    
+                        <span class="c-product-text-color">
+                            Manage Your Finances Effortlessly with</span
+                        >
+                        Goritmi Balance
+                    </h1>
 
                     <p class="text-muted">
                         Automate bookkeeping, manage cash flow, and generate
@@ -186,9 +184,11 @@
 
         <div class="container py-5">
             <div>
-                
                 <h1 class="fw-bold">
-                    <span class="c-product-text-color">Manage Your Finances in Just a</span> Few clicks
+                    <span class="c-product-text-color"
+                        >Manage Your Finances in Just a</span
+                    >
+                    Few clicks
                 </h1>
             </div>
             <div class="container">
@@ -296,68 +296,621 @@
                 </div>
             </div>
         </div>
- 
-        <div class="bg-light py-5">
-            <div class="container">
-                <h1 class="fw-bold">
-                    <span class="c-product-text-color">Affordable Pricing for Every</span> Financial Need 
+
+        <!--PRICING SECTION-->
+        <section class="section" id="pricing"  :style="styleVariables"> 
+            <div class="container mt-4">
+                <h1>
+                    Affordable Pricing for Every <br />
+                    <span class="c-product-text-color"> Financial Need</span>
                 </h1>
-                <div class="d-flex justify-content-center mt-3">
-                    <span class="me-2">Monthly</span>
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" v-model="isYearly" />
-                    </div>
-                    <span class="ms-2">Yearly</span>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <div class="card pricing-card">
-                            <div class="card-body text-center">
-                                <h3 class="fw-bold">Basic</h3>
-                                <p v-if="isYearly" class="price">$99 / Year</p>
-                                <p v-else class="price">$10 / Month</p>
-                                <ul class="list-unstyled">
-                                    <li>Expense Tracking</li>
-                                    <li>Basic Reports</li>
-                                    <li>Email Support</li>
-                                </ul>
-                                <button class="btn c-theme-button">Get Started</button>
+                <div class="row pt-4">
+                    <div class="col-lg-4">
+                        <div class="pricing-box c-product-border-color">
+                            <h4 class="f-20 text-center c-product-text-color">
+                                Basic Plan
+                            </h4>
+                            <div
+                                class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
+                            >
+                                Monthly
+                                <h4 class="text-muted">
+                                    <s> $9.99</s>
+                                    <span class="plan pl-3 text-dark"
+                                        >$8.99
+                                    </span>
+                                </h4>
+                            </div>
+                            <div class="mt-4 pt-2 text-left">
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Perfect for Individuals
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Track income & expenses
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Generate basic financial reports
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Secure cloud storage
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Email support
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Mobile access to financial insights
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Automated transaction categorization
+                                </p>
+                            </div>
+                            <div class="pt-1 text-center">
+                                <a
+                                    href=""
+                                    class="btn c-theme-button btn-rounded px-5"
+                                    >Buy Now</a
+                                >
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card pricing-card popular">
-                            <div class="card-body text-center">
-                                <h3 class="fw-bold">Pro</h3>
-                                <p v-if="isYearly" class="price">$199 / Year</p>
-                                <p v-else class="price">$20 / Month</p>
-                                <ul class="list-unstyled">
-                                    <li>Advanced Analytics</li>
-                                    <li>Priority Support</li>
-                                    <li>Automated Reports</li>
-                                </ul>
-                                <button class="btn c-theme-button">Get Started</button>
+                    <div class="col-lg-4">
+                        <div class="pricing-box c-product-border-color">
+                            <h4 class="f-20 text-center c-product-text-color">
+                                Business Plan
+                            </h4>
+                            <div
+                                class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
+                            >
+                                Monthly
+                                <h4 class="text-muted">
+                                    <s> $15.99</s>
+                                    <span class="plan pl-3 text-dark"
+                                        >$13.99
+                                    </span>
+                                </h4>
+                            </div>
+                            <div class="mt-4 pt-2 text-left">
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Ideal for startup & small business
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Everything in the basic plan
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Advanced financial reporting & analytics
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Bank reconciliation for accurate records
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Integration with third-party
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Priority customer support
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Multi-user access
+                                </p>
+                            </div>
+                            <div class="pt-1 text-center">
+                                <a
+                                    href=""
+                                    class="btn c-theme-button btn-rounded px-5"
+                                    >Buy Now</a
+                                >
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card pricing-card">
-                            <div class="card-body text-center">
-                                <h3 class="fw-bold">Enterprise</h3>
-                                <p v-if="isYearly" class="price">$299 / Year</p>
-                                <p v-else class="price">$30 / Month</p>
-                                <ul class="list-unstyled">
-                                    <li>Custom Integrations</li>
-                                    <li>Dedicated Support</li>
-                                    <li>Unlimited Users</li>
-                                </ul>
-                                <button class="btn c-theme-button">Get Started</button>
+                    <div class="col-lg-4">
+                        <div class="pricing-box c-product-border-color">
+                            <h4 class="f-20 text-center c-product-text-color">
+                                Enterprise Plan
+                            </h4>
+                            <div
+                                class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
+                            >
+                                Monthly
+                                <h4 class="text-muted">
+                                    <s> $25.99</s>
+                                    <span class="plan pl-3 text-dark"
+                                        >$20.99
+                                    </span>
+                                </h4>
+                            </div>
+                            <div class="mt-4 pt-2 text-left">
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Best for large organization
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Everything in the business plan
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Custom integration with ERP
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Automated workflows to streamline
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Bulk transaction imports & processing
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    Dedicated account manager
+                                </p>
+
+                                <p class="f-18">
+                                    <svg
+                                        width="30"
+                                        height="20"
+                                        viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle
+                                            cx="50"
+                                            cy="50"
+                                            r="45"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="white"
+                                        />
+                                        <polyline
+                                            points="30,50 45,65 70,35"
+                                            stroke="#296fb6"
+                                            stroke-width="6"
+                                            fill="none"
+                                        />
+                                    </svg>
+                                    24/7 premium customer support
+                                </p>
+                            </div>
+                            <div class="pt-1 text-center">
+                                <a
+                                    href=""
+                                    class="btn c-theme-button btn-rounded px-5"
+                                    >Buy Now</a
+                                >
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- pricing plan -->
     </div>
@@ -368,7 +921,7 @@ import Master from "./Layouts/Master.vue";
 
 export default {
     layout: Master,
-    props: ['product_color'],
+    props: ["product_color"],
     computed: {
         styleVariables() {
             return {
@@ -420,6 +973,11 @@ h1 {
 .c-product-text-color {
     color: var(--product-color) !important;
 }
+.c-product-border-color {
+ 
+ border: 1px solid var(--product-color) !important;
+
+}
 .c-product-bg-color {
     background-color: var(--product-color) !important;
 }
@@ -438,7 +996,7 @@ h1 {
     font-size: 24px;
     font-weight: bold;
 }
- 
+
 .balance-bg {
     position: absolute;
     top: 0px; /* Move slightly upwards */
@@ -467,4 +1025,41 @@ h1 {
     }
 }
 
+/* General Styling */
+
+.pricing-box {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-box h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pricing-plan {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pricing-box p {
+    font-size: 16px;
+    color: #555;
+}
+
+.pricing-box hr {
+    border-top: 1px solid #ddd;
+}
 </style>
