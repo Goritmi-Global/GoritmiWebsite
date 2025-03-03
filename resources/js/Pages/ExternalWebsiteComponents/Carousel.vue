@@ -1,48 +1,20 @@
 <template>
     <section>
         <Carousel v-bind="carouselConfig">
-            <Slide
-                v-for="(slide, index) in slides"
-                :key="index"
-                :class="slide.bgClass"
-            >
-                <div class="carousel__item">
+            <Slide v-for="(slide, index) in slides" :key="index" :class="['carousel-item', slide.bgClass]">
+                <div class="carousel__content">
                     <div class="row">
-                        <!-- Left Side: Text Content -->
                         <div class="col-md-12">
-                            <strong class="text-white"
-                                >Ready to Drive Growth?</strong
-                            >
+                            <strong class="text-white">{{ slide.top_text }}</strong>
                             <h1 class="text-white">
-                                Transform Your Business <br />
-                                With
-                                <span class="c-theme-text-color">Goritmi</span>
+                                {{ slide.main_text }} <br>
+                                <span class="c-theme-text-color">{{ slide.highlighted_text }}</span>
                             </h1>
-                            <p class="text-white">
-                                We will empower your business with innovative
-                                digital solutions that captivate customers and
-                                enhance efficiency.
-                            </p>
-                            <!-- <a
-                                href="#"
-                                class="btn quote-btn border bg-primary link-light"
-                            >
-                                Let's Discuss →
-                            </a> -->
+                            <p class="text-white">{{ slide.description }}</p>
                         </div>
-
-                        <!-- Right Side: Image -->
-                        <!-- <div class="col-md-6 text-center">
-                                <img
-                                    :src="slide.image"
-                                    class="img-fluid slide-image"
-                                    :alt="slide.alt"
-                                />
-                            </div> -->
                     </div>
                 </div>
             </Slide>
-
             <template #addons>
                 <Navigation />
                 <Pagination />
@@ -65,19 +37,25 @@ export default {
             },
             slides: [
                 {
-                    image: "/images/image1.png",
-                    alt: "Business Transformation",
-                    bgClass: "c-carousel-item-1",
+                    bgClass: "bg-image-1",
+                    top_text: "Ready to Drive Growth?",
+                    main_text: "Transform Your Business with",
+                    highlighted_text: " Goritmi",
+                    description: "We empower your business with innovative digital solutions that captivate customers and enhance efficiency."
                 },
                 {
-                    image: "/images/code.png",
-                    alt: "Code Development",
-                    bgClass: "c-carousel-item-2",
+                    bgClass: "bg-image-2",
+                    top_text: "Enhance Patient Care with Seamless Digital Solutions",
+                    main_text: "Goritmi Active - Smarter",
+                    highlighted_text: "Health Management",
+                    description: "Seamless Appointments, Prescriptions & Patient Monitoring. Enhance patient monitoring while enabling real-time communication."
                 },
                 {
-                    image: "/images/window.png",
-                    alt: "Business Solutions",
-                    bgClass: "c-carousel-item-3",
+                    bgClass: "bg-image-3",
+                    top_text: "Smarter Financial Management for Better Business",
+                    main_text: "Goritmi Balance",
+                    highlighted_text: "Simplified Accounting",
+                    description: "Automate bookkeeping, manage cash flow & generate real-time reports for smarter financial decisions."
                 },
             ],
         };
@@ -86,85 +64,48 @@ export default {
 </script>
 
 <style scoped>
-/* Ensures consistent height for all slides */
-.carousel__item {
-    height: 600px;
+.carousel-item {
+    height: 420px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px 0;
+    position: relative;
+    padding-left: 5%; 
 }
-
-/* Background images (kept in CSS as per your request) */
-.c-carousel-item-1 {
-    background-image: url("/images/bg%201.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.c-carousel-item-2 {
-    background-image: url("/images/bg%202.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.c-carousel-item-3 {
-    background-image: url("/images/bg%203.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* Makes text section perfectly aligned */
-/* .content {
-    max-width: 90%;
-    margin: auto;
-} */
-
-/* Ensures images are uniform in size */
-.slide-image {
-    width: 100%;
-    max-height: 450px;
-    object-fit: cover;
-    border-radius: 10px; /* Optional: Rounded corners */
-}
-
-/* Adjust button spacing */
-.btn {
-    margin-top: 20px;
-}
-h1 {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
  
 
-.carousel__item::before {
+.carousel__content {
+    position: relative;
+    z-index: 2;
+    padding: 50px 0;
+    text-align: left; /* Ensures all text is aligned to the left */
+    width: 100%; /* Prevents text from centering due to flex properties */
+    max-width: 600px; /* Adjust as needed */
+}
+
+.carousel-item::before {
     content: "";
     position: absolute;
-    
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Black overlay with 50% opacity */
-    z-index: 1;
-}
-
-.carousel__item * {
-    position: relative;
-    z-index: 2;
+    background-color: #201205;
+    opacity: 0.5;
 }
  
-.carousel__item {
-    height: 420px !important;
-    justify-content: left !important; 
+
+/* Background images */
+.bg-image-1 { background-image: url("/images/bg%201.png"); }
+.bg-image-2 { background-image: url("/images/bg%202.jpeg"); }
+.bg-image-3 { background-image: url("/images/bg%203.jpeg"); }
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 </style>

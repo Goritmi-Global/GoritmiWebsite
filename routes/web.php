@@ -54,4 +54,5 @@ Route::middleware(['web'])->group(function () {
 Route::get('/productA/details', [ProductController::class, 'ext_productA_details'])->name('productA.details');
 Route::get('/productB/details', [ProductController::class, 'ext_productB_details'])->name('productB.details');
 Route::get('/productC/details', [ProductController::class, 'ext_productC_details'])->name('productC.details');
-Route::get('/service/details', [ServiceController::class, 'service_details'])->name('service.details');
+Route::get('/app/development', [ServiceController::class, 'service_app_details'])->name('app.development');
+Route::get('/web/development', [ServiceController::class, 'service_web_details'])->name('web.development');

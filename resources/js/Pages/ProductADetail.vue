@@ -299,7 +299,7 @@
             <div class="container mt-4">
                 <h1>
                     Affordable Pricing for Every <br />
-                    <span class="c-product-text-color"> Financial Need</span>
+                    <span class="c-theme-text-color"> Financial Need</span>
                 </h1>
                 <div class="row pt-4">
                     <div class="col-lg-4">
@@ -1057,4 +1057,5 @@ h1 {
 .pricing-box hr {
     border-top: 1px solid #ddd;
 }
+ 
 </style>

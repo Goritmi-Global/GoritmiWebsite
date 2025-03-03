@@ -19,9 +19,13 @@ class ServiceController extends Controller
 
 
     // method for external website
-    public function service_details()
+    public function service_app_details()
     { 
-        return Inertia::render('ServiceDetails');
+        return Inertia::render('ServiceAppDetails');
+    }
+    public function service_web_details()
+    { 
+        return Inertia::render('ServiceWebDetails');
     }
      
 }

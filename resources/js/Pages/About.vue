@@ -5,15 +5,25 @@
             <div class="container">
                 <div class="row align-items-center">
                     <!-- About Content -->
-                    <div class="col-md-6 text-md-start text-center">
+                    <div class="col-md-6 text-md-start text-center c-description">
                         <h1>About <span class="c-theme-text-color">Us</span></h1>
-                        <p class="c-description">
-                            Goritmi is a leading software development company
-                            that creates robust software solutions for startups
-                            and established businesses. Embrace the demands of
-                            the modern era and transform your business with
-                            innovative, cutting-edge digital solutions.
-                        </p>
+                        
+                            <p >
+                                At Goritmi, our mission is to empower businesses to unlock their full potential by bridging the gap bet-
+ween innovative ideas and impactful digital transformations. We aim to increase efficiency and produ-
+ctivity through tailored digital solutions that drive meaningful change.
+                            </p>
+                            <P>
+                                Inspired by the pioneering spirit of Al-Khwarizmi, our vision is to revolutionize how businesses harness technology to shape a smarter, more connected future. We strive to become a trusted partner in deliv-
+                                ering bespoke digital tools and strategies that fuel growth and innovation. 
+                            </P>
+                            <P>
+                                Goritmi's name pays homage to the legendary mathematician Al-Khwarizmi, whose groundbreaking contributions laid the foundation for modern algorithms and computational thinking. Rooted in this legacy, Goritmi was founded to bring transformative digital solutions to businesses, blending inspirat-
+ion from the past with cutting-edge innovation.ored to your unique needs, including branding, app development, website design, software engineering, and more. Our mission is to empower businesses 
+to increase efficiency and productivity, bridging the gap between ideas and impactful digital transfor-
+mations.
+                            </P>
+                        
                     </div>
 
                     <!-- About Image -->
@@ -21,8 +31,8 @@
                         <img
                             src="/images/scientist.png"
                             alt="Scientist Image"
-                            class="img-fluid rounded shadow-lg"
-                            width="418"
+                            class="img-fluid rounded "
+                            width="618"
                             height="280"
                         />
                     </div>
@@ -31,16 +41,13 @@
         </div>
 
         <!-- Services Section -->
-        <ServicesSection :title_first_part="'What'" :title_last_part="'we Offer'"/>
+        <!-- <ServicesSection :title_first_part="'What'" :title_last_part="'we Offer'"/> -->
 
         <!-- Meet Our Team -->
-        <div class="container">
+        <div class="container mt-5">
             <h1>Meet <span class="c-theme-text-color">Our Team</span></h1>
             <p class="c-description">
-                Goritmi is a leading software development company that creates
-                robust software solutions for startups and established
-                businesses. Embrace the demands of the modern era and transform
-                your business with innovative, cutting-edge digital solutions.
+                At Goritmi, our team of skilled professionals is dedicated to developing robust software solutions for startups and established businesses. We embrace the challenges of the modern era, driving innovation and digital transformation with cutting-edge technology. Together, we build solutions that empower businesses to thrive in a rapidly evolving landscape.
             </p>
 
             <div class="row justify-content-center">
@@ -81,43 +88,44 @@ export default {
         return {
             team: [
                 {
-                    name: "John Doe",
-                    role: "Founder & CEO",
-                    image: "images/img1.jpeg",
+                    name: "M SHAH",
+                    role: "Managing Director",
+                    image: "images/team/abubakr.jpg",
                 },
                 {
-                    name: "Emily Davis",
-                    role: "Marketing Head",
-                    image: "images/img4.jpeg",
+                    name: "FARHAN SHAH",
+                    role: "Business Development Manager",
+                    image: "images/team/farhan.jpg",
                 },
                 {
-                    name: "Jane Smith",
-                    role: "Co-Founder & CTO",
+                    name: "BILAL HUSSAIN",
+                    role: "Web Team Lead",
+                    image: "images/team/bilal.jpg",
+                },
+                {
+                    name: "WASIM AHMAD",
+                    role: "App Team Lead",
                     image: "images/img2.jpeg",
                 },
                 {
-                    name: "Michael Lee",
-                    role: "Lead Developer",
-                    image: "images/img3.jpeg",
+                    name: "CHASHMAN KHAN",
+                    role: "UI/UX Designer",
+                    image: "images/team/chashman.jpg",
+                    
                 },
                 {
-                    name: "Emily Davis",
-                    role: "Marketing Head",
-                    image: "images/img4.jpeg",
+                    name: "HAMZA KHAN",
+                    role: "Web Designer",
+                    image: "images/team/hamza.jpg",
                 },
                 {
-                    name: "Michael Lee",
-                    role: "Lead Developer",
-                    image: "images/img3.jpeg",
+                    name: "SHAKIR ULLAH",
+                    role: "Mobile App Developer",
+                    image: "images/img2.jpeg",
                 },
                 {
-                    name: "John Doe",
-                    role: "Founder & CEO",
-                    image: "images/img1.jpeg",
-                },
-                {
-                    name: "Jane Smith",
-                    role: "Co-Founder & CTO",
+                    name: "AHSAN KHAN",
+                    role: "Accounts Dealing Manager",
                     image: "images/img2.jpeg",
                 },
             ],

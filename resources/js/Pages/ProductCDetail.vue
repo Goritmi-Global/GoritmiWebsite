@@ -297,7 +297,7 @@
                 <div class="row pt-4">
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-theme-text-color">
+                            <h4 class="f-20 text-center">
                                 Basic Plan
                             </h4>
                             <div
@@ -498,7 +498,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-theme-text-color">
+                            <h4 class="f-20 text-center">
                                 Business Plan
                             </h4>
                             <div
@@ -699,7 +699,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-theme-text-color">
+                            <h4 class="f-20 text-center">
                                 Enterprise Plan
                             </h4>
                             <div
@@ -900,8 +900,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+        </section> 
         <!-- pricing plan -->
     </div>
 </template>

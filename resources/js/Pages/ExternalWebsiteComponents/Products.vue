@@ -9,8 +9,8 @@
                                 Our <span class="c-theme-text-color">Solutions</span>
                             </h1>
                             <p class="c-description">
-                                Goritmi is a leading software development company that creates robust software solutions for startups and established businesses. Embrace the demands of the modern era and transform your business with innovative, cutting-edge digital solutions.
-                            </p>
+                                Goritmi is a leading software development company that creates robust software solutions for startups and established 
+                                businesses. Embrace the demands of the modern era and transform your business with innovative, cutting-edge digital solutions.                            </p>
                         </div>
                     </div>
                     

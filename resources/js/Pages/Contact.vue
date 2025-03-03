@@ -1,105 +1,53 @@
 <template>
     <div>
-        <div class="c-contact">
-            <div class="container text-center py-5">
-                <h1 class="c-theme-text-color fw-bold">
+        <div class="c-contact position-relative">
+            <div class="bg-overlay"></div>
+            <div class="container text-center py-5 position-relative">
+                <h1 class="text-white fw-bold">
                     Contact <span class="text-dark">Us</span>
                 </h1>
-                <p class="text-muted">Home - Services</p>
+               
             </div>
         </div>
-        <div class="text-end img-top">
-            <img
-                src="images/ContactUs.svg"
-                class="img-fluid"
-                alt=""
-                width="500"
-            />
-            <!-- <img src="images/client.png" class="img-fluid w-25" alt=""> -->
-        </div>
-
-        <div class="container c-top">
-            <div class="row">
-                <div
-                    class="col-lg-6 col-md-12 col-sm-12 border shadow bg-dark h-100 p-4"
-                >
-                    <h1 class="text-white mt-3 ps-5">
-                        Request A Free <br /><span class="c-theme-text-color"
-                            >Consultation</span
-                        >
-                    </h1>
-                    <form>
-                        <div class="row mb-4">
-                            <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="First Name:"
-                                />
+        
+        <div class="container c-top mt-5">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="border shadow bg-dark p-4 rounded h-100">
+                        <h1 class="text-white mt-3 ps-lg-5 text-center text-lg-start">
+                            Request A Free <br /><span class="c-theme-text-color">Consultation</span>
+                        </h1>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="First Name:" required />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Last Name:" required />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control" placeholder="Email:" required />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" placeholder="Contact No:" required />
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <textarea class="form-control" rows="4" placeholder="Your message:" required></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                                </div>
                             </div>
-                            <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="Last Name:"
-                                />
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    placeholder="Email:"
-                                />
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="Contact No:"
-                                />
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label class="form-label"></label>
-                                <textarea
-                                    class="form-control"
-                                    rows="4"
-                                    placeholder="Your message:"
-                                ></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button
-                                    type="submit"
-                                    class="btn btn-custom text-white bg-primary"
-                                >
-                                    Send Message
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
-
-                <div class="col-12 col-md-6">
-                    <div
-                        class="contact-info h-100 d-flex align-items-center p-4"
-                    >
-                        <div class="mapouter w-100">
-                            <div class="gmap_canvas">
-                                <iframe
-                                    class="gmap_iframe"
-                                    frameborder="0"
-                                    scrolling="no"
-                                    marginheight="0"
-                                    marginwidth="0"
-                                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Leicester&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                                ></iframe
-                                ><a href="https://sprunkiplay.com/"
-                                    >Sprunki Game</a
-                                >
-                            </div>
+                
+                <div class="col-lg-6">
+                    <div class="contact-info p-4 rounded h-100 d-flex align-items-center">
+                        <div class="w-100">
+                            <iframe class="gmap_iframe w-100" height="350" frameborder="0" scrolling="no"
+                                src="https://maps.google.com/maps?width=100%&amp;height=350&amp;hl=en&amp;q=Leicester&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                            </iframe>
                         </div>
                     </div>
                 </div>
@@ -113,8 +61,7 @@ import Master from "./Layouts/Master.vue";
 
 export default {
     layout: Master,
-
-    setup() {},
+    setup() {}
 };
 </script>
 
@@ -122,41 +69,34 @@ export default {
 .c-contact {
     text-align: center;
     width: 100%;
-    height: 384px;
-    padding-top: 101px;
-    left: -6px;
-    background: rgb(41, 111, 182);
-    background: linear-gradient(
-        188deg,
-        rgba(41, 111, 182, 1) 10%,
-        rgba(255, 255, 255, 1) 45%
-    );
+    height: 504px;
+    padding-top: 100px;
+    background: url('/images/contactus.png') no-repeat center center/cover;
+   
+  
 }
-.img-top {
-    margin-top: -350px;
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.116);
 }
-.gmap_iframe {
-    height: 350px;
-}
+
 .c-top {
     margin-top: -50px;
 }
-.mapouter {
-    position: relative;
-    text-align: right;
-    width: 600px;
-    height: 400px;
-}
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    width: 600px;
-    height: 400px;
-}
 
 .gmap_iframe {
-    width: 600px !important;
-    height: 400px !important;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .c-contact {
+        height: auto;
+        padding: 50px 0;
+    }
 }
 </style>

@@ -182,7 +182,7 @@
                                 <a
                                     class="nav-link active link-light"
                                     href="/about"
-                                    >Solutions</a
+                                    >About</a
                                 >
                             </li>
                             <li class="nav-item">
@@ -199,13 +199,13 @@
                                     >Contact Us</a
                                 >
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a
                                     class="nav-link active link-light"
                                     href="/clients"
                                     >Clients</a
                                 >
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <!-- <a

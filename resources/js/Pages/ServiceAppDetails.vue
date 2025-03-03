@@ -206,45 +206,39 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- the, portfolio -->
-    <div class="bg-white">
-        <div class="container py-4">
-            <h1 class="c-theme-text-color">Technology Stack Notes</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, consequatur.
-            </p>
-            <div class="">
-                <img
-                    src="/images/Licon1.png"
-                    class=""
-                    alt="Program Icon"
-                    width="80px"
-                />
-                <img
-                    src="/images/kotlin.png"
-                    class="ms-4"
-                    alt="Kotlin"
-                    width="80px"
-                />
-                <img
-                    src="/images/react.png"
-                    class="ms-4"
-                    alt="React"
-                    width="80px"
-                />
-                <img
-                    src="/images/flutter.png"
-                    class="ms-4"
-                    alt="Flutter"
-                    width="49px"
-                    height="44px"
-                />
-            </div>
+        <div class="text-center mt-4">
+            <h3 class="c-theme-text-color">Technology Stack Notes</h3>
+            <p>Leveraging modern frameworks such as Swift, Kotlin, React Native, and Flutter to create highperformance mobile applications</p>
+            <img
+                src="/images/Licon1.png"
+                class=""
+                alt="Program Icon"
+                width="80px"
+            />
+            <img
+                src="/images/kotlin.png"
+                class="ms-4"
+                alt="Kotlin"
+                width="80px"
+            />
+            <img
+                src="/images/react.png"
+                class="ms-4"
+                alt="React"
+                width="80px"
+            />
+            <img
+                src="/images/flutter.png"
+                class="ms-4"
+                alt="Flutter"
+                width="49px"
+                height="44px"
+            />
         </div>
     </div>
-
+    <!-- the, portfolio -->
+   
+<div class="bg-white">
     <div class="container mt-5 py-4">
         <div>
             <h1 class="fw-bold mb-5">
@@ -275,6 +269,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </template>
 
