@@ -1,45 +1,67 @@
 <template>
     <section class="solutions-section">
         <div class="container">
-            <div class="text-black c-sec">
-                <div class="row">
-                    <div class="col-md-8 col-sm-12 text-center text-md-start">
-                        <div class="c-content px-3">
-                            <h1>
-                                Our <span class="c-theme-text-color">Solutions</span>
-                            </h1>
-                            <p class="c-description">
-                                Goritmi is a leading software development company that creates robust software solutions for startups and established 
-                                businesses. Embrace the demands of the modern era and transform your business with innovative, cutting-edge digital solutions.                            </p>
-                        </div>
-                    </div>
-                    
+            <div class="row">
+                <div class="col-md-8 col-sm-12 text-center text-md-start">
+                    <h1>
+                        Our <span class="c-theme-text-color">Solutions</span>
+                    </h1>
+                    <p class="c-description">
+                        Goritmi is a leading software development company that
+                        creates robust software solutions for startups and
+                        established businesses. Embrace the demands of the
+                        modern era and transform your business with innovative,
+                        cutting-edge digital solutions.
+                    </p>
                 </div>
+            </div>
 
-                <div class="row g-3">
-                    <div v-for="(solution, index) in solutions" :key="index" class="col-md-4 mt-2">
-                        <div 
-                            class="card h-100 solution-card"
-                            @mouseover="hoveredIndex = index"
-                            @mouseleave="hoveredIndex = null"
+            <div class="row g-3">
+                <div
+                    v-for="(solution, index) in solutions"
+                    :key="index"
+                    class="col-md-4 mt-2"
+                >
+                    <div
+                        class="card h-100 solution-card"
+                        @mouseover="hoveredIndex = index"
+                        @mouseleave="hoveredIndex = null"
+                    >
+                        <div
+                            class="card-body text-center d-flex flex-column align-items-center justify-content-center"
                         >
-                            <div class="card-body text-center d-flex flex-column align-items-center justify-content-center">
-                                <!-- Image -->
-                                <img :src="solution.image" class="solution-image" width="80px" height="76px" alt="Icon" />
+                            <!-- Image -->
+                            <img
+                                :src="solution.image"
+                                class="solution-image"
+                                width="80px"
+                                height="76px"
+                                alt="Icon"
+                            />
 
-                                <!-- Name & Paragraph (Toggle on hover) -->
-                                <div class="solution-text">
-                                    <h5 v-if="hoveredIndex !== index" class="solution-title mt-3" :class="solution.textClass">
-                                       <b> {{ solution.name }}</b>
-                                    </h5>
-                                    <p v-if="hoveredIndex === index" class="solution-description text-muted" >
-                                        {{ solution.description }}
-                                    </p>
-                                </div>
-
-                                <!-- Button -->
-                                <a :href="solution.link" class="btn c-theme-button see-more-btn">See More</a>
+                            <!-- Name & Paragraph (Toggle on hover) -->
+                            <div class="solution-text">
+                                <h5
+                                    v-if="hoveredIndex !== index"
+                                    class="solution-title mt-3"
+                                    :class="solution.textClass"
+                                >
+                                    <b> {{ solution.name }}</b>
+                                </h5>
+                                <p
+                                    v-if="hoveredIndex === index"
+                                    class="solution-description text-muted"
+                                >
+                                    {{ solution.description }}
+                                </p>
                             </div>
+
+                            <!-- Button -->
+                            <a
+                                :href="solution.link"
+                                class="btn c-theme-button see-more-btn"
+                                >See More</a
+                            >
                         </div>
                     </div>
                 </div>
@@ -57,27 +79,30 @@ export default {
                 {
                     name: "Goritmi Active",
                     image: "/images/ProductActiveLogo.png",
-                    description: "Simplify healthcare with smart scheduling, digital prescriptions, and real-time patient monitoring.",
+                    description:
+                        "Simplify healthcare with smart scheduling, digital prescriptions, and real-time patient monitoring.",
                     textClass: "c-theme-text-color",
-                    link: "/productA/details"
+                    link: "/productA/details",
                 },
                 {
                     name: "Goritmi Balance",
                     image: "/images/ProductBetaLogo.png",
-                    description: "Manage financial transactions, track expenses, and generate insightful reports with ease.",
+                    description:
+                        "Manage financial transactions, track expenses, and generate insightful reports with ease.",
                     textClass: "text-success",
-                    link: "/productB/details"
+                    link: "/productB/details",
                 },
                 {
                     name: "Goritmi Connect",
                     image: "/images/ProductConnectLogo.png",
-                    description: "Enhance team collaboration and communication with our seamless networking solution.",
+                    description:
+                        "Enhance team collaboration and communication with our seamless networking solution.",
                     textClass: "text-warning",
-                    link: "/productC/details"
-                }
-            ]
+                    link: "/productC/details",
+                },
+            ],
         };
-    }
+    },
 };
 </script>
 
@@ -123,7 +148,7 @@ export default {
 .solution-title,
 .solution-description {
     transition: opacity 0.3s ease-in-out;
-    width: 100%; 
+    width: 100%;
 }
 
 .solution-title {

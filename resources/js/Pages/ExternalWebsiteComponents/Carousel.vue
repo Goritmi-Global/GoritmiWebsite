@@ -1,14 +1,27 @@
 <template>
     <section>
-        <Carousel v-bind="carouselConfig">
-            <Slide v-for="(slide, index) in slides" :key="index" :class="['carousel-item', slide.bgClass]">
+        <Carousel
+            v-bind="carouselConfig"
+            :wrapAround="true"
+            :transition="500"
+            :pauseAutoplayOnHover="true"
+        >
+            <Slide
+                v-for="(slide, index) in slides"
+                :key="index"
+                :class="['carousel-item', slide.bgClass]"
+            >
                 <div class="carousel__content">
                     <div class="row">
                         <div class="col-md-12">
-                            <strong class="text-white">{{ slide.top_text }}</strong>
+                            <strong class="text-white">{{
+                                slide.top_text
+                            }}</strong>
                             <h1 class="text-white">
-                                {{ slide.main_text }} <br>
-                                <span class="c-theme-text-color">{{ slide.highlighted_text }}</span>
+                                {{ slide.main_text }} <br />
+                                <span class="c-theme-text-color">{{
+                                    slide.highlighted_text
+                                }}</span>
                             </h1>
                             <p class="text-white">{{ slide.description }}</p>
                         </div>
@@ -33,6 +46,7 @@ export default {
         return {
             carouselConfig: {
                 itemsToShow: 1,
+
                 wrapAround: true,
             },
             slides: [
@@ -41,21 +55,34 @@ export default {
                     top_text: "Ready to Drive Growth?",
                     main_text: "Transform Your Business with",
                     highlighted_text: " Goritmi",
-                    description: "We empower your business with innovative digital solutions that captivate customers and enhance efficiency."
+                    description:
+                        "We empower your business with innovative digital solutions that captivate customers and enhance efficiency.",
                 },
                 {
                     bgClass: "bg-image-2",
-                    top_text: "Enhance Patient Care with Seamless Digital Solutions",
+                    top_text:
+                        "Enhance Patient Care with Seamless Digital Solutions",
                     main_text: "Goritmi Active - Smarter",
                     highlighted_text: "Health Management",
-                    description: "Seamless Appointments, Prescriptions & Patient Monitoring. Enhance patient monitoring while enabling real-time communication."
+                    description:
+                        "Seamless Appointments, Prescriptions & Patient Monitoring. Enhance patient monitoring while enabling real-time communication.",
                 },
                 {
                     bgClass: "bg-image-3",
-                    top_text: "Smarter Financial Management for Better Business",
-                    main_text: "Goritmi Balance",
+                    top_text:
+                        "Smarter Financial Management for Better Business",
+                    main_text: "Goritmi Balance - ",
                     highlighted_text: "Simplified Accounting",
-                    description: "Automate bookkeeping, manage cash flow & generate real-time reports for smarter financial decisions."
+                    description:
+                        "Automate bookkeeping, manage cash flow & generate real-time reports for smarter financial decisions.",
+                },
+                {
+                    bgClass: "bg-image-4",
+                    top_text: "Goritmi Connect - Powerfull",
+                    main_text: "CRM for Business Growth",
+                    highlighted_text: "Simplified Accounting",
+                    description:
+                        "Track leads, Automate engagement and build lasting Customer relationship with all-in-one CRM.",
                 },
             ],
         };
@@ -65,7 +92,7 @@ export default {
 
 <style scoped>
 .carousel-item {
-    height: 420px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -73,9 +100,8 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding-left: 5%; 
+    padding-left: 5%;
 }
- 
 
 .carousel__content {
     position: relative;
@@ -93,15 +119,29 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #201205;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.5
+    ); /* Example: Semi-transparent black overlay */
+
     opacity: 0.5;
 }
- 
 
 /* Background images */
-.bg-image-1 { background-image: url("/images/bg%201.png"); }
-.bg-image-2 { background-image: url("/images/bg%202.jpeg"); }
-.bg-image-3 { background-image: url("/images/bg%203.jpeg"); }
+.bg-image-1 {
+    background-image: url("/images/carousel/transform-business.jpeg");
+}
+.bg-image-2 {
+    background-image: url("/images/carousel/goritmi-acitve.jpeg");
+}
+.bg-image-3 {
+    background-image: url("/images/carousel/goritmi-balance.jpeg");
+}
+.bg-image-4 {
+    background-image: url("/images/carousel/goritmi-connect.jpeg");
+}
 
 h1 {
     text-transform: uppercase;

@@ -12,8 +12,8 @@
         <NewsSection />
         <LetDiscuccSection />
         <WhyUsSection />
+        <HappyClientsSection />
         <ContactUsSection />
-        <!-- <HappyClientsSection /> -->
 
         
       
@@ -86,10 +86,10 @@ export default {
     margin-left: 50px;
 }
 
-.c-content {
+/* .c-content {
     margin-top: 200px;
     margin-left: -20px;
-}
+} */
 .img-sec {
     margin-top: 130px;
     margin-left: 200px;

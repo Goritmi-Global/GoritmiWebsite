@@ -63,7 +63,7 @@ export default {};
 
 <style scoped>
 .about-section {
-    padding: 30px 0;
+    padding: 20px;
 }
 
 .video-wrapper {

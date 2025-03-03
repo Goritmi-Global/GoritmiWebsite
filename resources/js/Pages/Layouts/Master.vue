@@ -222,69 +222,59 @@
             <slot></slot>
         </main>
 
-        <footer class="bg-secondary text-white pt-5 pb-4 mt-3">
+        <footer class="bg-secondary text-white py-5 mt-3">
             <div class="container">
                 <div class="row">
+                    <!-- Logo & Company Info -->
                     <div class="col-lg-4 col-md-12 mb-4">
                         <img
-                            src="images/logo1.png"
+                            src="/images/logo1.png"
                             alt="Goritmi Logo"
                             class="img-fluid mb-2"
                             width="190"
                         />
-                        <p class="small">
+                        <p class="small text-white-50">
                             Boost your business with smart digital solutions
                             tailored to meet market demands and enhance customer
                             and employee satisfaction.
                         </p>
                     </div>
 
-                    <!-- Menu -->
+                    <!-- Quick Links -->
                     <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                         <h5 class="fw-bold">Menu</h5>
                         <ul class="list-unstyled">
                             <li>
                                 <a
                                     href="/"
-                                    class="text-white text-decoration-none"
+                                    class="text-white-50 text-decoration-none"
                                     >Home</a
                                 >
                             </li>
                             <li>
                                 <a
-                                    href="#"
-                                    class="text-white text-decoration-none"
+                                    href="/about"
+                                    class="text-white-50 text-decoration-none"
                                     >About Us</a
                                 >
                             </li>
                             <li>
                                 <a
-                                    href="#"
-                                    class="text-white text-decoration-none"
+                                    href="/services"
+                                    class="text-white-50 text-decoration-none"
                                     >Services</a
                                 >
                             </li>
                             <li>
                                 <a
-                                    href="#"
-                                    class="text-white text-decoration-none"
-                                    >Career</a
+                                    href="/contact"
+                                    class="text-white-50 text-decoration-none"
+                                    >Contact Us</a
                                 >
                             </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="text-white text-decoration-none v"
-                                    >Portfolio</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="text-white text-decoration-none"
-                                    >FAQs</a
-                                >
-                            </li>
+                            <!-- <li><a href="#" class="text-white-50 text-decoration-none">Career</a></li>
+                    <li><a href="#" class="text-white-50 text-decoration-none">Portfolio</a></li>
+                    <li><a href="#" class="text-white-50 text-decoration-none">FAQs</a></li> -->
                         </ul>
                     </div>
 
@@ -294,36 +284,36 @@
                         <ul class="list-unstyled">
                             <li>
                                 <a
-                                    href="#"
-                                    class="text-white text-decoration-none"
-                                    >Design Services</a
+                                    href="/web/development"
+                                    class="text-white-50 text-decoration-none"
+                                    >Website Development
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="/app/development"
+                                    class="text-white-50 text-decoration-none"
+                                    >App Development</a
                                 >
                             </li>
                             <li>
                                 <a
                                     href="#"
-                                    class="text-white text-decoration-none"
-                                    >Development Solutions</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="text-white text-decoration-none"
+                                    class="text-white-50 text-decoration-none"
                                     >Social Media Excellence</a
                                 >
                             </li>
                             <li>
                                 <a
                                     href="#"
-                                    class="text-white text-decoration-none"
+                                    class="text-white-50 text-decoration-none"
                                     >eCommerce Transformation</a
                                 >
                             </li>
                             <li>
                                 <a
                                     href="#"
-                                    class="text-white text-decoration-none"
+                                    class="text-white-50 text-decoration-none"
                                     >Comprehensive IT Support</a
                                 >
                             </li>
@@ -333,19 +323,24 @@
                     <!-- Contact Us -->
                     <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
                         <h5 class="fw-bold">Contact Us</h5>
-                        <p>
-                            <i class="fas fa-envelope"></i> info@goritmi.co.uk
-                        </p>
-                        <p><i class="fas fa-phone"></i> +44 7858 870913</p>
+                        <address class="text-white-50">
+                            <p>
+                                <i class="fas fa-envelope me-2"></i
+                                >info@goritmi.co.uk
+                            </p>
+                            <p>
+                                <i class="fas fa-phone me-2"></i>+44 7858 870913
+                            </p>
+                        </address>
                     </div>
                 </div>
-            </div>
 
-            <!-- Copyright -->
-            <div class="text-end border-top pt-3">
-                <p class="mb-0 small">
-                    &copy; 2025 Goritmi. All Rights Reserved.
-                </p>
+                <!-- Copyright -->
+                <div class="border-top pt-3 text-center text-md-end">
+                    <p class="mb-0 small text-white-50">
+                        &copy; 2025 Goritmi. All Rights Reserved.
+                    </p>
+                </div>
             </div>
         </footer>
 
@@ -411,7 +406,8 @@ export default {
     text-align: justify;
 }
 .card {
-    border-radius: 0.5rem !important;
+    border-radius: 0.50rem !important;
+
 }
 .c-theme-text-color {
     color: #296fb6 !important;
@@ -430,46 +426,61 @@ export default {
     width: 170px !important;
 }
 
- /* Custom Button */
- .c-theme-button {
-            background-color: #296fb6;
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-            padding: 12px 24px;
-            border: 2px solid #296fb6;
-            border-radius: 8px;
-            transition: all 0.3s ease-in-out;
-            text-decoration: none;
-            display: inline-block;
-        }
+/* Custom Button */
+.c-theme-button {
+    background-color: #296fb6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 17px;
+    border: 2px solid #296fb6;
+    border-radius:.50rem !important;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+}
 
-        /* Hover Effect */
-        .c-theme-button:hover {
-            background-color: #1f5a8e;
-            border-color: #1f5a8e;
-            color: white;
-        }
+/* Hover Effect */
+.c-theme-button:hover {
+    background-color: #1f5a8e;
+    border-color: #1f5a8e;
+    color: white;
+}
 
-        /* Focus Effect */
-        .c-theme-button:focus, .c-theme-button:active {
-            outline: none;
-            box-shadow: 0 0 8px rgba(41, 111, 182, 0.6);
-            background-color: #1c5183;
-            border-color: #1c5183;
-        }
+/* Focus Effect */
+.c-theme-button:focus,
+.c-theme-button:active {
+    outline: none;
+    box-shadow: 0 0 8px rgba(41, 111, 182, 0.6);
+    background-color: #1c5183;
+    border-color: #1c5183;
+}
 
-        /* Visited Link */
-        .c-theme-button:visited {
-            color: white;
-        }
+/* Visited Link */
+.c-theme-button:visited {
+    color: white;
+}
 
-        /* Disabled State */
-        .c-theme-button:disabled {
-            background-color: #a0c4e8;
-            border-color: #a0c4e8;
-            color: white;
-            cursor: not-allowed;
-            opacity: 0.7;
-        }
+/* Disabled State */
+.c-theme-button:disabled {
+    background-color: #a0c4e8;
+    border-color: #a0c4e8;
+    color: white;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+ 
+.carousel__next, .carousel__prev{
+    background: #296fb6 !important;
+    color: white !important;
+    border-radius: 50% !important;
+}
+.carousel__next:hover, .carousel__prev:hover{
+    color: white;
+}
+.c-theme-radius
+{
+    border-radius:.50rem !important;
+}
+
 </style>

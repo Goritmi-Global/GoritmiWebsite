@@ -16,7 +16,7 @@
                 <div v-for="(approach, index) in approaches" :key="index" class="col">
                     <div class="approach-card shadow-sm p-4 d-flex flex-column h-100">
                         <h1 class="approach-number">{{ approach.number }}</h1>
-                        <img :src="approach.icon" :alt="approach.title" class="approach-icon" />
+                        <img :src="approach.icon" :alt="approach.title" class="approach-icon c-theme-text-color" />
                         <div class="flex-grow-1">
                             <h5 class="approach-title">
                                 <span class="fw-bold">{{ approach.mainTitle }}</span>
@@ -90,10 +90,7 @@ export default {
     font-size: 1.3rem;
     margin-top: 50px;
 }
-
-.c-theme-text-color {
-    color: #007bff;
-}
+ 
 
 .flex-grow-1 {
     flex-grow: 1;

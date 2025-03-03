@@ -4,7 +4,7 @@
             <h1>
                 Our <span class="c-theme-text-color">Clients</span> 
             </h1>
-            <div class="logos" @mouseover="pauseMarquee" @mouseleave="resumeMarquee">
+            <div class="logos mt-3" @mouseover="pauseMarquee" @mouseleave="resumeMarquee">
                 <div class="logos-slide" ref="logosSlide">
                     <img v-for="(client, index) in clients" :key="index" :src="client.image" :alt="client.name" />
                     <img v-for="(client, index) in clients" :key="'duplicate-' + index" :src="client.image" :alt="client.name" />

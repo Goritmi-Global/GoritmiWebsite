@@ -14,7 +14,7 @@
                 <!-- Image Section -->
                 <div class="col-md-6 text-center">
                     <img 
-                        class="project-image rounded-4 img-fluid" 
+                        class="project-image c-theme-radius img-fluid" 
                         :src="project.image" 
                         :alt="project.title" 
                     />
@@ -28,14 +28,14 @@
                     <p class="mt-3 c-description">
                         {{ project.description }}
                     </p>
-                    <div class="mt-4">
+                    <!-- <div class="mt-4">
                         <a :href="project.caseStudyLink" class="btn c-theme-button fw-bold">
                             Case Study
                         </a>
-                        <a :href="project.contactLink" class="btn border-primary fw-bold c-theme-text-color ms-2">
+                        <a :href="project.contactLink" class="btn c-theme-button fw-bold ms-3">
                             Contact Us
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
