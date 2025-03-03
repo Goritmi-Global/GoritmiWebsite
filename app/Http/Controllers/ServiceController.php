@@ -27,5 +27,9 @@ class ServiceController extends Controller
     { 
         return Inertia::render('ServiceWebDetails');
     }
+    public function hosting_support_details()
+    { 
+        return Inertia::render('HostingSupportDetails');
+    }
      
 }

@@ -23,7 +23,7 @@ class ProductController extends Controller
     // method for external website
     public function ext_productA_details()
     { 
-        return Inertia::render('ProductADetail',['product_color' => '#319ed9']);
+        return Inertia::render('ProductADetail',['product_color' => '#296fb6']);
     }
     public function ext_productB_details()
     {

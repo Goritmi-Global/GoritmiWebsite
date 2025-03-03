@@ -56,3 +56,4 @@ Route::get('/productB/details', [ProductController::class, 'ext_productB_details
 Route::get('/productC/details', [ProductController::class, 'ext_productC_details'])->name('productC.details');
 Route::get('/app/development', [ServiceController::class, 'service_app_details'])->name('app.development');
 Route::get('/web/development', [ServiceController::class, 'service_web_details'])->name('web.development');
+Route::get('/hosting/support', [ServiceController::class, 'hosting_support_details'])->name('hosting.support');
