@@ -18,11 +18,7 @@
                             A Powerful Accounting Solution for Businesses and
                             Individuals.
                         </h5>
-                        <h4
-                            class="btn c-theme-button text-white rounded-6 mt-4"
-                        >
-                            Book a Demo
-                        </h4>
+                         
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img
@@ -111,7 +107,7 @@
                     <h2 class="section-subheading">Financial Management</h2>
                 </div>
                 <div class="row g-3">
-                    <div class="col-12 col-md-3 d-flex">
+                    <div class="col-12 col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Multi-Account Support</h5>
                             <p>
@@ -120,7 +116,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Income & Expense Tracking</h5>
                             <p>
@@ -129,7 +125,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Automated Financial Reports</h5>
                             <p>
@@ -138,7 +134,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Invoice & Billing Management</h5>
                             <p>
@@ -147,7 +143,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Debt & Loan Tracking</h5>
                             <p>
@@ -155,13 +151,13 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Mobile App Integration</h5>
                             <p>Access and update your accounts on the go.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Bank Sync & Reconciliation</h5>
                             <p>
@@ -169,7 +165,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Secure Cloud Storage</h5>
                             <p>
@@ -959,9 +955,7 @@ export default {
     font-size: 22px;
     font-weight: bold;
 }
-.row.g-3 > div {
-    display: flex;
-}
+ 
 .c-image {
     border-radius: 0.5rem !important;
 }

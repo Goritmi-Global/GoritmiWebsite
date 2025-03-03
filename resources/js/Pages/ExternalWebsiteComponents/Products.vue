@@ -20,12 +20,13 @@
                 <div
                     v-for="(solution, index) in solutions"
                     :key="index"
-                    class="col-md-4 mt-2"
+                    class="col-md-4"
                 >
                     <div
                         class="card h-100 solution-card"
                         @mouseover="hoveredIndex = index"
                         @mouseleave="hoveredIndex = null"
+                        :class="{ [solution.borderClass]: hoveredIndex === index }"
                     >
                         <div
                             class="card-body text-center d-flex flex-column align-items-center justify-content-center"
@@ -80,24 +81,27 @@ export default {
                     name: "Goritmi Active",
                     image: "/images/ProductActiveLogo.png",
                     description:
-                        "Simplify healthcare with smart scheduling, digital prescriptions, and real-time patient monitoring.",
+                        "Goritmi Active Simplify healthcare with smart scheduling, digital prescriptions, and real-time patient monitoring.",
                     textClass: "c-theme-text-color",
+                    borderClass: "border-primary",
                     link: "/productA/details",
                 },
                 {
                     name: "Goritmi Balance",
                     image: "/images/ProductBetaLogo.png",
                     description:
-                        "Manage financial transactions, track expenses, and generate insightful reports with ease.",
+                        "Goritmi Balance Manage financial transactions, track expenses, and generate insightful reports with ease.",
                     textClass: "text-success",
+                    borderClass: "border-success",
                     link: "/productB/details",
                 },
                 {
                     name: "Goritmi Connect",
                     image: "/images/ProductConnectLogo.png",
                     description:
-                        "Enhance team collaboration and communication with our seamless networking solution.",
+                        "Goritmi Connect Enhance team collaboration and communication with our seamless networking solution.",
                     textClass: "text-warning",
+                    borderClass: "border-warning",
                     link: "/productC/details",
                 },
             ],
@@ -121,11 +125,24 @@ export default {
     align-items: center;
     justify-content: center;
     text-align: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
 }
 
 /* Add scale effect on hover */
 .solution-card:hover {
     transform: scale(1.05);
+}
+
+/* Apply border color on hover */
+.border-primary {
+    border-color: #296fb6 !important;
+}
+.border-success {
+    border-color: #28a745 !important;
+}
+.border-warning {
+    border-color: #ffc107 !important;
 }
 
 /* Image transition */
@@ -140,8 +157,7 @@ export default {
 
 /* Text section */
 .solution-text {
-    position: relative;
-    min-height: 80px;
+    position: relative; 
 }
 
 /* Name & Description toggle */
@@ -169,9 +185,7 @@ export default {
 }
 
 /* Adjust button position on hover */
-.see-more-btn {
-    transition: transform 0.3s ease-in-out;
-}
+ 
 
 .solution-card:hover .see-more-btn {
     transform: translateY(5px);

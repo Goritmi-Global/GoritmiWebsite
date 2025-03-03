@@ -3,7 +3,6 @@
         <div class="c-balance py-4 bg-white">
             <div class="container">
                 <div class="row align-items-center">
-                     
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h1 class="fw-bold c-product-text-color">
                             Simplify Your Business & Personal
@@ -16,9 +15,6 @@
                             A Powerful Accounting Solution for Businesses and
                             Individuals.
                         </h5>
-                        <h4 class="btn c-theme-button text-white rounded-6 mt-4">
-                            Book a Demo
-                        </h4>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img
@@ -35,9 +31,8 @@
 
         <div class="container mt-5">
             <!-- Background Image -->
- 
-           
-                <div class="row align-items-center position-relative z-2">
+
+            <div class="row align-items-center position-relative z-2">
                 <!-- Image Section -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="text-black fw-bold">
@@ -56,11 +51,12 @@
                 </div>
                 <!-- Text Content Section -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                     
                     <h1 class="fw-bold">
-                    <span class="c-product-text-color"> Manage Your Finances Effortlessly with</span> Goritmi Balance
-                </h1>
-                    
+                        <span class="c-product-text-color">
+                            Manage Your Finances Effortlessly with</span
+                        >
+                        Goritmi Balance
+                    </h1>
 
                     <p class="text-muted">
                         Automate bookkeeping, manage cash flow, and generate
@@ -107,7 +103,7 @@
                     <h2 class="section-subheading">Financial Management</h2>
                 </div>
                 <div class="row g-3">
-                    <div class="col-12 col-md-3 d-flex">
+                    <div class="col-12 col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Multi-Account Support</h5>
                             <p>
@@ -116,7 +112,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Income & Expense Tracking</h5>
                             <p>
@@ -125,7 +121,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Automated Financial Reports</h5>
                             <p>
@@ -134,7 +130,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Invoice & Billing Management</h5>
                             <p>
@@ -143,7 +139,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Debt & Loan Tracking</h5>
                             <p>
@@ -151,13 +147,13 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Mobile App Integration</h5>
                             <p>Access and update your accounts on the go.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Bank Sync & Reconciliation</h5>
                             <p>
@@ -165,7 +161,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex">
+                    <div class="col-12 col-md-3">
                         <div class="feature-box">
                             <h5>Secure Cloud Storage</h5>
                             <p>
@@ -180,20 +176,18 @@
 
         <div class="container py-5">
             <div>
-                
                 <h1 class="fw-bold">
-                    <span class="c-product-text-color">Manage Your Finances in Just a</span> Few clicks
+                    <span class="c-product-text-color"
+                        >Manage Your Finances in Just a</span
+                    >
+                    Few clicks
                 </h1>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Sign Up & Setup</p>
-                        <img
-                            src="/images/lap1.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap1.png" alt="" class="img-fluid" />
                         <p>
                             Register and set up your business or personal
                             account.
@@ -201,11 +195,7 @@
                     </div>
                     <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Add Transactions</p>
-                        <img
-                            src="/images/lap2.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap2.png" alt="" class="img-fluid" />
                         <p>
                             Log Income, expenses, invoices, and bank
                             transactions.
@@ -213,20 +203,12 @@
                     </div>
                     <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Generate Reports</p>
-                        <img
-                            src="/images/lap3.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap3.png" alt="" class="img-fluid" />
                         <p>Get real-time insights on your financial health.</p>
                     </div>
                     <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Manage Accounts</p>
-                        <img
-                            src="/images/lap4.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap4.png" alt="" class="img-fluid" />
                         <p>Access from desktop or mobile app.</p>
                     </div>
                 </div>
@@ -286,7 +268,7 @@
                 </div>
             </div>
         </div>
- 
+
         <!--PRICING SECTION-->
         <section class="section" id="pricing">
             <div class="container mt-4">
@@ -297,9 +279,7 @@
                 <div class="row pt-4">
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center">
-                                Basic Plan
-                            </h4>
+                            <h4 class="f-20 text-center">Basic Plan</h4>
                             <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
@@ -498,9 +478,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center">
-                                Business Plan
-                            </h4>
+                            <h4 class="f-20 text-center">Business Plan</h4>
                             <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
@@ -699,9 +677,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center">
-                                Enterprise Plan
-                            </h4>
+                            <h4 class="f-20 text-center">Enterprise Plan</h4>
                             <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
@@ -900,7 +876,7 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <!-- pricing plan -->
     </div>
 </template>
@@ -910,7 +886,7 @@ import Master from "./Layouts/Master.vue";
 
 export default {
     layout: Master,
-    props: ['product_color'],
+    props: ["product_color"],
     computed: {
         styleVariables() {
             return {
@@ -948,9 +924,7 @@ export default {
     font-size: 22px;
     font-weight: bold;
 }
-.row.g-3 > div {
-    display: flex;
-}
+
 .c-image {
     border-radius: 0.5rem !important;
 }
@@ -966,9 +940,7 @@ h1 {
     color: var(--product-color) !important;
 }
 .c-product-border-color {
- 
- border: 1px solid var(--product-color) !important;
-
+    border: 1px solid var(--product-color) !important;
 }
 .c-product-bg-color {
     background-color: var(--product-color) !important;
@@ -988,7 +960,7 @@ h1 {
     font-size: 24px;
     font-weight: bold;
 }
- 
+
 .balance-bg {
     position: absolute;
     top: 0px; /* Move slightly upwards */
@@ -1016,7 +988,6 @@ h1 {
         opacity: 0.15;
     }
 }
-
 
 /* General Styling */
 
@@ -1055,5 +1026,4 @@ h1 {
 .pricing-box hr {
     border-top: 1px solid #ddd;
 }
- 
 </style>
