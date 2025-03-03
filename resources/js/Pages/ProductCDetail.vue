@@ -878,14 +878,18 @@
             </div>
         </section>
         <!-- pricing plan -->
+        <Faq />
     </div>
 </template>
 
 <script>
 import Master from "./Layouts/Master.vue";
-
+import Faq from "./ExternalWebsiteComponents/Faq.vue";
 export default {
     layout: Master,
+    components: {
+        Faq,
+    },
     props: ["product_color"],
     computed: {
         styleVariables() {

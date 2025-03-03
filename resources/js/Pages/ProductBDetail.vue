@@ -18,7 +18,6 @@
                             A Powerful Accounting Solution for Businesses and
                             Individuals.
                         </h5>
-                         
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img
@@ -909,14 +908,19 @@
         </section>
 
         <!-- pricing plan -->
+        <Faq />
     </div>
 </template>
 
 <script>
 import Master from "./Layouts/Master.vue";
+import Faq from "./ExternalWebsiteComponents/Faq.vue";
 
 export default {
     layout: Master,
+    components: {
+        Faq,
+    },
     props: ["product_color"],
     computed: {
         styleVariables() {
@@ -955,7 +959,7 @@ export default {
     font-size: 22px;
     font-weight: bold;
 }
- 
+
 .c-image {
     border-radius: 0.5rem !important;
 }
@@ -968,9 +972,7 @@ h1 {
     color: var(--product-color) !important;
 }
 .c-product-border-color {
- 
- border: 1px solid var(--product-color) !important;
-
+    border: 1px solid var(--product-color) !important;
 }
 .c-product-bg-color {
     background-color: var(--product-color) !important;
@@ -1056,5 +1058,4 @@ h1 {
 .pricing-box hr {
     border-top: 1px solid #ddd;
 }
- 
 </style>

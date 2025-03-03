@@ -18,7 +18,6 @@
                         <h5 class="c-product-text-color">
                             Simplify Healthcare with Automation ans Security.
                         </h5>
-                       
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img
@@ -55,7 +54,6 @@
                 </div>
                 <!-- Text Content Section -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
-
                     <h1 class="fw-bold">
                         <span class="c-product-text-color">
                             Manage Your Finances Effortlessly with</span
@@ -195,7 +193,7 @@
                         <img
                             src="/images/Analysis5.png"
                             alt=""
-                            class="img-fluid" 
+                            class="img-fluid"
                         />
                         <p>
                             Register and set up your business or personal
@@ -207,7 +205,7 @@
                         <img
                             src="/images/Analysis6.png"
                             alt=""
-                            class="img-fluid" 
+                            class="img-fluid"
                         />
                         <p>
                             Log Income, expenses, invoices, and bank
@@ -219,7 +217,7 @@
                         <img
                             src="/images/Analysis5.png"
                             alt=""
-                            class="img-fluid" 
+                            class="img-fluid"
                         />
                         <p>Get real-time insights on your financial health.</p>
                     </div>
@@ -228,7 +226,7 @@
                         <img
                             src="/images/Analysis6.png"
                             alt=""
-                            class="img-fluid" 
+                            class="img-fluid"
                         />
                         <p>Access from desktop or mobile app.</p>
                     </div>
@@ -904,14 +902,21 @@
                 </div>
             </div>
         </section>
+
+        <Faq />
     </div>
 </template>
 
 <script>
 import Master from "./Layouts/Master.vue";
+import Faq from "./ExternalWebsiteComponents/Faq.vue";
 
 export default {
     layout: Master,
+
+    components: {
+        Faq,
+    },
     props: ["product_color"],
     computed: {
         styleVariables() {
@@ -930,7 +935,7 @@ export default {
     padding: 20px;
     text-align: center;
     transition: 0.3s;
-    background: white; 
+    background: white;
     height: 155px;
     display: flex;
     flex-direction: column;
@@ -949,7 +954,7 @@ export default {
     font-size: 22px;
     font-weight: bold;
 }
- 
+
 .c-image {
     border-radius: 0.5rem !important;
 }
@@ -962,9 +967,7 @@ h1 {
     color: var(--product-color) !important;
 }
 .c-product-border-color {
- 
     border: 1px solid var(--product-color) !important;
-
 }
 .c-product-bg-color {
     background-color: var(--product-color) !important;
@@ -1050,5 +1053,4 @@ h1 {
 .pricing-box hr {
     border-top: 1px solid #ddd;
 }
- 
 </style>
