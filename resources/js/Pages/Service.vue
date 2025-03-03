@@ -15,6 +15,7 @@
         <ProductsSection />
         <!-- Meet Our Team -->
         
+        <HappyClientsSection />
         <ContactUsSection />
     </div>
 </template>
@@ -24,10 +25,12 @@ import Master from "./Layouts/Master.vue";
 import ServicesSection from "./ExternalWebsiteComponents/Services.vue";
 import ContactUsSection from "./ExternalWebsiteComponents/ContactUsSection.vue";
 import ProductsSection from "./ExternalWebsiteComponents/Products.vue";
+ 
+import HappyClientsSection from "./ExternalWebsiteComponents/HappyClients.vue";
 
 export default {
     layout: Master,
-    components: { ServicesSection, ContactUsSection,ProductsSection },
+    components: { ServicesSection, ContactUsSection,ProductsSection,HappyClientsSection },
     data() {
         return {
             team: [

@@ -103,6 +103,7 @@
             </div>
         </div>
         </div>
+        <HappyClientsSection />
         <ContactUsSection />
     </div>
 </template>
@@ -111,10 +112,12 @@
 import Master from "./Layouts/Master.vue";
 import ServicesSection from "./ExternalWebsiteComponents/Services.vue";
 import ContactUsSection from "./ExternalWebsiteComponents/ContactUsSection.vue";
+import HappyClientsSection from "./ExternalWebsiteComponents/HappyClients.vue";
+
 
 export default {
     layout: Master,
-    components: { ServicesSection, ContactUsSection },
+    components: { ServicesSection, ContactUsSection ,HappyClientsSection},
     data() {
         return {
             team: [

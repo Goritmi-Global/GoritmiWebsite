@@ -1,11 +1,11 @@
 <template>
     <div class="container py-5">
         <div class="container">
-            <div class="row d-flex align-items-stretch g-0">
+            <div class="row d-flex align-items-stretch g-0 ">
                 <div
-                    class="col-md-6 col-lg-6 col-sm-12 border shadow bg-dark h-100 p-4"
+                    class="col-md-6 col-lg-6 col-sm-12 border shadow bg-dark h-100 p-3"  
                 >
-                    <h1 class="text-white mt-3 ps-5">
+                    <h1 class="text-white mt-3 ">
                         Request A Free <br /><span class="c-theme-text-color"
                             >Consultation</span
                         >
@@ -17,7 +17,7 @@
                                 <input
                                     type="text"
                                     class="form-control"
-                                    placeholder="First Name:"
+                                    placeholder="First Name"
                                 />
                             </div>
                             <div class="col-md-6 mb-3">
@@ -25,7 +25,7 @@
                                 <input
                                     type="text"
                                     class="form-control"
-                                    placeholder="Last Name:"
+                                    placeholder="Last Name"
                                 />
                             </div>
                             <div class="col-md-6 mb-3">
@@ -33,7 +33,7 @@
                                 <input
                                     type="email"
                                     class="form-control"
-                                    placeholder="Email:"
+                                    placeholder="Email"
                                 />
                             </div>
                             <div class="col-md-6 mb-3">
@@ -41,7 +41,7 @@
                                 <input
                                     type="text"
                                     class="form-control"
-                                    placeholder="Contact No:"
+                                    placeholder="Contact No"
                                 />
                             </div>
                             <div class="col-12 mb-3">
@@ -49,13 +49,13 @@
                                 <textarea
                                     class="form-control"
                                     rows="4"
-                                    placeholder="Your message:"
+                                    placeholder="Your message"
                                 ></textarea>
                             </div>
                             <div class="col-12">
                                 <button
                                     type="submit"
-                                    class="btn btn-custom text-white bg-primary"
+                                    class="btn c-theme-button "
                                 >
                                     Send Message
                                 </button>
@@ -66,9 +66,9 @@
 
                 <div class="col-md-6 col-lg-6 col-sm-12">
                     <div
-                        class="contact-info h-100 d-flex align-items-center p-4"
+                        class="contact-info h-100 d-flex align-items-center p-3"
                     >
-                        <div class="contact-info-content">
+                    <div class="contact-info-content">
                             <h2>
                                 HAVE A PROJECT? <br />
                                 <strong>GET IN TOUCH.</strong>
@@ -143,7 +143,9 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 115, 255, 0.7); /* Blue Overlay */
+    
+    background: rgba(41, 111, 182, 0.7); /* Blue Overlay */
+
 }
 .contact-info-content {
     position: relative;
