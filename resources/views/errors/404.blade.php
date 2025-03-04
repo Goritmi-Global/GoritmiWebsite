@@ -1,206 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- Enter your title of the page -->
-    <title>404 - {{ ('Page not found') }}</title>
-    <!-- Link the CSS posted below to this page, change the href -->
-    <link rel="stylesheet" href="/404.css" >
-    <!--  Enter your website icon -->
-    <link rel="icon" href="hyg">
-<style>
-    .error-wrapper {
-      background-color: #292929;
-      height: 100%;
-      padding-top: 10%
-  }
-  
-  .error-wrapper .error-container {
-      -webkit-transform: skew(0deg, -10deg);
-      -moz-transform: skew(0deg, -10deg);
-      -o-transform: skew(0deg, -10deg);
-      -ms-transform: skew(0deg, -10deg);
-      transform: skew(0deg, -10deg);
-      background-color: #1dbc9c;
-      padding: 60px
-  }
-  
-  .error-wrapper .error-container .error {
-      -webkit-transform: skew(0deg, 10deg);
-      -moz-transform: skew(0deg, 10deg);
-      -o-transform: skew(0deg, 10deg);
-      -ms-transform: skew(0deg, 10deg);
-      transform: skew(0deg, 10deg);
-      margin: 0 auto;
-      text-align: center;
-      width: 350px
-  }
-  
-  .error-wrapper .error-container .error .error-title {
-      font-size: 28px;
-      font-weight: 700;
-      letter-spacing: 5px;
-      text-transform: uppercase
-  }
-  
-  .error-wrapper .error-container .error .error-number {
-      font-size: 100px;
-      font-weight: 700;
-      letter-spacing: 5px;
-      text-shadow: 0 3px 0 #292929, 0 14px 10px rgba(0, 0, 0, .15), 0 24px 2px rgba(0, 0, 0, .1), 0 34px 30px rgba(0, 0, 0, .1)
-  }
-  
-  .error-wrapper .error-container .error .error-description {
-      font-size: 14px;
-      font-weight: 300;
-      padding: 0 40px
-  }
-  
-  .error-wrapper .error-container .error .error-or {
-      height: 20px;
-      margin: 30px 0 10px;
-      position: relative;
-      text-align: center
-  }
-  
-  .error-wrapper .error-container .error .error-or .or-line {
-      background-color: #169077;
-      height: 1px;
-      left: 40px;
-      position: absolute;
-      right: 40px;
-      top: 10px
-  }
-  
-  .error-wrapper .error-container .error .error-or .or {
-      -lh-property: 0;
-      left: -webkit-calc(50% - 30px);
-      left: -moz-calc(50% - 30px);
-      left: calc(50% - 30px);
-      background-color: #1dbc9c;
-      height: 20px;
-      margin: 0 auto;
-      position: absolute;
-      text-transform: uppercase;
-      top: 2px;
-      width: 60px
-  }
-  
-  .error-wrapper .error-container .error .error-textbox {
-      padding: 0 40px
-  }
-  
-  .error-wrapper .error-container .error .error-textbox .form-control {
-      background-color: #292929;
-      border: 0
-  }
-  
-  .error-wrapper .error-container .error .error-submit {
-      padding: 0 40px
-  }
-  
-  .error-wrapper .error-container .error .error-submit input {
-      font-size: 13px;
-      font-weight: 300;
-      text-transform: uppercase
-  }
-  
-  .error-wrapper .error-container .error .error-actions {
-      display: block;
-      height: 40px;
-      list-style: none;
-      padding: 5px
-  }
-  
-  .error-wrapper .error-container .error .error-actions>li {
-      display: inline-block;
-      float: left;
-      width: 33%
-  }
-  
-  .error-wrapper .error-container .error .error-actions>li a i {
-      color: white;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
 
-      font-size: 32px
-  }
-  
-  .error-wrapper .error-container.error-500 {
-      background-color: #ffc107
-  }
-  
-  .error-wrapper .error-container.error-500 .error .error-or .or-line {
-      background-color: #d39e00
-  }
-  
-  .error-wrapper .error-container.error-500 .error .error-or .or {
-      background-color: #ffc107
-  }
-  
-  .error-wrapper .error-container.error-401 {
-      background-color: #34b5dc
-  }
-  
-  .error-wrapper .error-container.error-401 .error .error-or .or-line {
-      background-color: #2198bd
-  }
-  
-  .error-wrapper .error-container.error-401 .error .error-or .or {
-      background-color: #34b5dc
-  }
-  
-  @media only screen and (max-width:600px) {
-      .error-wrapper {
-          padding-top: 5%
-      }
-      .error-wrapper .error-container {
-          -webkit-transform: skew(0deg, -5deg);
-          -moz-transform: skew(0deg, -5deg);
-          -o-transform: skew(0deg, -5deg);
-          -ms-transform: skew(0deg, -5deg);
-          transform: skew(0deg, -5deg)
-      }
-      .error-wrapper .error-container .error {
-          -webkit-transform: skew(0deg, 5deg);
-          -moz-transform: skew(0deg, 5deg);
-          -o-transform: skew(0deg, 5deg);
-          -ms-transform: skew(0deg, 5deg);
-          transform: skew(0deg, 5deg);
-          width: auto
-      }
-  }
-</style>
- 
-  
-   </head>
-  <body>
-    <main>
-      <center>
-
-        <div class="error-wrapper">
-          <div class="error-container">
-              <div class="error">
-                  <div class="error-title">
-                      {{ ('Error') }}
-                  </div>
-                  <div class="error-number">
-                      404
-                  </div>
-                  <div class="error-description">
-                      {{ ('Sorry, The page you were looking for doesnt exist') }}
-                  </div>
-                   
-                  
-                  <ul class="error-actions" style="color: white;">
-                   <i class="fa fa-angle-double-right"></i> <a href="/login" style="color: white; text-decoration:none">{{ ('Go to Home Page') }}</a>
-                  </ul>
-              </div>
-          </div>
-      </div>
-          
-        </h3>
-        <br /><br /><br /><br />
-      </center>
-    </main>
-
+    <!-- Font Awesome for Icons -->
     <script src="https://use.fontawesome.com/1874c28d1a.js"></script>
-  </body>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="your-icon.png">
+
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #296fb6;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .error-container {
+            max-width: 600px;
+            padding: 40px;
+            background: white;
+            color: #296fb6;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        .error-title {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .error-number {
+            font-size: 120px;
+            font-weight: 700;
+            color: #ff3d00;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .error-description {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .home-button {
+            display: inline-block;
+            background: #296fb6;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 12px 25px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .home-button:hover {
+            background: #1d5a98;
+        }
+
+        /* Keyframe Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <div class="error-title">Oops! Page Not Found</div>
+        <div class="error-number">404</div>
+        <div class="error-description">
+            The page you are looking for doesn't exist or has been moved.
+        </div>
+        <a href="/" class="home-button"><i class="fa fa-home"></i> Go to Home</a>
+    </div>
+
+</body>
 </html>

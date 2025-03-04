@@ -3,27 +3,24 @@
         <div class="c-balance py-4 bg-white">
             <div class="container">
                 <div class="row align-items-center">
-                    <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                    <img src="/images/Balance.png" alt="" class="img-fluid" width="364px" height="347px">
-                </div> -->
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h1 class="fw-bold c-product-text-color">
-                            Smart Secure & Efficient Healthcare
-                            <span class="text-black">Management</span>
+                            Simplify Your Business & Personal
+                            <span class="text-black">Finances</span>
                         </h1>
                         <h5 class="c-product-text-color">
-                            Complete Solution to Manage Doctors,Patients, and
-                            Medical Records Seamlessly.
+                            Track Income, Expenses, and Transaction with ease.
                         </h5>
                         <h5 class="c-product-text-color">
-                            Simplify Healthcare with Automation ans Security.
+                            A Powerful Accounting Solution for Businesses and
+                            Individuals.
                         </h5>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img
-                            src="/images/Active1.png"
+                            src="/images/connect2.png"
                             alt=""
-                            class="img-fluid"
+                            class="img-fluid hover-effect"
                             width="460px"
                             height="383px"
                         />
@@ -45,9 +42,9 @@
                         </h1>
                     </div>
                     <img
-                        src="/images/Active1.png"
+                        src="/images/connect2.png"
                         alt=""
-                        class="img-fluid"
+                        class="img-fluid hover-effect"
                         width="500px"
                         height="500px"
                     />
@@ -67,23 +64,23 @@
                     </p>
                     <h4 class="c-product-text-color fw-bold">Key Features</h4>
                     <ul class="text-black">
-                        <li>
+                        <li class=" hover-effect">
                             Automate bookkeeping to reduce manual work and
                             minimize errors.
                         </li>
-                        <li>
+                        <li class=" hover-effect">
                             Manage cash flow efficiently to ensure financial
                             stability.
                         </li>
-                        <li>
+                        <li class=" hover-effect">
                             Generates real-time reports for quick and informed
                             decision-making.
                         </li>
-                        <li>
+                        <li class=" hover-effect">
                             Enhances financial tracking with seamless data
                             integration.
                         </li>
-                        <li>
+                        <li class=" hover-effect">
                             Simplifies tax calculations and compliance
                             management.
                         </li>
@@ -106,8 +103,8 @@
                     <h2 class="section-subheading">Financial Management</h2>
                 </div>
                 <div class="row g-3">
-                    <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                    <div class="col-12 col-12 col-md-3">
+                        <div class="feature-box hover-effect">
                             <h5>Multi-Account Support</h5>
                             <p>
                                 Manage personal and business accounts
@@ -116,7 +113,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                        <div class="feature-box hover-effect">
                             <h5>Income & Expense Tracking</h5>
                             <p>
                                 Manage personal and business accounts
@@ -125,7 +122,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                        <div class="feature-box hover-effect">
                             <h5>Automated Financial Reports</h5>
                             <p>
                                 Generate profit & loss statements, balance
@@ -134,7 +131,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                        <div class="feature-box hover-effect">
                             <h5>Invoice & Billing Management</h5>
                             <p>
                                 Create and send invoices, track payments, and
@@ -143,7 +140,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                        <div class="feature-box hover-effect">
                             <h5>Debt & Loan Tracking</h5>
                             <p>
                                 Keep an eye on payable and receivable amounts.
@@ -151,13 +148,13 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                        <div class="feature-box hover-effect">
                             <h5>Mobile App Integration</h5>
                             <p>Access and update your accounts on the go.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                        <div class="feature-box hover-effect">
                             <h5>Bank Sync & Reconciliation</h5>
                             <p>
                                 Link bank accounts and reconcile transactions.
@@ -165,7 +162,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="feature-box">
+                        <div class="feature-box hover-effect">
                             <h5>Secure Cloud Storage</h5>
                             <p>
                                 Access data anywhere, anytime with encrypted
@@ -188,46 +185,30 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Sign Up & Setup</p>
-                        <img
-                            src="/images/Analysis5.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap1.png" alt="" class="img-fluid hover-effect" />
                         <p>
                             Register and set up your business or personal
                             account.
                         </p>
                     </div>
-                    <div class="col-md-3 col-12 text-center">
+                    <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Add Transactions</p>
-                        <img
-                            src="/images/Analysis6.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap2.png" alt="" class="img-fluid hover-effect" />
                         <p>
                             Log Income, expenses, invoices, and bank
                             transactions.
                         </p>
                     </div>
-                    <div class="col-md-3 col-12 text-center">
+                    <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Generate Reports</p>
-                        <img
-                            src="/images/Analysis5.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap3.png" alt="" class="img-fluid hover-effect" />
                         <p>Get real-time insights on your financial health.</p>
                     </div>
-                    <div class="col-md-3 col-12 text-center">
+                    <div class="col-md-3 col-sm-12 text-center">
                         <p class="fw-bold">Manage Accounts</p>
-                        <img
-                            src="/images/Analysis6.png"
-                            alt=""
-                            class="img-fluid"
-                        />
+                        <img src="/images/lap4.png" alt="" class="img-fluid hover-effect" />
                         <p>Access from desktop or mobile app.</p>
                     </div>
                 </div>
@@ -245,7 +226,7 @@
                     <div class="col-md-5 col-12">
                         <img
                             src="/images/finance.png"
-                            class="shadow c-image img-fluid"
+                            class="shadow c-image img-fluid hover-effect"
                         />
                     </div>
                     <div class="col-md-6 col-12">
@@ -298,9 +279,7 @@
                 <div class="row pt-4">
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-product-text-color">
-                                Basic Plan
-                            </h4>
+                            <h4 class="f-20 text-center">Basic Plan</h4>
                             <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
@@ -499,9 +478,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-product-text-color">
-                                Business Plan
-                            </h4>
+                            <h4 class="f-20 text-center">Business Plan</h4>
                             <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
@@ -700,9 +677,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-product-text-color">
-                                Enterprise Plan
-                            </h4>
+                            <h4 class="f-20 text-center">Enterprise Plan</h4>
                             <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
@@ -902,7 +877,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- pricing plan -->
         <Faq />
     </div>
 </template>
@@ -910,10 +885,8 @@
 <script>
 import Master from "./Layouts/Master.vue";
 import Faq from "./ExternalWebsiteComponents/Faq.vue";
-
 export default {
     layout: Master,
-
     components: {
         Faq,
     },
@@ -936,6 +909,7 @@ export default {
     text-align: center;
     transition: 0.3s;
     background: white;
+
     height: 155px;
     display: flex;
     flex-direction: column;
@@ -967,6 +941,9 @@ h1 {
     color: var(--product-color) !important;
 }
 .c-product-border-color {
+    color: var(--product-color) !important;
+}
+.c-product-border-color {
     border: 1px solid var(--product-color) !important;
 }
 .c-product-bg-color {
@@ -994,7 +971,7 @@ h1 {
     right: 0; /* Align to the right */
     width: 50%; /* Adjust width so it doesn’t cover too much */
     height: 50%;
-    background: url("/images/ProductActiveLogo.png") no-repeat top right;
+    background: url("/images/ProductConnectLogo.png") no-repeat top right;
     background-size: contain; /* Keep the image size controlled */
     opacity: 0.15; /* Adjust for readability */
     z-index: 1;

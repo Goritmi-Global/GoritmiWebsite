@@ -14,7 +14,7 @@
                 <!-- Image Section -->
                 <div class="col-md-6 text-center">
                     <img 
-                        class="project-image c-theme-radius img-fluid" 
+                        class="project-image c-theme-radius img-fluid  hover-effect" 
                         :src="project.image" 
                         :alt="project.title" 
                     />

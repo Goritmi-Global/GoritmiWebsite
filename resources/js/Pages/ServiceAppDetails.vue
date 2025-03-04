@@ -22,7 +22,7 @@
                         <img
                             src="/images/app.png"
                             alt=""
-                            class="img-fluid"
+                            class="img-fluid hover-effect"
                             width="501px"
                             height="501px"
                         />
@@ -46,7 +46,7 @@
                 <img
                     src="/images/Balance2.png"
                     alt=""
-                    class="img-fluid"
+                    class="img-fluid hover-effect"
                     width="507px"
                     height="507px"
                 />
@@ -63,20 +63,20 @@
 
                 <h4 class="c-theme-text-color fw-bold">Key Features</h4>
                 <ul class="text-black">
-                    <li>
+                    <li class=" hover-effect">
                         <strong>Custom App Design:</strong> Tailored interfaces
                         that response with your brand and user needs
                     </li>
-                    <li>
+                    <li class=" hover-effect">
                         <strong>Cross-Platform & Native Development:</strong>
                         Expertise in both native and cross-platform solutions
                         for optional performance.
                     </li>
-                    <li>
+                    <li class=" hover-effect">
                         <strong>SEO & App Store Optimization (ASO):</strong>
                         Strategies and boost visibility and downloads.
                     </li>
-                    <li>
+                    <li class=" hover-effect">
                         <strong>Scalability & Security:</strong> Robust
                         architectures built to grow your business.
                     </li>
@@ -211,25 +211,25 @@
             <p>Leveraging modern frameworks such as Swift, Kotlin, React Native, and Flutter to create highperformance mobile applications</p>
             <img
                 src="/images/Licon1.png"
-                class=""
+                class="hover-effect"
                 alt="Program Icon"
                 width="80px"
             />
             <img
                 src="/images/kotlin.png"
-                class="ms-4"
+                class="ms-4 hover-effect"
                 alt="Kotlin"
                 width="80px"
             />
             <img
                 src="/images/react.png"
-                class="ms-4"
+                class="ms-4 hover-effect"
                 alt="React"
                 width="80px"
             />
             <img
                 src="/images/flutter.png"
-                class="ms-4"
+                class="ms-4 hover-effect"
                 alt="Flutter"
                 width="49px"
                 height="44px"
@@ -248,7 +248,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <img src="/images/mobiles.png" class="shadow c-image" alt="" />
+                <img src="/images/mobiles.png" class="shadow c-image hover-effect" alt="" />
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="mt-5">

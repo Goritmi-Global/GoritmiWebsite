@@ -84,7 +84,14 @@ export default {
     position: absolute;
     top: 15px;
     right: 15px;
+    opacity: 0.5; /* Reduced opacity */
+    transition: opacity 0.3s ease-in-out;
 }
+
+.approach-card:hover .approach-icon {
+    opacity: 1; /* Full opacity on hover */
+}
+
 
 .approach-title {
     font-size: 1.3rem;

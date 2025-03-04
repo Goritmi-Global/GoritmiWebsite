@@ -1,42 +1,50 @@
 <template>
     <div class="bg-white py-4 c-main-section">
-    <div class="container ">
-        <div class="row align-items-center text-center text-lg-start">
-            <!-- Left Content -->
-            <div class="col-lg-6">
-                <h1 class="fw-bold c-theme-text-color">UK Web Hosting</h1>
-                <p class="c-theme-text-color">
-                    UK Website hosting from one of the UK's leading independent web hosts. A fast, 
-                    reliable web hosting package that includes daily backups, a full email suite, 
-                    and an easy-to-use control panel. HostPresto's genuine, personal, caring 
-                    service is trusted by thousands—it's website hosting done right.
-                </p>
-                <a href="#" class="btn c-theme-button text-white rounded-6 mt-3">
-                    Compare Web Hosting Plans
-                </a>
-            </div>
-            <!-- Right Image -->
-            <div class="col-lg-6 mt-4 mt-lg-0">
-                <img src="/images/hosting1stImage.png" alt="Web Hosting" class="img-fluid w-100">
+        <div class="container">
+            <div class="row align-items-center text-center text-lg-start">
+                <!-- Left Content -->
+                <div class="col-lg-6">
+                    <h1 class="fw-bold c-theme-text-color">UK Web Hosting</h1>
+                    <p class="c-theme-text-color">
+                        UK Website hosting from one of the UK's leading
+                        independent web hosts. A fast, reliable web hosting
+                        package that includes daily backups, a full email suite,
+                        and an easy-to-use control panel. HostPresto's genuine,
+                        personal, caring service is trusted by thousands—it's
+                        website hosting done right.
+                    </p>
+                    <a
+                        href="#"
+                        class="btn c-theme-button text-white rounded-6 mt-3"
+                    >
+                        Compare Web Hosting Plans
+                    </a>
+                </div>
+                <!-- Right Image -->
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img
+                        src="/images/hosting1stImage.png"
+                        alt="Web Hosting"
+                        class="img-fluid w-100 hover-effect"
+                    />
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-
-<div class="container">
+    <div class="container">
         <div class="mt-4">
             <h1>
-                The Only Web Hosting 
+                The Only Web Hosting
                 <span class="c-theme-text-color"> Package You'll Need</span>
             </h1>
             <p>
-                All of our web hosting packages include everything you need for now,
-                and the future
+                All of our web hosting packages include everything you need for
+                now, and the future
             </p>
         </div>
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -65,7 +73,7 @@
                     migrate your website(s) and email free of charge
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12  hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -106,7 +114,7 @@
 
     <div class="container mt-4">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -273,7 +281,7 @@
                     all of our staff are Uk based.
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -308,7 +316,7 @@
 
     <div class="container mt-4">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -358,7 +366,7 @@
                     migrate your website(s) and email free of charge
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -419,7 +427,7 @@
 
     <div class="container mt-4">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -473,7 +481,7 @@
                     migrate your website(s) and email free of charge
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -1148,7 +1156,7 @@
         </p>
 
         <div class="row mt-4">
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 d-flex hover-effect">
                 <div class="me-3">
                     <svg
                         width="40"
@@ -1185,7 +1193,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 d-flex hover-effect">
                 <div class="me-3">
                     <svg
                         width="40"
@@ -1222,7 +1230,7 @@
         </div>
 
         <div class="row mt-4">
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 d-flex hover-effect">
                 <div class="me-3">
                     <svg
                         width="40"
@@ -1257,7 +1265,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 d-flex hover-effect">
                 <div class="me-3">
                     <svg
                         width="40"
@@ -1294,7 +1302,7 @@
         </div>
 
         <div class="row mt-4">
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 d-flex hover-effect">
                 <div class="me-3">
                     <svg
                         width="40"
@@ -1327,7 +1335,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 d-flex hover-effect">
                 <div class="me-3">
                     <svg
                         width="40"
@@ -1362,7 +1370,7 @@
         </div>
 
         <div class="row mt-4">
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 d-flex hover-effect">
                 <div class="me-3">
                     <svg
                         width="40"
@@ -1419,12 +1427,17 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="/images/Bmobile.png" alt="" width="355px" />
+                    <img
+                        src="/images/Bmobile.png"
+                        alt=""
+                        width="355px"
+                        class="hover-effect"
+                    />
                 </div>
 
                 <div class="container">
                     <div class="row mt-4">
-                        <div class="col-md-6 d-flex">
+                        <div class="col-md-6 d-flex hover-effect">
                             <div class="me-3">
                                 <svg
                                     width="30"
@@ -1452,7 +1465,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 d-flex">
+                        <div class="col-md-6 d-flex hover-effect">
                             <div class="me-3">
                                 <svg
                                     width="30"
@@ -1486,7 +1499,7 @@
                     </div>
 
                     <div class="row mt-4">
-                        <div class="col-md-6 d-flex">
+                        <div class="col-md-6 d-flex hover-effect">
                             <div class="me-3">
                                 <svg
                                     width="30"
@@ -1523,7 +1536,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 d-flex">
+                        <div class="col-md-6 d-flex hover-effect">
                             <div class="me-3">
                                 <svg
                                     width="30"
@@ -1555,7 +1568,7 @@
                     </div>
 
                     <div class="row mt-4">
-                        <div class="col-md-6 d-flex">
+                        <div class="col-md-6 d-flex hover-effect">
                             <div class="me-3">
                                 <svg
                                     width="30"
@@ -1583,7 +1596,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 d-flex">
+                        <div class="col-md-6 d-flex hover-effect">
                             <div class="me-3">
                                 <svg
                                     width="30"
@@ -1623,32 +1636,33 @@
                     Backups As <span class="c-theme-text-color">Standard</span>
                 </h1>
 
-                <div class="d-flex mt-4">
+                <div class="d-flex mt-4 hover-effect">
                     <div class="me-3">
                         <div class="c-theme-text-color">
-    <svg
-        width="30"
-        height="30"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
-        <path
-            d="M3 12L12 3L21 12L12 21L3 12Z"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-        />
-    </svg>
-</div>
-
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M3 12L12 3L21 12L12 21L3 12Z"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
                     </div>
                     <div>
                         <h5>
                             <strong
                                 >14 Restore
-                                <span class="c-theme-text-color">Points</span></strong
+                                <span class="c-theme-text-color"
+                                    >Points</span
+                                ></strong
                             >
                         </h5>
                         <p class="text-muted">
@@ -1659,25 +1673,25 @@
                     </div>
                 </div>
 
-                <div class="d-flex mt-2">
+                <div class="d-flex mt-2 hover-effect">
                     <div class="me-3">
                         <div class="c-theme-text-color">
-                        <svg
-                            width="30"
-                            height="30"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M3 4H21V20H3V4Z"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                            />
-                        </svg>
-                    </div>
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M3 4H21V20H3V4Z"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
                     </div>
                     <div>
                         <h5>
@@ -1696,26 +1710,26 @@
                     </div>
                 </div>
 
-                <div class="d-flex mt-2">
+                <div class="d-flex mt-2 hover-effect">
                     <div class="me-3">
                         <div class="c-theme-text-color">
-                        <svg
-                            width="30"
-                            height="30"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M12 2L12 22M2 12L22 12"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                            />
-                        </svg>
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M12 2L12 22M2 12L22 12"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
                     </div>
-                </div>
                     <div>
                         <h5>
                             <strong
@@ -1733,25 +1747,25 @@
                     </div>
                 </div>
 
-                <div class="d-flex mt-2">
+                <div class="d-flex mt-2 hover-effect">
                     <div class="me-3">
                         <div class="c-theme-text-color">
-                        <svg
-                            width="30"
-                            height="30"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M4 12L10 18L20 6"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                            />
-                        </svg>
-                    </div>
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M4 12L10 18L20 6"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
                     </div>
                     <div>
                         <h5>
@@ -1775,7 +1789,7 @@
             <div class="col-md-6 text-center mt-5">
                 <img
                     src="/images/Active1.png"
-                    class="img-fluid"
+                    class="img-fluid hover-effect"
                     alt="Desktop View"
                     width="577px"
                     height="417px"
@@ -1785,254 +1799,262 @@
     </div>
 
     <div class="bg-white p-2">
-    <div class="container my-5">
-        <div>
-            <h1>
-                Security of The <span class="c-theme-text-color">Highest Order</span>
-            </h1>
+        <div class="container my-5">
+            <div>
+                <h1>
+                    Security of The
+                    <span class="c-theme-text-color">Highest Order</span>
+                </h1>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 d-flex hover-effect">
+                    <div class="me-3">
+                        <!-- SSL Icon -->
+                        <div class="c-theme-text-color">
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M12 2L2 7L12 12L22 7L12 2Z"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    d="M2 17L12 22L22 17"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    d="M2 12L12 17L22 12"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >Free Lets
+                                <span class="c-theme-text-color"
+                                    >Encrypt SSL</span
+                                ></strong
+                            >
+                        </h5>
+                        <p>
+                            HostPresto owns and operates all of our own
+                            hardware, we don't lease or resell services from
+                            other suppliers. All hardware is located in our Uk
+                            datacenters and managed by our own staff.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex hover-effect">
+                    <div class="me-3">
+                        <!-- DDoS Icon -->
+                        <div class="c-theme-text-color">
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M3 12L12 3L21 12L12 21L3 12Z"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >DDoS
+                                <span class="c-theme-text-color"
+                                    >Protection</span
+                                ></strong
+                            >
+                        </h5>
+                        <p>
+                            Our entire platform is fully redundant at every
+                            level, our power supply, network connection, servers
+                            and storage. We can lose any part of our
+                            infrastructure and carry on as normal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex hover-effect">
+                    <div class="me-3">
+                        <!-- Malware Scan Icon -->
+                        <div class="c-theme-text-color">
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5 12L19 12M12 5L12 19"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >Malware &
+                                <span class="c-theme-text-color"
+                                    >Virus Scanning</span
+                                ></strong
+                            >
+                        </h5>
+                        <p>
+                            Our core network consists of multiple links to
+                            create a 40Gb/s redundant system, and we have
+                            multiple gigabit uplinks to the UK's internet
+                            backbone; providing the lowest latency and higest
+                            network resiliency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 d-flex hover-effect">
+                    <div class="me-3">
+                        <!-- Firewall Icon -->
+                        <div class="c-theme-text-color">
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M4 12H20M12 4V20"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h5><strong>Firewalling</strong></h5>
+                        <p>
+                            We use only the latest enterprise-grade hardware
+                            from reputable brands from Dell and supermicro that
+                            provides the highest performance per watt for the
+                            most environmentally, friendly service.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex hover-effect">
+                    <div class="me-3">
+                        <!-- Secure Systems Icon -->
+                        <div class="c-theme-text-color">
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M12 2L22 7L12 12L2 7L12 2Z"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >Highly Secure
+                                <span class="c-theme-text-color"
+                                    >Systems</span
+                                ></strong
+                            >
+                        </h5>
+                        <p>
+                            Our core network consists of multiple links to
+                            create a 40Gb/s redundant system, and we have
+                            multiple gigabit uplinks to the UK's internet
+                            backbone; providing the lowest latency and higest
+                            network resiliency.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex hover-effect">
+                    <div class="me-3">
+                        <!-- Certification Icon -->
+                        <div class="c-theme-text-color">
+                            <svg
+                                width="30"
+                                height="30"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M12 2L15 8H21L16 12L18 18L12 15L6 18L8 12L3 8H9L12 2Z"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >ISO
+                                <span class="c-theme-text-color"
+                                    >Certification</span
+                                ></strong
+                            >
+                        </h5>
+                        <p>
+                            Our core network consists of multiple links to
+                            create a 40Gb/s redundant system, and we have
+                            multiple gigabit uplinks to the UK's internet
+                            backbone; providing the lowest latency and higest
+                            network resiliency.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row mt-4">
-            <div class="col-md-4 d-flex">
-                <div class="me-3">
-                    <!-- SSL Icon -->
-                    <div class="c-theme-text-color">
-                    <svg
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M12 2L2 7L12 12L22 7L12 2Z"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                        <path
-                            d="M2 17L12 22L22 17"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                        <path
-                            d="M2 12L12 17L22 12"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                    </svg>
-                </div>
-                </div>
-                <div>
-                    <h5>
-                        <strong
-                            >Free Lets
-                            <span class="c-theme-text-color"
-                                >Encrypt SSL</span
-                            ></strong
-                        >
-                    </h5>
-                    <p>
-                        HostPresto owns and operates all of our own hardware, we
-                        don't lease or resell services from other suppliers. All
-                        hardware is located in our Uk datacenters and managed by
-                        our own staff.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4 d-flex">
-                <div class="me-3">
-                    <!-- DDoS Icon -->
-                    <div class="c-theme-text-color">
-                    <svg
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M3 12L12 3L21 12L12 21L3 12Z"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                    </svg>
-                </div>
-                </div>
-                <div>
-                    <h5>
-                        <strong
-                            >DDoS
-                            <span class="c-theme-text-color">Protection</span></strong
-                        >
-                    </h5>
-                    <p>
-                        Our entire platform is fully redundant at every level,
-                        our power supply, network connection, servers and
-                        storage. We can lose any part of our infrastructure and
-                        carry on as normal.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4 d-flex">
-                <div class="me-3">
-                    <!-- Malware Scan Icon -->
-                    <div class="c-theme-text-color">
-                    <svg
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M5 12L19 12M12 5L12 19"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                    </svg>
-                </div>
-                </div>
-                <div>
-                    <h5>
-                        <strong
-                            >Malware &
-                            <span class="c-theme-text-color"
-                                >Virus Scanning</span
-                            ></strong
-                        >
-                    </h5>
-                    <p>
-                        Our core network consists of multiple links to create a
-                        40Gb/s redundant system, and we have multiple gigabit
-                        uplinks to the UK's internet backbone; providing the
-                        lowest latency and higest network resiliency.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-md-4 d-flex">
-                <div class="me-3">
-                    <!-- Firewall Icon -->
-                    <div class="c-theme-text-color">
-                    <svg
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M4 12H20M12 4V20"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                    </svg>
-                </div>
-                </div>
-                <div>
-                    <h5><strong>Firewalling</strong></h5>
-                    <p>
-                        We use only the latest enterprise-grade hardware from
-                        reputable brands from Dell and supermicro that provides
-                        the highest performance per watt for the most
-                        environmentally, friendly service.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4 d-flex">
-                <div class="me-3">
-                    <!-- Secure Systems Icon -->
-                    <div class="c-theme-text-color">
-                    <svg
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M12 2L22 7L12 12L2 7L12 2Z"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                    </svg>
-                </div>
-                </div>
-                <div>
-                    <h5>
-                        <strong
-                            >Highly Secure
-                            <span class="c-theme-text-color">Systems</span></strong
-                        >
-                    </h5>
-                    <p>
-                        Our core network consists of multiple links to create a
-                        40Gb/s redundant system, and we have multiple gigabit
-                        uplinks to the UK's internet backbone; providing the
-                        lowest latency and higest network resiliency.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4 d-flex">
-                <div class="me-3">
-                    <!-- Certification Icon -->
-                    <div class="c-theme-text-color">
-                    <svg
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M12 2L15 8H21L16 12L18 18L12 15L6 18L8 12L3 8H9L12 2Z"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        />
-                    </svg>
-                </div>
-                </div>
-                <div>
-                    <h5>
-                        <strong
-                            >ISO
-                            <span class="c-theme-text-color"
-                                >Certification</span
-                            ></strong
-                        >
-                    </h5>
-                    <p>
-                        Our core network consists of multiple links to create a
-                        40Gb/s redundant system, and we have multiple gigabit
-                        uplinks to the UK's internet backbone; providing the
-                        lowest latency and higest network resiliency.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 
     <div class="container mt-5 p-2">
@@ -2061,7 +2083,7 @@
             <div class="col-md-6 col-sm-12">
                 <img
                     src="/images/server.png"
-                    class=" c-image"
+                    class="hover-effect c-image"
                     alt=""
                     width="288px"
                     height="252px"
@@ -2071,42 +2093,42 @@
     </div>
 
     <div class="bg-white p-2 mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <img
-            src="/images/support.png"
-            class=" c-image"
-            alt=""
-            width="288px"
-            height="252px"
-          />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img
+                        src="/images/support.png"
+                        class="hover-effectf c-image"
+                        alt=""
+                        width="288px"
+                        height="252px"
+                    />
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="mt-">
+                        <h1 class="fw-bold">
+                            Support you can really
+                            <span class="c-theme-text-color">depends on</span>
+                        </h1>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolores quidem omnis sed aut dignissimos
+                            repellat assumenda fuga, quae vero ducimus! Ducimus
+                            sunt doloremque nihil cupiditate et reprehenderit
+                            inventore obcaecati. Porro explicabo impedit earum
+                            mollitia?
+                        </p>
+                        <p class="text-black">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolores quidem omnis sed aut dignissimos
+                            repellat assumenda fuga, quae vero ducimus! Ducimus
+                            sunt doloremque.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="mt-">
-            <h1 class="fw-bold">
-              Support you can really
-              <span class="c-theme-text-color">depends on</span>
-            </h1>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              quidem omnis sed aut dignissimos repellat assumenda fuga, quae
-              vero ducimus! Ducimus sunt doloremque nihil cupiditate et
-              reprehenderit inventore obcaecati. Porro explicabo impedit earum
-              mollitia?
-            </p>
-            <p class="text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              quidem omnis sed aut dignissimos repellat assumenda fuga, quae
-              vero ducimus! Ducimus sunt doloremque.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
-    </div>
-
-
 </template>
 
 <script>
@@ -2168,7 +2190,6 @@ export default {
 
 <style>
 .c-main-section {
-    
     background: url("/images/bghosting.png");
     background-size: cover;
     background-repeat: no-repeat;

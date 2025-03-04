@@ -5,152 +5,44 @@
             rel="stylesheet"
         />
         <header>
+            <!-- Top Bar -->
             <nav
+                v-if="showTopBar"
                 class="navbar navbar-expand-lg navbar-dark text-white d-none d-lg-block c-top-bar-section c-theme-bg-color"
             >
                 <div class="container">
-                    <!-- Navbar toggle button -->
-
-                    <!-- Navbar links -->
-                    <div class="collapse navbar-collapse" id="navbarTop">
-                        <div class="c-top-nav-bar">
-                            <!-- Left-aligned social links -->
-                            <div>
-                                <span v-if="tiktok_link">
-                                    <a
-                                        :href="tiktok_link"
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                    >
-                                        <i
-                                            class="bi bi-tiktok ms-3 text-white"
-                                        ></i>
-                                    </a>
-                                </span>
-                                <span v-if="instagram_link">
-                                    <a
-                                        :href="instagram_link"
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                    >
-                                        <i
-                                            class="bi bi-instagram ms-3 text-white"
-                                        ></i>
-                                    </a>
-                                </span>
-                                <span v-if="facebook_link">
-                                    <a
-                                        :href="facebook_link"
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                    >
-                                        <i
-                                            class="bi bi-facebook ms-3 me-3 text-white"
-                                        ></i>
-                                    </a>
-                                </span>
-                                <!-- <a :href="'mailto:' + email" class="contact text-white">
-                            {{ email }}
-                        </a> -->
-                            </div>
-                        </div>
-
-                        <!-- Right side dropdowns -->
-                        <div class="collapse navbar-collapse" id="navbarTop">
-                            <!-- Right side dropdowns -->
-                            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                                <!-- Call Us dropdown -->
-
-                                <!-- Login dropdown -->
-                                <!-- <li class="nav-item dropdown">
-                            
-                            <a
-                                v-if="logged_in_user"
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
-                                id="dropdownMenuLink"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                {{ logged_in_user.name }}
-                            </a>
-                            <a
-                                v-else
-                                ref="openLoginModal"
-                                data-bs-toggle="modal"
-                                data-bs-target="#loginModal"
-                                class="nav-link text-decoration-none text-white c-pointer"
-                                @click="clearFields"
-                            >
-                                {{ ("Login") }}
-                            </a>
-
-                         
-                            <ul
-                                class="dropdown-menu dropdown-menu-end"
-                                aria-labelledby="dropdownMenuLink"
-                            >
-                                <li v-if="logged_in_user">
-                                    <a class="dropdown-item" href="/dashboard">
-                                        <i class="bi bi-speedometer me-1"></i>
-                                        Dashboard
-                                    </a>
-                                </li>
-                                <li v-if="logged_in_user">
-                                    <a
-                                        class="dropdown-item"
-                                        href="#"
-                                        @click="logOut"
-                                    >
-                                        <i
-                                            class="bi bi-box-arrow-right me-2"
-                                        ></i>
-                                        Log out
-                                    </a>
-                                </li>
-                            </ul>
-                        </li> -->
-
-                                <li
-                                    class="c-top-bar-section-inside-navbar c-theme-text-color"
-                                >
-                                    <!-- <span v-if="youtube_link">
-                                <a :href="youtube_link">
-                                    <i
-                                        class="bi bi-youtube me-4"
-                                    ></i>
+                    <div class="c-top-nav-bar">
+                        <div>
+                            <span v-if="tiktok_link">
+                                <a :href="tiktok_link" target="_blank">
+                                    <i class="bi bi-tiktok ms-3 text-white"></i>
                                 </a>
                             </span>
                             <span v-if="instagram_link">
-                                <a :href="instagram_link">
+                                <a :href="instagram_link" target="_blank">
                                     <i
-                                        class="bi bi-instagram me-4"
+                                        class="bi bi-instagram ms-3 text-white"
                                     ></i>
                                 </a>
                             </span>
                             <span v-if="facebook_link">
-                                <a :href="facebook_link">
+                                <a :href="facebook_link" target="_blank">
                                     <i
-                                        class="bi bi-facebook me-3"
+                                        class="bi bi-facebook ms-3 me-3 text-white"
                                     ></i>
                                 </a>
-                            </span> -->
-
-                                    <a
-                                        :href="'mailto:' + email"
-                                        class="contact text-white"
-                                    >
-                                        {{ email }}
-                                    </a>
-                                </li>
-                            </ul>
+                            </span>
                         </div>
                     </div>
                 </div>
             </nav>
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <!-- Sticky Second Navbar -->
+            <nav
+                ref="stickyNav"
+                class="navbar navbar-expand-lg navbar-dark bg-secondary nav-fixed"
+                :class="{ 'sticky-navbar': isSticky }"
+            >
                 <div class="container">
                     <a class="navbar-brand" href="/">
                         <img
@@ -179,7 +71,6 @@
                                     >Home</a
                                 >
                             </li>
-                           
 
                             <!-- Services Dropdown -->
                             <li class="nav-item dropdown">
@@ -314,7 +205,7 @@
                                     >Home</a
                                 >
                             </li>
-                            
+
                             <li>
                                 <a
                                     href="/services"
@@ -347,17 +238,23 @@
                         <h5 class="fw-bold">Solution & Services</h5>
                         <ul class="list-unstyled">
                             <li>
-                                <a class="text-white-50 text-decoration-none" href="/goritmi-active"
+                                <a
+                                    class="text-white-50 text-decoration-none"
+                                    href="/goritmi-active"
                                     >Goritmi Active</a
                                 >
                             </li>
                             <li>
-                                <a class="text-white-50 text-decoration-none" href="/goritmi-balance"
+                                <a
+                                    class="text-white-50 text-decoration-none"
+                                    href="/goritmi-balance"
                                     >Goritmi Balance</a
                                 >
                             </li>
                             <li>
-                                <a class="text-white-50 text-decoration-none" href="/goritmi-connect"
+                                <a
+                                    class="text-white-50 text-decoration-none"
+                                    href="/goritmi-connect"
                                     >Goritmi Connect</a
                                 >
                             </li>
@@ -445,14 +342,20 @@ export default {
                 preloader.remove();
             });
         }
+        window.addEventListener("scroll", this.handleScroll);
     },
     components: {
         Multiselect,
     },
     created() {},
 
+    beforeUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+    },
     data() {
         return {
+            showTopBar: true,
+            isSticky: false,
             youtube_link: "www.youtube.com",
             tiktok_link: "www.tiktok.com",
             instagram_link: "www.instagram.com",
@@ -460,7 +363,21 @@ export default {
             email: "goritmi.co.uk",
         };
     },
-    methods: {},
+    methods: {
+        handleScroll() {
+            const stickyNav = this.$refs.stickyNav;
+            if (stickyNav) {
+                const navTop = stickyNav.offsetTop;
+                if (window.scrollY > navTop) {
+                    this.isSticky = true;
+                    this.showTopBar = false;
+                } else {
+                    this.isSticky = false;
+                    this.showTopBar = true;
+                }
+            }
+        },
+    },
 };
 </script>
 
@@ -495,7 +412,7 @@ export default {
     color: white !important;
 }
 .logo {
-    width: 170px !important;
+    width: 100px !important;
 }
 
 /* Custom Button */
@@ -554,5 +471,31 @@ export default {
 }
 .c-theme-radius {
     border-radius: 0.5rem !important;
+}
+
+/* Hover effect for image */
+.hover-effect {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+/* Sticky Navbar */
+/* Sticky Navbar */
+.sticky-navbar {
+    position: fixed; /* Changed from sticky to fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #296fb6 !important; /* Ensures visibility */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds slight shadow */
+    transition: all 0.3s ease-in-out;
+}
+
+.c-top-bar-section {
+    background-color: #296fb6;
+    padding: 10px 0;
 }
 </style>

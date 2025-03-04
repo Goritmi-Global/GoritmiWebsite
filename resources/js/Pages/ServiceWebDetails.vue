@@ -9,8 +9,8 @@
                             <span class="text-black">Services</span>
                         </h1>
                         <p class="c-theme-text-color">
-                            Building high-performance, responsive websites to 
-elevate your online presence.
+                            Building high-performance, responsive websites to
+                            elevate your online presence.
                         </p>
                         <h4
                             class="btn c-theme-button text-white rounded-6 mt-4"
@@ -22,7 +22,7 @@ elevate your online presence.
                         <img
                             src="/images/webdev1.png"
                             alt=""
-                            class="img-fluid"
+                            class="img-fluid hover-effect"
                             width="501px"
                             height="501px"
                         />
@@ -39,15 +39,16 @@ elevate your online presence.
                 <h1>
                     Why Choose Our Web
                     <br />
-                    <span class="c-theme-text-color">Web Development 
-                        Solutions?</span>
+                    <span class="c-theme-text-color"
+                        >Web Development Solutions?</span
+                    >
                 </h1>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 text-center">
                 <img
                     src="/images/webdev2.png"
                     alt=""
-                    class="img-fluid"
+                    class="img-fluid hover-effect"
                     width="507px"
                     height="507px"
                 />
@@ -56,25 +57,30 @@ elevate your online presence.
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <h2 class="c-theme-text-color">At Goritmi,</h2>
                 <p class="text-muted">
-                     
-we create tailored, scalable, and SEO-friendly websites that not only look great but also rank high on search engines. Our expert team crafts digital experiences that drive engagement, increase 
-conversions, and build lasting brand impressions 
+                    we create tailored, scalable, and SEO-friendly websites that
+                    not only look great but also rank high on search engines.
+                    Our expert team crafts digital experiences that drive
+                    engagement, increase conversions, and build lasting brand
+                    impressions
                 </p>
 
                 <h4 class="c-theme-text-color fw-bold">Key Features</h4>
                 <ul class="text-black">
-                    <li>
-                        <strong>Custom Design:</strong> Unique layouts that reflect your brand identity
+                    <li class=" hover-effect">
+                        <strong>Custom Design:</strong> Unique layouts that
+                        reflect your brand identity
                     </li>
-                    <li>
-                        <strong>Responsive Development:</strong> Seamless performance across desktops, tablets, 
-                            and smartphones.
+                    <li class=" hover-effect">
+                        <strong>Responsive Development:</strong> Seamless
+                        performance across desktops, tablets, and smartphones.
                     </li>
-                    <li>
-                        <strong>SEO-Optimized Code: </strong>Built-in best practices to boost your search rankings.
+                    <li class=" hover-effect">
+                        <strong>SEO-Optimized Code: </strong>Built-in best
+                        practices to boost your search rankings.
                     </li>
-                    <li>
-                        <strong>E-Commerce & CMS Solutions:</strong> Tailored platforms to suit every business need.
+                    <li class=" hover-effect">
+                        <strong>E-Commerce & CMS Solutions:</strong> Tailored
+                        platforms to suit every business need.
                     </li>
                 </ul>
             </div>
@@ -137,11 +143,11 @@ conversions, and build lasting brand impressions
                         <h6
                             class="c-theme-text-color fw-bold mt-2 c-circle-title"
                         >
-                        Consultation & Planning
+                            Consultation & Planning
                         </h6>
                         <p class="small c-circle-description">
-                            Understanding your business goals 
-                            and technical needs.
+                            Understanding your business goals and technical
+                            needs.
                         </p>
                     </div>
 
@@ -169,8 +175,8 @@ conversions, and build lasting brand impressions
                             Development
                         </h6>
                         <p class="small c-circle-description">
-                            Building the site using agile and 
-efficient coding practices.
+                            Building the site using agile and efficient coding
+                            practices.
                         </p>
                     </div>
                     <!-- Step 4 -->
@@ -183,8 +189,8 @@ efficient coding practices.
                             Testing & QA
                         </h6>
                         <p class="small c-circle-description">
-                            Understanding your business goals 
-                            and technical needs.
+                            Understanding your business goals and technical
+                            needs.
                         </p>
                     </div>
 
@@ -198,8 +204,7 @@ efficient coding practices.
                             Launch & Post-Launch Support
                         </h6>
                         <p class="small c-circle-description">
-                            Seamless deployment with 
-ongoing support.
+                            Seamless deployment with ongoing support.
                         </p>
                     </div>
                 </div>
@@ -207,31 +212,34 @@ ongoing support.
         </div>
         <div class="text-center mt-4">
             <h3 class="c-theme-text-color">Technology Stack Notes</h3>
-            <p>Leveraging HTML5, CSS3, JavaScript frameworks, PHP, Laravel, and more to deliver robust and dynamic web solutions.</p>
+            <p>
+                Leveraging HTML5, CSS3, JavaScript frameworks, PHP, Laravel, and
+                more to deliver robust and dynamic web solutions.
+            </p>
             <img
                 src="/images/phpLogo.png"
-                class=""
+                class="hover-effect"
                 alt="Program Icon"
                 width="59px"
-               height="59px"
+                height="59px"
             />
             <img
                 src="/images/jsLogo.png"
-                class="ms-4"
+                class="ms-4 hover-effect"
                 alt="Kotlin"
                 width="49px"
-               height="49px"
+                height="49px"
             />
             <img
                 src="/images/htLogo.png"
-                class="ms-4"
+                class="ms-4 hover-effect"
                 alt="React"
                 width="59px"
                 height="59px"
             />
             <img
                 src="/images/cssLogo.png"
-                class="ms-4"
+                class="ms-4 hover-effect"
                 alt="Flutter"
                 width="59px"
                 height="59px"
@@ -252,7 +260,7 @@ ongoing support.
                 <div class="col-md-6 col-sm-12">
                     <img
                         src="/images/mobiles.png"
-                        class="shadow c-image"
+                        class="shadow c-image hover-effect"
                         alt=""
                     />
                 </div>
@@ -309,7 +317,7 @@ export default {
                     title: "E-Commerce & CMS Solutions",
                     description:
                         "Integrate secure payment gateways and user-friendly content management systems for a seamless user experience.",
-                     
+
                     icon: `<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
              <path fill="white" d="M12 2L3 7l9 5 9-5-9-5zm0 5l9 5-9 5-9-5 9-5zm0 10l9 5-9 5-9-5 9-5z"/>
            </svg>`,
@@ -318,13 +326,13 @@ export default {
                     title: "SEO & Performance Optimization",
                     description:
                         "Boost your online visibility and user engagement with SEO-optimized content and fast-loading web pages.",
-                     
+
                     icon: `<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
              <path fill="white" d="M3 3h18v6h-2V5H5v14h14v-4h2v6H3V3zm8 8h2v4h-2v-4zm-4 2h2v2H7v-2zm8-2h2v4h-2v-4zm4-2h2v6h-2v-6z"/>
            </svg>`,
                 },
                 {
-                    title: "Security & Scalibility", 
+                    title: "Security & Scalibility",
                     description:
                         "Optimize app performance while ensuring top-tier security measures to protect user data.",
                     icon: `<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
