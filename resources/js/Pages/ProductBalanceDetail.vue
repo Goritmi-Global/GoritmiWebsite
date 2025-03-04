@@ -1,6 +1,6 @@
 <template>
     <div :style="styleVariables">
-        <div class="c-balance py-4 bg-white">
+        <div class="c-balance py-4 bg-white c-main-section">
             <div class="container">
                 <div class="row align-items-center">
                     <!-- <div class="col-lg-4 col-md-6 col-sm-12">
@@ -937,6 +937,11 @@ export default {
 </script>
 
 <style>
+.c-main-section {
+    background: url("/images/productsmainbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .feature-box {
     border: 2px solid var(--product-color) !important;
     border-radius: 8px;

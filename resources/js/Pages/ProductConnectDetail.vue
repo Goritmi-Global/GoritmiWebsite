@@ -1,6 +1,6 @@
 <template>
     <div :style="styleVariables">
-        <div class="c-balance py-4 bg-white">
+        <div class="c-balance py-4 bg-white c-main-section">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -183,36 +183,31 @@
                     Few clicks
                 </h1>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-12 text-center">
-                        <p class="fw-bold">Sign Up & Setup</p>
-                        <img src="/images/lap1.png" alt="" class="img-fluid hover-effect" />
-                        <p>
-                            Register and set up your business or personal
-                            account.
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-sm-12 text-center">
-                        <p class="fw-bold">Add Transactions</p>
-                        <img src="/images/lap2.png" alt="" class="img-fluid hover-effect" />
-                        <p>
-                            Log Income, expenses, invoices, and bank
-                            transactions.
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-sm-12 text-center">
-                        <p class="fw-bold">Generate Reports</p>
-                        <img src="/images/lap3.png" alt="" class="img-fluid hover-effect" />
-                        <p>Get real-time insights on your financial health.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-12 text-center">
-                        <p class="fw-bold">Manage Accounts</p>
-                        <img src="/images/lap4.png" alt="" class="img-fluid hover-effect" />
-                        <p>Access from desktop or mobile app.</p>
-                    </div>
-                </div>
-            </div>
+            <div class="container c-photos">
+    <div class="row text-center">
+        <div class="col-md-3 col-sm-6 col-12">
+            <p class="fw-bold">Sign Up & Setup</p>
+            <img src="/images/connectImage3.png" alt="Sign Up" class="img-fluid hover-effect img-thumbnail" />
+            <p>Register and set up your business or personal account.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+            <p class="fw-bold">Add Transactions</p>
+            <img src="/images/connectImage4.png" alt="Transactions" class="img-fluid hover-effect img-thumbnail" />
+            <p>Log Income, expenses, invoices, and bank transactions.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+            <p class="fw-bold">Generate Reports</p>
+            <img src="/images/connectImage5.png" alt="Reports" class="img-fluid hover-effect img-thumbnail" />
+            <p>Get real-time insights on your financial health.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+            <p class="fw-bold">Manage Accounts</p>
+            <img src="/images/connectImage6.png" alt="Manage Accounts" class="img-fluid hover-effect img-thumbnail" />
+            <p>Access from desktop or mobile app.</p>
+        </div>
+    </div>
+</div>
+
         </div>
 
         <div class="bg-white">
@@ -225,7 +220,7 @@
                 <div class="row py-3">
                     <div class="col-md-5 col-12">
                         <img
-                            src="/images/finance.png"
+                            src="/images/crm.png"
                             class="shadow c-image img-fluid hover-effect"
                         />
                     </div>
@@ -902,6 +897,11 @@ export default {
 </script>
 
 <style>
+.c-main-section {
+    background: url("/images/productsmainbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .feature-box {
     border: 2px solid var(--product-color) !important;
     border-radius: 8px;
@@ -1030,4 +1030,13 @@ h1 {
 .pricing-box hr {
     border-top: 1px solid #ddd;
 }
+.c-photos img {
+    width: 100%; /* Makes sure it scales properly */
+    max-width: 250px; /* Uniform max width */
+    height: 200px; /* Ensures all images are the same height */
+    object-fit: cover; /* Ensures images fill the box */
+    display: block; /* Avoids inline spacing issues */
+    margin: 0 auto; /* Centers the images */
+}
+
 </style>

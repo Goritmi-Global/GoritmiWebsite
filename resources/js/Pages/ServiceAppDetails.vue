@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-white">
-        <div class="container">
+    <div class="bg-white  c-main-section">
+         
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+       
     </div>
 
     <div class="container mt-5">
@@ -329,6 +329,11 @@ export default {
 </script>
 
 <style>
+.c-main-section {
+    background: url("/images/serviceMainBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .goritmi {
     width: 1293px;
     height: 401px;

@@ -124,7 +124,7 @@ export default {
                 {
                     name: "M SHAH",
                     role: "Managing Director",
-                    image: "images/team/abubakr.jpg",
+                    image: "images/default.jpg",
                 },
                 {
                     name: "FARHAN SHAH",
@@ -134,12 +134,12 @@ export default {
                 {
                     name: "BILAL HUSSAIN",
                     role: "Web Team Lead",
-                    image: "images/team/bilal.jpg",
+                    image: "images/default.jpg",
                 },
                 {
                     name: "WASIM AHMAD",
                     role: "App Team Lead",
-                    image: "images/img2.jpeg",
+                    image: "images/default.jpg",
                 },
                 {
                     name: "CHASHMAN KHAN",
@@ -154,12 +154,12 @@ export default {
                 {
                     name: "SHAKIR ULLAH",
                     role: "Mobile App Developer",
-                    image: "images/img2.jpeg",
+                    image: "images/team/shakir.jpg",
                 },
                 {
                     name: "AHSAN KHAN",
                     role: "Accounts Dealing Manager",
-                    image: "images/img2.jpeg",
+                    image: "images/default.jpg",
                 },
             ],
         };
