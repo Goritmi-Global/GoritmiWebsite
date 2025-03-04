@@ -82,7 +82,7 @@ export default {
                     description: "Goritmi Active simplifies healthcare with smart scheduling, digital prescriptions, and real-time patient monitoring.",
                     textClass: "c-theme-text-color",
                     borderClass: "border-primary",
-                    link: "/productA/details",
+                    link: "/goritmi-active",
                 },
                 {
                     name: "Goritmi Balance",
@@ -90,7 +90,7 @@ export default {
                     description: "Goritmi Balance helps you manage financial transactions, track expenses, and generate insightful reports with ease.",
                     textClass: "text-success",
                     borderClass: "border-success",
-                    link: "/productB/details",
+                    link: "/goritmi-beta",
                 },
                 {
                     name: "Goritmi Connect",
@@ -98,7 +98,7 @@ export default {
                     description: "Goritmi Connect enhances team collaboration and communication with our seamless networking solution.",
                     textClass: "text-warning",
                     borderClass: "border-warning",
-                    link: "/productC/details",
+                    link: "/goritmi-connect",
                 },
             ],
         };

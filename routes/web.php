@@ -51,9 +51,9 @@ Route::middleware(['web'])->group(function () {
 });
 
 // Product Routes
-Route::get('/productA/details', [ProductController::class, 'ext_productA_details'])->name('productA.details');
-Route::get('/productB/details', [ProductController::class, 'ext_productB_details'])->name('productB.details');
-Route::get('/productC/details', [ProductController::class, 'ext_productC_details'])->name('productC.details');
-Route::get('/app/development', [ServiceController::class, 'service_app_details'])->name('app.development');
-Route::get('/web/development', [ServiceController::class, 'service_web_details'])->name('web.development');
-Route::get('/hosting/support', [ServiceController::class, 'hosting_support_details'])->name('hosting.support');
+Route::get('/goritmi-active', [ProductController::class, 'ext_productA_details'])->name('goritmi-active');
+Route::get('/goritmi-balance', [ProductController::class, 'ext_productB_details'])->name('goritmi-balance');
+Route::get('/goritmi-connect', [ProductController::class, 'ext_productC_details'])->name('goritmi-connect');
+Route::get('/app-development', [ServiceController::class, 'service_app_details'])->name('app-development');
+Route::get('/web-development', [ServiceController::class, 'service_web_details'])->name('web-development');
+Route::get('/hosting-and-support', [ServiceController::class, 'hosting_support_details'])->name('hosting-support');

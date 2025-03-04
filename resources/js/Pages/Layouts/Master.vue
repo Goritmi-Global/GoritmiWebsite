@@ -152,11 +152,12 @@
 
             <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
                 <div class="container">
-                    <a class="navbar-brand" href="/"
-                        ><img
+                    <a class="navbar-brand" href="/">
+                        <img
                             class="logo"
                             src="https://goritmi.co.uk/wp-content/uploads/2024/12/Goritmi-Logo-08-e1735209981940-300x115.png"
-                    /></a>
+                        />
+                    </a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -178,6 +179,87 @@
                                     >Home</a
                                 >
                             </li>
+                           
+
+                            <!-- Services Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle link-light"
+                                    href="#"
+                                    id="servicesDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Services
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="servicesDropdown"
+                                >
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="/web-development"
+                                            >Website Development</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="/app-development"
+                                            >App Development</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="/hosting-and-support"
+                                            >Hosting and Support</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Products Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle link-light"
+                                    href="#"
+                                    id="productsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Solutions
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="productsDropdown"
+                                >
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="/goritmi-active"
+                                            >Goritmi Active</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="/goritmi-balance"
+                                            >Goritmi Balance</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="/goritmi-connect"
+                                            >Goritmi Connect</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="nav-item">
                                 <a
                                     class="nav-link active link-light"
@@ -188,31 +270,12 @@
                             <li class="nav-item">
                                 <a
                                     class="nav-link active link-light"
-                                    href="/services"
-                                    >Services</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active link-light"
                                     href="/contact"
                                     >Contact Us</a
                                 >
                             </li>
-                            <!-- <li class="nav-item">
-                                <a
-                                    class="nav-link active link-light"
-                                    href="/clients"
-                                    >Clients</a
-                                >
-                            </li> -->
                         </ul>
                     </div>
-                    <!-- <a
-                        href="#"
-                        class="btn quote-btn border bg-primary link-light"
-                        >Get A Quote →</a
-                    > -->
                 </div>
             </nav>
         </header>
@@ -251,18 +314,19 @@
                                     >Home</a
                                 >
                             </li>
-                            <li>
-                                <a
-                                    href="/about"
-                                    class="text-white-50 text-decoration-none"
-                                    >About Us</a
-                                >
-                            </li>
+                            
                             <li>
                                 <a
                                     href="/services"
                                     class="text-white-50 text-decoration-none"
                                     >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="/about"
+                                    class="text-white-50 text-decoration-none"
+                                    >About Us</a
                                 >
                             </li>
                             <li>
@@ -280,41 +344,43 @@
 
                     <!-- Services -->
                     <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                        <h5 class="fw-bold">Services</h5>
+                        <h5 class="fw-bold">Solution & Services</h5>
                         <ul class="list-unstyled">
                             <li>
+                                <a class="text-white-50 text-decoration-none" href="/goritmi-active"
+                                    >Goritmi Active</a
+                                >
+                            </li>
+                            <li>
+                                <a class="text-white-50 text-decoration-none" href="/goritmi-balance"
+                                    >Goritmi Balance</a
+                                >
+                            </li>
+                            <li>
+                                <a class="text-white-50 text-decoration-none" href="/goritmi-connect"
+                                    >Goritmi Connect</a
+                                >
+                            </li>
+                            <li>
                                 <a
-                                    href="/web/development"
+                                    href="/web-development"
                                     class="text-white-50 text-decoration-none"
                                     >Website Development
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="/app/development"
+                                    href="/app-development"
                                     class="text-white-50 text-decoration-none"
                                     >App Development</a
                                 >
                             </li>
+
                             <li>
                                 <a
-                                    href="#"
+                                    href="/hosting-and-development"
                                     class="text-white-50 text-decoration-none"
-                                    >Social Media Excellence</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="text-white-50 text-decoration-none"
-                                    >eCommerce Transformation</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="text-white-50 text-decoration-none"
-                                    >Comprehensive IT Support</a
+                                    >Hosting & Support</a
                                 >
                             </li>
                         </ul>
@@ -359,8 +425,15 @@ import Multiselect from "@vueform/multiselect";
 import AOS from "aos";
 export default {
     mounted() {
+        let bootstrapJs = document.createElement("script");
+        bootstrapJs.setAttribute(
+            "src",
+            "/backend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        );
+        document.head.appendChild(bootstrapJs);
+
         let mainJs = document.createElement("script");
-        mainJs.setAttribute("src", "/assets/js/main.js");
+        mainJs.setAttribute("src", "/backend/assets/js/main.js");
         document.head.appendChild(mainJs);
 
         AOS.init();
@@ -406,8 +479,7 @@ export default {
     text-align: justify;
 }
 .card {
-    border-radius: 0.50rem !important;
-
+    border-radius: 0.5rem !important;
 }
 .c-theme-text-color {
     color: #296fb6 !important;
@@ -434,7 +506,7 @@ export default {
     font-weight: bold;
     padding: 5px 17px;
     border: 2px solid #296fb6;
-    border-radius:.50rem !important;
+    border-radius: 0.5rem !important;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
     display: inline-block;
@@ -469,18 +541,18 @@ export default {
     cursor: not-allowed;
     opacity: 0.7;
 }
- 
-.carousel__next, .carousel__prev{
+
+.carousel__next,
+.carousel__prev {
     background: #296fb6 !important;
     color: white !important;
     border-radius: 50% !important;
 }
-.carousel__next:hover, .carousel__prev:hover{
+.carousel__next:hover,
+.carousel__prev:hover {
     color: white;
 }
-.c-theme-radius
-{
-    border-radius:.50rem !important;
+.c-theme-radius {
+    border-radius: 0.5rem !important;
 }
-
 </style>
