@@ -101,7 +101,7 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding-left: 5%;
+    padding-left: 6%;
 }
 
 .carousel__content {
