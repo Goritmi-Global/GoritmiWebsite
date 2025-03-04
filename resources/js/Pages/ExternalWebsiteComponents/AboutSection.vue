@@ -26,12 +26,7 @@
                                 transformative digital solutions to businesses,
                                 blending inspirat- ion from the past with
                                 cutting-edge innovation.ored to your unique
-                                needs, including branding, app development,
-                                website design, software engineering, and more.
-                                Our mission is to empower businesses to increase
-                                efficiency and productivity, bridging the gap
-                                between ideas and impactful digital transfor-
-                                mations.
+                                needs, including branding, app development.
                             </p>
                         </div>
                     </div>

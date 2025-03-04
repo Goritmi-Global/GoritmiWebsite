@@ -1,17 +1,17 @@
 <template>
     <div class="c-background">
-        <div class="container h-100 d-flex align-items-center">
+        <div class="container h-100 d-flex align-items-center hover-effect">
             <div class="row w-100 align-items-center">
                 <div class="col-lg-9 col-md-8 col-sm-12 text-white">
                     <h1 class="fw-bold">
-                        Let’s discuss. How Your <br />
+                        Let's discuss. How Your <br />
                         Brand Can <span class="c-theme-text-color">Be Created?</span>
                     </h1>
                     <p class="text-white">
                         Send us the features you are looking to build, and we shall advise on the next steps.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 text-md-end text-center">
+                <div class="col-lg-3 col-md-4 col-sm-12 text-md-end text-center ">
                     <a href="/contact" class="btn c-theme-button btn-lg">Contact Us</a>
                 </div>
             </div>
