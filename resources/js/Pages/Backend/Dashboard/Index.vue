@@ -523,7 +523,9 @@
 </template>
 
 <script>
-import Master from "../Layout/Master.vue";
+ 
+import Master from '@/Pages/Backend/Layout/Master.vue';
+
 export default {
     layout: Master,
 
