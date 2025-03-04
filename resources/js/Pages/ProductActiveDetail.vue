@@ -12,12 +12,11 @@
                             <span class="text-black">Management</span>
                         </h1>
                         <h5 class="c-product-text-color">
-                            Complete Solution to Manage Doctors,Patients, and
-                            Medical Records Seamlessly.
+                            A smart, secure, and efficient healthcare management solution designed to streamline doctor-patient interactions, manage medical records seamlessly, and enhance operational efficiency with automation and robust security.
                         </h5>
-                        <h5 class="c-product-text-color">
+                        <!-- <h5 class="c-product-text-color">
                             Simplify Healthcare with Automation ans Security.
-                        </h5>
+                        </h5> -->
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img

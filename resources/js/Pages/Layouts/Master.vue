@@ -310,8 +310,8 @@
         <a
             ref="back_top_top"
             href="#"
-            class="back-to-top d-flex align-items-center justify-content-center"
-            ><i class="bi bi-arrow-up-short theme-text-color"></i
+            class="back-to-top d-flex align-items-center justify-content-center c-theme-bg-color"
+            ><i class="bi bi-arrow-up-short"></i
         ></a>
     </div>
 </template>

@@ -1,35 +1,34 @@
 <template>
-    <div class="bg-white  c-main-section">
-         
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <h1 class="fw-bold c-theme-text-color">
-                            Custom Mobile Application
-                            <span class="text-black">Development</span>
-                        </h1>
-                        <p class="c-theme-text-color">
-                            Crafting engaging and robust mobile apps to
-                            transform your business on the go.
-                        </p>
-                        <h4
-                            class="btn c-theme-button text-white rounded-6 mt-4"
-                        >
-                            Get a Free Consultation
-                        </h4>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img
-                            src="/images/app.png"
-                            alt=""
-                            class="img-fluid hover-effect"
-                            width="501px"
-                            height="501px"
-                        />
-                    </div>
+    <div class="bg-white c-main-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h1 class="fw-bold c-theme-text-color">
+                        Custom Mobile Application
+                        <span class="text-black">Development</span>
+                    </h1>
+                    <p class="c-theme-text-color">
+                        Goritmi specializes in custom mobile application
+                        development, creating user-friendly, high-performance
+                        apps tailored to your business needs. We deliver
+                        innovative, scalable, and secure solutions for both iOS
+                        and Android platforms.
+                    </p>
+                    <h4 class="btn c-theme-button text-white rounded-6 mt-4">
+                        Get a Free Consultation
+                    </h4>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img
+                        src="/images/app.png"
+                        alt=""
+                        class="img-fluid hover-effect"
+                        width="501px"
+                        height="501px"
+                    />
                 </div>
             </div>
-       
+        </div>
     </div>
 
     <div class="container mt-5">
@@ -63,20 +62,20 @@
 
                 <h4 class="c-theme-text-color fw-bold">Key Features</h4>
                 <ul class="text-black">
-                    <li class=" hover-effect">
+                    <li class="hover-effect">
                         <strong>Custom App Design:</strong> Tailored interfaces
                         that response with your brand and user needs
                     </li>
-                    <li class=" hover-effect">
+                    <li class="hover-effect">
                         <strong>Cross-Platform & Native Development:</strong>
                         Expertise in both native and cross-platform solutions
                         for optional performance.
                     </li>
-                    <li class=" hover-effect">
+                    <li class="hover-effect">
                         <strong>SEO & App Store Optimization (ASO):</strong>
                         Strategies and boost visibility and downloads.
                     </li>
-                    <li class=" hover-effect">
+                    <li class="hover-effect">
                         <strong>Scalability & Security:</strong> Robust
                         architectures built to grow your business.
                     </li>
@@ -208,7 +207,11 @@
         </div>
         <div class="text-center mt-4">
             <h3 class="c-theme-text-color">Technology Stack Notes</h3>
-            <p>Leveraging modern frameworks such as Swift, Kotlin, React Native, and Flutter to create highperformance mobile applications</p>
+            <p>
+                Leveraging modern frameworks such as Swift, Kotlin, React
+                Native, and Flutter to create highperformance mobile
+                applications
+            </p>
             <img
                 src="/images/Licon1.png"
                 class="hover-effect"
@@ -237,39 +240,46 @@
         </div>
     </div>
     <!-- the, portfolio -->
-   
-<div class="bg-white">
-    <div class="container mt-5 py-4">
-        <div>
-            <h1 class="fw-bold mb-5">
-                Our Portfolio & Success <br />
-                <span class="c-theme-text-color">Stories</span>
-            </h1>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <img src="/images/mobiles.png" class="shadow c-image hover-effect" alt="" />
+
+    <div class="bg-white">
+        <div class="container mt-5 py-4">
+            <div>
+                <h1 class="fw-bold mb-5">
+                    Our Portfolio & Success <br />
+                    <span class="c-theme-text-color">Stories</span>
+                </h1>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="mt-5">
-                    <h1 class="fw-bold">
-                        Smart Workforce <br />
-                        <span class="c-theme-text-color"
-                            >Manager Application</span
-                        >
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolores quidem omnis sed aut dignissimos repellat
-                        assumenda fuga, quae vero ducimus! Ducimus sunt
-                        doloremque nihil cupiditate et reprehenderit inventore
-                        obcaecati. Porro explicabo impedit earum mollitia?
-                    </p>
-                    <button class="btn c-theme-button">Case Study</button>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img
+                        src="/images/mobiles.png"
+                        class="shadow c-image hover-effect"
+                        alt=""
+                    />
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class=" ">
+                        <h1 class="fw-bold">
+                            Smart Workforce <br />
+                            <span class="c-theme-text-color"
+                                >Manager Application</span
+                            >
+                        </h1>
+                        <p>
+                            Goritmi’s Smart Workforce Manager simplifies
+                            workforce management with AI-driven insights,
+                            automated scheduling, real-time tracking, and
+                            seamless communication. It streamlines attendance,
+                            leave management, and performance monitoring,
+                            ensuring efficiency and compliance. Scalable for any
+                            business, this app helps you optimize operations and
+                            enhance productivity effortlessly.
+                        </p>
+                        <button class="btn c-theme-button">Case Study</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </template>
 
@@ -334,12 +344,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.goritmi {
-    width: 1293px;
-    height: 401px;
-    margin-left: 53px;
-    display: flex;
-}
+
 .logo-sec {
     width: 212px;
     height: 367px;

@@ -9,8 +9,7 @@
                             <span class="text-black">Services</span>
                         </h1>
                         <p class="c-theme-text-color">
-                            Building high-performance, responsive websites to
-                            elevate your online presence.
+                            Goritmi offers custom web development services designed to meet your unique business needs. From dynamic websites to complex web applications, we build scalable, secure, and high-performing solutions that drive growth and enhance user experience.
                         </p>
                         <h4
                             class="btn c-theme-button text-white rounded-6 mt-4"
@@ -259,8 +258,8 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <img
-                        src="/images/mobiles.png"
-                        class="shadow c-image hover-effect"
+                        src="/images/active1.png"
+                        class="c-image hover-effect img-fluid"
                         alt=""
                     />
                 </div>
@@ -273,12 +272,7 @@
                             >
                         </h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Dolores quidem omnis sed aut dignissimos
-                            repellat assumenda fuga, quae vero ducimus! Ducimus
-                            sunt doloremque nihil cupiditate et reprehenderit
-                            inventore obcaecati. Porro explicabo impedit earum
-                            mollitia?
+                            Goritmi delivers cutting-edge web development tailored to your needs. From sleek, responsive websites to custom web applications, we ensure seamless user experiences, high performance, and security. Elevate your digital presence with our expert solutions.
                         </p>
                         <button class="btn c-theme-button">Case Study</button>
                     </div>
@@ -351,12 +345,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.goritmi {
-    width: 1293px;
-    height: 401px;
-    margin-left: 53px;
-    display: flex;
-}
+ 
 .logo-sec {
     width: 212px;
     height: 367px;

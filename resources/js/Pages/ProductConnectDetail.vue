@@ -5,16 +5,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h1 class="fw-bold c-product-text-color">
-                            Simplify Your Business & Personal
-                            <span class="text-black">Finances</span>
+                           Smart & Efficient Solution
+                            <span class="text-black">CRM</span>
                         </h1>
                         <h5 class="c-product-text-color">
-                            Track Income, Expenses, and Transaction with ease.
+                            Manage customer relationships, track sales, and streamline communication effortlessly. A powerful tool for businesses to enhance productivity and customer engagement.
+
                         </h5>
-                        <h5 class="c-product-text-color">
-                            A Powerful Accounting Solution for Businesses and
-                            Individuals.
-                        </h5>
+                       
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img

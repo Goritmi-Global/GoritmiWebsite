@@ -12,12 +12,9 @@
                             <span class="text-black">Finances</span>
                         </h1>
                         <h5 class="c-product-text-color">
-                            Track Income, Expenses, and Transaction with ease.
+                            Effortlessly track income, expenses, and transactions with a powerful, user-friendly accounting solution tailored for businesses and individuals.
                         </h5>
-                        <h5 class="c-product-text-color">
-                            A Powerful Accounting Solution for Businesses and
-                            Individuals.
-                        </h5>
+                         
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <img

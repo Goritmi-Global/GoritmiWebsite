@@ -1,17 +1,17 @@
 <template>
-    <div class="bg-white py-4 c-main-section">
+    <div class="bg-white c-main-section py-1">
         <div class="container">
             <div class="row align-items-center text-center text-lg-start">
                 <!-- Left Content -->
                 <div class="col-lg-6">
                     <h1 class="fw-bold c-theme-text-color">UK Web Hosting</h1>
                     <p class="c-theme-text-color">
-                        UK Website hosting from one of the UK's leading
+                        UK Website hosting from one of the UK’s leading
                         independent web hosts. A fast, reliable web hosting
                         package that includes daily backups, a full email suite,
-                        and an easy-to-use control panel. HostPresto's genuine,
-                        personal, caring service is trusted by thousands—it's
-                        website hosting done right.
+                        and an easy to use control panel. HostPresto’s genuine,
+                        personal, caring service is trusted by thousands – it’s
+                        website hosting done right. Compare Web Hosting Plans.
                     </p>
                     <a
                         href="#"
@@ -25,7 +25,9 @@
                     <img
                         src="/images/hosting1stImage.png"
                         alt="Web Hosting"
-                        class="img-fluid w-100 hover-effect"
+                        class="img-fluid hover-effect"
+                        width="501px"
+                        height="501px"
                     />
                 </div>
             </div>
@@ -73,7 +75,7 @@
                     migrate your website(s) and email free of charge
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12  hover-effect">
+            <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
                     width="55"
                     height="55"
@@ -362,8 +364,10 @@
                     >Daily <span class="c-theme-text-color">Backups</span>
                 </strong>
                 <p>
-                    Take the stress out of moving providers - our engineers will
-                    migrate your website(s) and email free of charge
+                    We'll backup your entire account (including files,
+                    databases, emails and more) daily and store it for 3 months.
+                    You can browse backups, restore specific files, folders or
+                    databases with a few clicks.
                 </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
@@ -416,10 +420,10 @@
                 >
 
                 <p>
-                    Every web hosting package includes fully loaded email suite.
-                    You can connect multiple computers and mobile devices, keep
-                    them all in sync, and use email from your own custom
-                    domains.
+                    It doesn’t matter if your domain is with another supplier;
+                    you can use it with our hosting even without transferring it
+                    to us. It’s quick and easy to setup, and we’ll be happy to
+                    help.
                 </p>
             </div>
         </div>
@@ -477,8 +481,9 @@
                 >
 
                 <p>
-                    Take the stress out of moving providers - our engineers will
-                    migrate your website(s) and email free of charge
+                    There are no bandwidth limits on any of our hosting
+                    packages, you can sleep easy knowing your site will stay
+                    online no matter how much data you transfer.
                 </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
@@ -513,10 +518,9 @@
                 >
 
                 <p>
-                    Every web hosting package includes fully loaded email suite.
-                    You can connect multiple computers and mobile devices, keep
-                    them all in sync, and use email from your own custom
-                    domains.
+                    We offer a full 30 day money back guarantee on your hosting
+                    package. This is a full refund on the hosting - there are no
+                    hoops to jump through. Just ask us, and we’ll do it.
                 </p>
             </div>
         </div>
@@ -1157,7 +1161,7 @@
 
         <div class="row mt-4">
             <div class="col-md-6 d-flex hover-effect">
-                <div class="me-3">
+                <div class="me-3 c-theme-text-color">
                     <svg
                         width="40"
                         height="40"
@@ -1194,7 +1198,7 @@
             </div>
 
             <div class="col-md-6 d-flex hover-effect">
-                <div class="me-3">
+                <div class="me-3 c-theme-text-color">
                     <svg
                         width="40"
                         height="40"
@@ -1231,7 +1235,7 @@
 
         <div class="row mt-4">
             <div class="col-md-6 d-flex hover-effect">
-                <div class="me-3">
+                <div class="me-3 c-theme-text-color">
                     <svg
                         width="40"
                         height="40"
@@ -1266,7 +1270,7 @@
             </div>
 
             <div class="col-md-6 d-flex hover-effect">
-                <div class="me-3">
+                <div class="me-3 c-theme-text-color">
                     <svg
                         width="40"
                         height="40"
@@ -1303,7 +1307,7 @@
 
         <div class="row mt-4">
             <div class="col-md-6 d-flex hover-effect">
-                <div class="me-3">
+                <div class="me-3 c-theme-text-color">
                     <svg
                         width="40"
                         height="40"
@@ -1328,15 +1332,18 @@
                         >
                     </h5>
                     <p class="text-muted">
-                        We use enterprise-grade NVMe SSDs from Samsung, Micron,
-                        and Intel, ensuring the fastest performance and highest
-                        reliability in fully redundant arrays.
+                        We use enterprise grade NVMe SSD disks from Samsung,
+                        Micron and Intel to provide the fastest performance and
+                        highest reliability. All NVMe SSDs are fully redundant
+                        arrays, meaning when a disk fails you don’t even notice,
+                        everything carries on as normal while we slot in a
+                        replacement.
                     </p>
                 </div>
             </div>
 
             <div class="col-md-6 d-flex hover-effect">
-                <div class="me-3">
+                <div class="me-3 c-theme-text-color">
                     <svg
                         width="40"
                         height="40"
@@ -1361,9 +1368,12 @@
                         >
                     </h5>
                     <p class="text-muted">
-                        Our hosting is in our privately owned cloud, allowing
-                        full redundancy and self-healing. We can migrate your
-                        website onto new hardware without a second of downtime.
+                        All of our hosting is in our privately owned and
+                        operated cloud. The cloud not only allows for full
+                        redundancy and self healing, but it allows us to
+                        continually replace hardware behind the scenes and
+                        migrate your website onto brand-new hardware without a
+                        single millisecond of downtime.
                     </p>
                 </div>
             </div>
@@ -1371,7 +1381,7 @@
 
         <div class="row mt-4">
             <div class="col-md-6 d-flex hover-effect">
-                <div class="me-3">
+                <div class="me-3 c-theme-text-color">
                     <svg
                         width="40"
                         height="40"
@@ -1397,9 +1407,11 @@
                         >
                     </h5>
                     <p class="text-muted">
-                        We guarantee 99.9% uptime, allowing for just 43 minutes
-                        of downtime per month. In reality, we've averaged 100%
-                        uptime for 11 out of 12 months yearly.
+                        We guarantee our infrastructure to 99.9% uptime. This
+                        allows for just 43 minutes of downtime per month.
+                        Fortunately we don’t have to use it, having hit 100%
+                        uptime 11 out of 12 months of the year on average since
+                        we started.
                     </p>
                 </div>
             </div>
@@ -1414,15 +1426,17 @@
                     <p>Reliable email with powerful anti spam protection.</p>
                     <div>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Ut quae aliquam fuga consequuntur minus, esse
-                            non at exercitationem enim aperiam.
+                            Email that just works! Connect your computers and
+                            devices to hosting account quickly and easily, and
+                            you can send and receive email under your own
+                            domains. All email will stay in sync on all devices
+                            automatically.
                         </p>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Vel placeat nesciunt ducimus vero tempore
-                            inventore repudiandae architecto reiciendis magnam
-                            reprehenderit?
+                            All of our web hosting packages include feature rich
+                            email, you can setup multiple email accounts under
+                            any of the domains hosted in your account, as well
+                            as add aliases and forwarders.
                         </p>
                     </div>
                 </div>
@@ -1438,7 +1452,7 @@
                 <div class="container">
                     <div class="row mt-4">
                         <div class="col-md-6 d-flex hover-effect">
-                            <div class="me-3">
+                            <div class="me-3 c-theme-text-color">
                                 <svg
                                     width="30"
                                     height="30"
@@ -1458,9 +1472,13 @@
                             <div>
                                 <h5><strong>Simple Webmail</strong></h5>
                                 <p>
-                                    Manage your email effortlessly with our
-                                    user-friendly webmail interface, accessible
-                                    anytime, anywhere.
+                                    Easy to use Webmail gives you universal
+                                    access anywhere in the world, ideal if
+                                    you’ve run out of battery on your mobile and
+                                    left your laptop at home, or perhaps you
+                                    don’t want email on any of your devices at
+                                    all. Webmail allows you to securely log in
+                                    from anywhere in seconds.
                                 </p>
                             </div>
                         </div>
@@ -1490,9 +1508,10 @@
                                     >
                                 </h5>
                                 <p>
-                                    Seamlessly integrate with popular email
-                                    clients like Outlook, Thunderbird, and Apple
-                                    Mail.
+                                    Our email hosting is compatible with every
+                                    desktop email client, including Microsoft
+                                    Outlook, Apple Mail and Moziller
+                                    Thunderbird. Setup is quick and easy.
                                 </p>
                             </div>
                         </div>
@@ -1500,7 +1519,7 @@
 
                     <div class="row mt-4">
                         <div class="col-md-6 d-flex hover-effect">
-                            <div class="me-3">
+                            <div class="me-3 c-theme-text-color">
                                 <svg
                                     width="30"
                                     height="30"
@@ -1529,9 +1548,13 @@
                                     <strong>Powerful Spam Filtering</strong>
                                 </h5>
                                 <p>
-                                    Keep your inbox clean with advanced spam
-                                    protection, ensuring only important emails
-                                    reach you.
+                                    We hate spam as much as the next hosting
+                                    firm and we know our hosting customers hate
+                                    it too. That is why all our servers come
+                                    with the ever popular MailScanner spam
+                                    protection software. If you’re prone to a
+                                    lot of spam there really is nothing better
+                                    when it comes to spam protection.
                                 </p>
                             </div>
                         </div>
@@ -1559,9 +1582,12 @@
                                     <strong>Smartphone & Tablet Sync</strong>
                                 </h5>
                                 <p>
-                                    Sync emails across all your devices,
-                                    ensuring seamless access and instant updates
-                                    on the go.
+                                    Quickly and easily connect your mobile
+                                    devices and tablets to your email hosting.
+                                    The server will keep all devices, desktop
+                                    computers and webmail in sync for you.
+                                    Supports every platform including Apple iOS
+                                    and Android.
                                 </p>
                             </div>
                         </div>
@@ -1569,7 +1595,7 @@
 
                     <div class="row mt-4">
                         <div class="col-md-6 d-flex hover-effect">
-                            <div class="me-3">
+                            <div class="me-3 c-theme-text-color">
                                 <svg
                                     width="30"
                                     height="30"
@@ -1589,15 +1615,17 @@
                             <div>
                                 <h5><strong>Unlimited Forwarders</strong></h5>
                                 <p>
-                                    Create unlimited email forwarders to
-                                    redirect messages efficiently without
-                                    missing important emails.
+                                    A forwarder allows you to automartialay
+                                    forward on email to any other email address,
+                                    even if it’s with another provider. Ideal if
+                                    you want to forward to a personal or second
+                                    inbox.
                                 </p>
                             </div>
                         </div>
 
                         <div class="col-md-6 d-flex hover-effect">
-                            <div class="me-3">
+                            <div class="me-3 c-theme-text-color">
                                 <svg
                                     width="30"
                                     height="30"
@@ -1617,9 +1645,10 @@
                             <div>
                                 <h5><strong>Unlimited Aliases</strong></h5>
                                 <p>
-                                    Set up unlimited email aliases to manage
-                                    your communication better, while keeping
-                                    your inbox organized.
+                                    Create unlimited you@your-domain.com aliases
+                                    onto your email accounts. This allows you to
+                                    receive email to many different aliases to
+                                    the same inbox.
                                 </p>
                             </div>
                         </div>
@@ -1666,9 +1695,9 @@
                             >
                         </h5>
                         <p class="text-muted">
-                            7 daily & 4 weekly restore points allow you to
-                            restore any file, folder, database or email account
-                            with a few clicks.
+                            7 daily 4 weekly restore points allow you to restore
+                            any file, folder, database or email account with a
+                            few clicks.
                         </p>
                     </div>
                 </div>
@@ -1853,10 +1882,9 @@
                             >
                         </h5>
                         <p>
-                            HostPresto owns and operates all of our own
-                            hardware, we don't lease or resell services from
-                            other suppliers. All hardware is located in our Uk
-                            datacenters and managed by our own staff.
+                            All domains hosted on our service enjoy free and
+                            automatic SSL from LetsEncrypt. Certificates are
+                            installed and renewed automatically.
                         </p>
                     </div>
                 </div>
@@ -1892,10 +1920,10 @@
                             >
                         </h5>
                         <p>
-                            Our entire platform is fully redundant at every
-                            level, our power supply, network connection, servers
-                            and storage. We can lose any part of our
-                            infrastructure and carry on as normal.
+                            Our network is DDoS protected. If an attack is
+                            detected, we re-route traffic through scrubbers
+                            which filter the malicious traffic out and only lets
+                            the legitimate traffic through.
                         </p>
                     </div>
                 </div>
@@ -1931,11 +1959,10 @@
                             >
                         </h5>
                         <p>
-                            Our core network consists of multiple links to
-                            create a 40Gb/s redundant system, and we have
-                            multiple gigabit uplinks to the UK's internet
-                            backbone; providing the lowest latency and higest
-                            network resiliency.
+                            Every file on your account is monitored 24x7 for
+                            changes. When a change is detected the file is
+                            scanned. If malware or a virus is detected the file
+                            is quarantined pending review.
                         </p>
                     </div>
                 </div>
@@ -1966,10 +1993,9 @@
                     <div>
                         <h5><strong>Firewalling</strong></h5>
                         <p>
-                            We use only the latest enterprise-grade hardware
-                            from reputable brands from Dell and supermicro that
-                            provides the highest performance per watt for the
-                            most environmentally, friendly service.
+                            Our hosting includes advanced firewalling and brute
+                            force protection; the system detects attacks and
+                            blocks them before they get off the ground.
                         </p>
                     </div>
                 </div>
@@ -2005,11 +2031,10 @@
                             >
                         </h5>
                         <p>
-                            Our core network consists of multiple links to
-                            create a 40Gb/s redundant system, and we have
-                            multiple gigabit uplinks to the UK's internet
-                            backbone; providing the lowest latency and higest
-                            network resiliency.
+                            All of our systems are secured to the highest
+                            standards, and staff are trained on security. We’re
+                            proud to say in our 20 years of hosting we’ve never
+                            been security compromised.
                         </p>
                     </div>
                 </div>
@@ -2045,11 +2070,9 @@
                             >
                         </h5>
                         <p>
-                            Our core network consists of multiple links to
-                            create a 40Gb/s redundant system, and we have
-                            multiple gigabit uplinks to the UK's internet
-                            backbone; providing the lowest latency and higest
-                            network resiliency.
+                            Our datacentre holds all relevant ISO certification
+                            and security practises, find out more in our
+                            dedicated security section.
                         </p>
                     </div>
                 </div>
@@ -2066,17 +2089,17 @@
                         <span class="c-theme-text-color"> our Experts</span>
                     </h1>
                     <p class="text-muted">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolores quidem omnis sed aut dignissimos repellat
-                        assumenda fuga, quae vero ducimus! Ducimus sunt
-                        doloremque nihil cupiditate et reprehenderit inventore
-                        obcaecati. Porro explicabo impedit earum mollitia?
+                        All web hosting packages include free migration. Our
+                        technical team will get in touch to ask a few questions
+                        about your site and perform a quick assessment. We can
+                        then migrate your website and email with minimal
+                        downtime, on a date and time that suites you.
                     </p>
                     <p class="text-black">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolores quidem omnis sed aut dignissimos repellat
-                        assumenda fuga, quae vero ducimus! Ducimus sunt
-                        doloremque.
+                        <strong>
+                            It’s a five star, white glove service that makes
+                            switching easy and pain free.
+                        </strong>
                     </p>
                 </div>
             </div>
@@ -2092,7 +2115,7 @@
         </div>
     </div>
 
-    <div class="bg-white p-2 mt-5">
+    <div class="container mt-5 p-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
@@ -2105,26 +2128,25 @@
                     />
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <div class="mt-">
-                        <h1 class="fw-bold">
-                            Support you can really
-                            <span class="c-theme-text-color">depends on</span>
-                        </h1>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Dolores quidem omnis sed aut dignissimos
-                            repellat assumenda fuga, quae vero ducimus! Ducimus
-                            sunt doloremque nihil cupiditate et reprehenderit
-                            inventore obcaecati. Porro explicabo impedit earum
-                            mollitia?
-                        </p>
-                        <p class="text-black">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Dolores quidem omnis sed aut dignissimos
-                            repellat assumenda fuga, quae vero ducimus! Ducimus
-                            sunt doloremque.
-                        </p>
-                    </div>
+                    <h1 class="fw-bold">
+                        Support you can really
+                        <span class="c-theme-text-color">depends on</span>
+                    </h1>
+                    <p class="text-muted">
+                        Our UK based support team are on hand 24/7/365 to answer
+                        your questions, and as our TrustPilot reviews suggest;
+                        they’re not just for show. Each member of our team is
+                        highly technical and attentive. We often solve issues on
+                        the first reply., and you’ll be given clear explanation
+                        of the issue at hand and what was done to resolve it.
+                    </p>
+                    <p class="text-black">
+                        <strong>
+                            It’s a small, tighltly knit team, so you won’t get
+                            passed around, we will take ownership of your issue
+                            and resolve it as quickly and as possible.
+                        </strong>
+                    </p>
                 </div>
             </div>
         </div>
