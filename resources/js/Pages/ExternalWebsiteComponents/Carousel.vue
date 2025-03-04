@@ -4,6 +4,7 @@
             v-bind="carouselConfig"
             :wrapAround="true"
             :transition="500"
+            :autoplay="3000"
             :pauseAutoplayOnHover="true"
         >
             <Slide

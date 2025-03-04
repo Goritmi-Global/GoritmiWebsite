@@ -1,56 +1,42 @@
 <template>
-    <div class="bg-white">
-        <div class="">
-            <div class="c-main-section py-4">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <h1 class="fw-bold c-theme-text-color">
-                                UK Web Hosting
-                            </h1>
-                            <p class="c-theme-text-color">
-                                Uk Website hosting from one of the UK's leading
-                                independent web Hosts. A fast, reliable web
-                                hosting package that includes daily backups, a
-                                full email suite, and an easy to use control
-                                panel. HostPresto's genuine, personal, caring
-                                service is trusted by thousands - it's website
-                                hosting done right. <br />
-                                Compare Web Hosting Plans.
-                            </p>
-                            <h4
-                                class="btn c-theme-button text-white rounded-6 mt-4"
-                            >
-                                Compare web hosting plan
-                            </h4>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <img
-                                src="/images/hosting1stImage.png"
-                                alt=""
-                                class="img-fluid"
-                                width="500"
-                            />
-                        </div>
-                    </div>
-                </div>
+    <div class="bg-white py-4 c-main-section">
+    <div class="container ">
+        <div class="row align-items-center text-center text-lg-start">
+            <!-- Left Content -->
+            <div class="col-lg-6">
+                <h1 class="fw-bold c-theme-text-color">UK Web Hosting</h1>
+                <p class="c-theme-text-color">
+                    UK Website hosting from one of the UK's leading independent web hosts. A fast, 
+                    reliable web hosting package that includes daily backups, a full email suite, 
+                    and an easy-to-use control panel. HostPresto's genuine, personal, caring 
+                    service is trusted by thousands—it's website hosting done right.
+                </p>
+                <a href="#" class="btn c-theme-button text-white rounded-6 mt-3">
+                    Compare Web Hosting Plans
+                </a>
+            </div>
+            <!-- Right Image -->
+            <div class="col-lg-6 mt-4 mt-lg-0">
+                <img src="/images/hosting1stImage.png" alt="Web Hosting" class="img-fluid w-100">
             </div>
         </div>
     </div>
+</div>
 
-    <div class="m-4">
-        <h1>
-            The Only Web Hosting
-            <span class="c-theme-text-color"> Package You'll Need</span>
-        </h1>
-        <p>
-            All of our web hosting packages include everything you need for now,
-            and the future
-        </p>
-    </div>
-    <div class="container">
+
+<div class="container">
+        <div class="mt-4">
+            <h1>
+                The Only Web Hosting 
+                <span class="c-theme-text-color"> Package You'll Need</span>
+            </h1>
+            <p>
+                All of our web hosting packages include everything you need for now,
+                and the future
+            </p>
+        </div>
         <div class="row">
-            <div class=" col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <svg
                     width="55"
                     height="55"
@@ -78,7 +64,6 @@
                     Take the stress out of moving providers - our engineers will
                     migrate your website(s) and email free of charge
                 </p>
-                
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <svg
@@ -115,7 +100,6 @@
                     them all in sync, and use email from your own custom
                     domains.
                 </p>
-                
             </div>
         </div>
     </div>
@@ -288,7 +272,6 @@
                     internet backbone. Our offices are in the South East, and
                     all of our staff are Uk based.
                 </p>
-                
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <svg
@@ -319,7 +302,6 @@
                     hardware without interruption to your service. it's also
                     fully redundant, so we can provide a 99.9% uptime guarantee.
                 </p>
-                
             </div>
         </div>
     </div>
@@ -375,7 +357,6 @@
                     Take the stress out of moving providers - our engineers will
                     migrate your website(s) and email free of charge
                 </p>
-                
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <svg
@@ -534,919 +515,1598 @@
     </div>
 
     <section class="section" id="pricing">
-        <div class=" mt-4">
-            
-
-           <!--PRICING SECTION-->
-        <section class="section bg-white p-3" id="pricing">
-            <div class="container mt-4">
-                <h1>
-                    UK Web Hosting Plans <br />
-                    <span class="c-theme-text-color"> Try for €1.00</span>
-                </h1>
-                <div class="row pt-4">
-                    <div class="col-lg-4">
-                        <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-product-text-color">
-                                Basic Plan
-                            </h4>
-                            <div
-                                class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
-                            >
-                                Monthly
-                                <h4 class="text-muted">
-                                    <s> $9.99</s>
-                                    <span class="plan pl-3 text-dark"
-                                        >$8.99
-                                    </span>
-                                </h4>
-                            </div>
-                            <div class="mt-4 pt-2 text-left">
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Perfect for Individuals
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Track income & expenses
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Generate basic financial reports
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Secure cloud storage
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Email support
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Mobile access to financial insights
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Automated transaction categorization
-                                </p>
-                            </div>
-                            <div class="pt-1 text-center">
-                                <a
-                                    href=""
-                                    class="btn c-theme-button btn-rounded px-5"
-                                    >Buy Now</a
+        <div class="mt-4">
+            <!--PRICING SECTION-->
+            <section class="section bg-white p-3" id="pricing">
+                <div class="container mt-4">
+                    <h1>
+                        UK Web Hosting Plans <br />
+                        <span class="c-theme-text-color"> Try for €1.00</span>
+                    </h1>
+                    <div class="row pt-4">
+                        <div class="col-lg-4">
+                            <div class="pricing-box c-product-border-color">
+                                <h4
+                                    class="f-20 text-center c-product-text-color"
                                 >
+                                    Basic Plan
+                                </h4>
+                                <div
+                                    class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
+                                >
+                                    Monthly
+                                    <h4 class="text-muted">
+                                        <s> $9.99</s>
+                                        <span class="plan pl-3 text-dark"
+                                            >$8.99
+                                        </span>
+                                    </h4>
+                                </div>
+                                <div class="mt-4 pt-2 text-left">
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Perfect for Individuals
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Track income & expenses
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Generate basic financial reports
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Secure cloud storage
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Email support
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Mobile access to financial insights
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Automated transaction categorization
+                                    </p>
+                                </div>
+                                <div class="pt-1 text-center">
+                                    <a
+                                        href=""
+                                        class="btn c-theme-button btn-rounded px-5"
+                                        >Buy Now</a
+                                    >
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-product-text-color">
-                                Business Plan
-                            </h4>
-                            <div
-                                class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
-                            >
-                                Monthly
-                                <h4 class="text-muted">
-                                    <s> $15.99</s>
-                                    <span class="plan pl-3 text-dark"
-                                        >$13.99
-                                    </span>
-                                </h4>
-                            </div>
-                            <div class="mt-4 pt-2 text-left">
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Ideal for startup & small business
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Everything in the basic plan
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Advanced financial reporting & analytics
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Bank reconciliation for accurate records
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Integration with third-party
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Priority customer support
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Multi-user access
-                                </p>
-                            </div>
-                            <div class="pt-1 text-center">
-                                <a
-                                    href=""
-                                    class="btn c-theme-button btn-rounded px-5"
-                                    >Buy Now</a
+                        <div class="col-lg-4">
+                            <div class="pricing-box c-product-border-color">
+                                <h4
+                                    class="f-20 text-center c-product-text-color"
                                 >
+                                    Business Plan
+                                </h4>
+                                <div
+                                    class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
+                                >
+                                    Monthly
+                                    <h4 class="text-muted">
+                                        <s> $15.99</s>
+                                        <span class="plan pl-3 text-dark"
+                                            >$13.99
+                                        </span>
+                                    </h4>
+                                </div>
+                                <div class="mt-4 pt-2 text-left">
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Ideal for startup & small business
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Everything in the basic plan
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Advanced financial reporting & analytics
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Bank reconciliation for accurate records
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Integration with third-party
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Priority customer support
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Multi-user access
+                                    </p>
+                                </div>
+                                <div class="pt-1 text-center">
+                                    <a
+                                        href=""
+                                        class="btn c-theme-button btn-rounded px-5"
+                                        >Buy Now</a
+                                    >
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="pricing-box c-product-border-color">
-                            <h4 class="f-20 text-center c-product-text-color">
-                                Enterprise Plan
-                            </h4>
-                            <div
-                                class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
-                            >
-                                Monthly
-                                <h4 class="text-muted">
-                                    <s> $25.99</s>
-                                    <span class="plan pl-3 text-dark"
-                                        >$20.99
-                                    </span>
-                                </h4>
-                            </div>
-                            <div class="mt-4 pt-2 text-left">
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Best for large organization
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Everything in the business plan
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Custom integration with ERP
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Automated workflows to streamline
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Bulk transaction imports & processing
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    Dedicated account manager
-                                </p>
-
-                                <p class="f-18">
-                                    <svg
-                                        width="30"
-                                        height="20"
-                                        viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle
-                                            cx="50"
-                                            cy="50"
-                                            r="45"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="white"
-                                        />
-                                        <polyline
-                                            points="30,50 45,65 70,35"
-                                            stroke="#296fb6"
-                                            stroke-width="6"
-                                            fill="none"
-                                        />
-                                    </svg>
-                                    24/7 premium customer support
-                                </p>
-                            </div>
-                            <div class="pt-1 text-center">
-                                <a
-                                    href=""
-                                    class="btn c-theme-button btn-rounded px-5"
-                                    >Buy Now</a
+                        <div class="col-lg-4">
+                            <div class="pricing-box c-product-border-color">
+                                <h4
+                                    class="f-20 text-center c-product-text-color"
                                 >
+                                    Enterprise Plan
+                                </h4>
+                                <div
+                                    class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
+                                >
+                                    Monthly
+                                    <h4 class="text-muted">
+                                        <s> $25.99</s>
+                                        <span class="plan pl-3 text-dark"
+                                            >$20.99
+                                        </span>
+                                    </h4>
+                                </div>
+                                <div class="mt-4 pt-2 text-left">
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Best for large organization
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Everything in the business plan
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Custom integration with ERP
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Automated workflows to streamline
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Bulk transaction imports & processing
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        Dedicated account manager
+                                    </p>
+
+                                    <p class="f-18">
+                                        <svg
+                                            width="30"
+                                            height="20"
+                                            viewBox="0 0 100 100"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <circle
+                                                cx="50"
+                                                cy="50"
+                                                r="45"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="white"
+                                            />
+                                            <polyline
+                                                points="30,50 45,65 70,35"
+                                                stroke="#296fb6"
+                                                stroke-width="6"
+                                                fill="none"
+                                            />
+                                        </svg>
+                                        24/7 premium customer support
+                                    </p>
+                                </div>
+                                <div class="pt-1 text-center">
+                                    <a
+                                        href=""
+                                        class="btn c-theme-button btn-rounded px-5"
+                                        >Buy Now</a
+                                    >
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
     </section>
 
     <div class="container my-5">
-    <h1 class="fw-bold">
-        High Spec <span class="c-theme-text-color">Hosting</span>
-    </h1>
-    <p class="text-muted">
-        Fast and reliable, it's the Swiss army knife of hosting.
-    </p>
+        <h1 class="fw-bold">
+            High Spec <span class="c-theme-text-color">Hosting</span>
+        </h1>
+        <p class="text-muted">
+            Fast and reliable, it's the Swiss army knife of hosting.
+        </p>
 
-    <div class="row mt-4">
-        <div class="col-md-6 d-flex">
-            <div class="me-3">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M3 3h18v18H3V3z"></path>
-                    <path d="M9 3v18"></path>
-                    <path d="M15 3v18"></path>
-                    <path d="M3 9h18"></path>
-                    <path d="M3 15h18"></path>
-                </svg>
+        <div class="row mt-4">
+            <div class="col-md-6 d-flex">
+                <div class="me-3">
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path d="M3 3h18v18H3V3z"></path>
+                        <path d="M9 3v18"></path>
+                        <path d="M15 3v18"></path>
+                        <path d="M3 9h18"></path>
+                        <path d="M3 15h18"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Fully Owned and Operated by
+                            <span class="c-theme-text-color"
+                                >HostPresto</span
+                            ></strong
+                        >
+                    </h5>
+                    <p class="text-muted">
+                        HostPresto owns and operates all our hardware. We don't
+                        lease or resell services from other suppliers. All
+                        hardware is located in our UK data centers and managed
+                        by our own staff.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h5><strong>Fully Owned and Operated by <span class="c-theme-text-color">HostPresto</span></strong></h5>
-                <p class="text-muted">
-                    HostPresto owns and operates all our hardware. We don't lease or resell services from other suppliers. All hardware is located in our UK data centers and managed by our own staff.
-                </p>
+
+            <div class="col-md-6 d-flex">
+                <div class="me-3">
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M4 12h16"></path>
+                        <path d="M12 4v16"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Fully
+                            <span class="c-theme-text-color"
+                                >Redundant</span
+                            ></strong
+                        >
+                    </h5>
+                    <p class="text-muted">
+                        Our entire platform is fully redundant at every level,
+                        including power supply, network, servers, and storage.
+                        We can lose any part of our infrastructure and carry on
+                        as normal.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="col-md-6 d-flex">
-            <div class="me-3">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M4 12h16"></path>
-                    <path d="M12 4v16"></path>
-                </svg>
+        <div class="row mt-4">
+            <div class="col-md-6 d-flex">
+                <div class="me-3">
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                        <path d="M6 10h.01"></path>
+                        <path d="M10 10h.01"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Modern, Quality
+                            <span class="c-theme-text-color"
+                                >Hardware</span
+                            ></strong
+                        >
+                    </h5>
+                    <p class="text-muted">
+                        We use enterprise-grade hardware from brands like Dell
+                        and Supermicro, ensuring the highest performance and
+                        energy efficiency for an environmentally friendly
+                        service.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h5><strong>Fully <span class="c-theme-text-color">Redundant</span></strong></h5>
-                <p class="text-muted">
-                    Our entire platform is fully redundant at every level, including power supply, network, servers, and storage. We can lose any part of our infrastructure and carry on as normal.
-                </p>
+
+            <div class="col-md-6 d-flex">
+                <div class="me-3">
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path d="M4 12h16"></path>
+                        <path d="M12 4v16"></path>
+                        <path d="M19 9h2v6h-2"></path>
+                        <path d="M5 15H3V9h2"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >High Capacity
+                            <span class="c-theme-text-color"
+                                >Connectivity</span
+                            ></strong
+                        >
+                    </h5>
+                    <p class="text-muted">
+                        Our core network has multiple 40Gb/s redundant links,
+                        with multiple gigabit uplinks to the UK's internet
+                        backbone, ensuring low latency and high resiliency.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 d-flex">
+                <div class="me-3">
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 8v4l3 3"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Hosted on Enterprise
+                            <span class="c-theme-text-color"
+                                >NVMe SSD</span
+                            ></strong
+                        >
+                    </h5>
+                    <p class="text-muted">
+                        We use enterprise-grade NVMe SSDs from Samsung, Micron,
+                        and Intel, ensuring the fastest performance and highest
+                        reliability in fully redundant arrays.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex">
+                <div class="me-3">
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                        <path d="M12 9v4l2 2"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Cloud Hosted &
+                            <span class="c-theme-text-color"
+                                >Future Proofed</span
+                            ></strong
+                        >
+                    </h5>
+                    <p class="text-muted">
+                        Our hosting is in our privately owned cloud, allowing
+                        full redundancy and self-healing. We can migrate your
+                        website onto new hardware without a second of downtime.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 d-flex">
+                <div class="me-3">
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M10 15l5-5"></path>
+                        <path d="M9 10h5v5"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Uptime
+                            <span class="c-theme-text-color"
+                                >Guarantee</span
+                            ></strong
+                        >
+                    </h5>
+                    <p class="text-muted">
+                        We guarantee 99.9% uptime, allowing for just 43 minutes
+                        of downtime per month. In reality, we've averaged 100%
+                        uptime for 11 out of 12 months yearly.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="row mt-4">
-        <div class="col-md-6 d-flex">
-            <div class="me-3">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="2" y="6" width="20" height="12" rx="2"></rect>
-                    <path d="M6 10h.01"></path>
-                    <path d="M10 10h.01"></path>
-                </svg>
-            </div>
-            <div>
-                <h5><strong>Modern, Quality <span class="c-theme-text-color">Hardware</span></strong></h5>
-                <p class="text-muted">
-                    We use enterprise-grade hardware from brands like Dell and Supermicro, ensuring the highest performance and energy efficiency for an environmentally friendly service.
-                </p>
-            </div>
-        </div>
+    <div class="text-white c-theme-bg-color p-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <h1>High Spec Hosting</h1>
+                    <p>Reliable email with powerful anti spam protection.</p>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Ut quae aliquam fuga consequuntur minus, esse
+                            non at exercitationem enim aperiam.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Vel placeat nesciunt ducimus vero tempore
+                            inventore repudiandae architecto reiciendis magnam
+                            reprehenderit?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/Bmobile.png" alt="" width="355px" />
+                </div>
 
-        <div class="col-md-6 d-flex">
-            <div class="me-3">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 12h16"></path>
-                    <path d="M12 4v16"></path>
-                    <path d="M19 9h2v6h-2"></path>
-                    <path d="M5 15H3V9h2"></path>
-                </svg>
-            </div>
-            <div>
-                <h5><strong>High Capacity <span class="c-theme-text-color">Connectivity</span></strong></h5>
-                <p class="text-muted">
-                    Our core network has multiple 40Gb/s redundant links, with multiple gigabit uplinks to the UK's internet backbone, ensuring low latency and high resiliency.
-                </p>
+                <div class="container">
+                    <div class="row mt-4">
+                        <div class="col-md-6 d-flex">
+                            <div class="me-3">
+                                <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M12 12L3 6V18H21V6L12 12Z"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5><strong>Simple Webmail</strong></h5>
+                                <p>
+                                    Manage your email effortlessly with our
+                                    user-friendly webmail interface, accessible
+                                    anytime, anywhere.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 d-flex">
+                            <div class="me-3">
+                                <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3 4H21V20H3V4Z"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5>
+                                    <strong
+                                        >Desktop Email Client Compatible</strong
+                                    >
+                                </h5>
+                                <p>
+                                    Seamlessly integrate with popular email
+                                    clients like Outlook, Thunderbird, and Apple
+                                    Mail.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6 d-flex">
+                            <div class="me-3">
+                                <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M22 2L11 13"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M22 2L15 22L11 13L2 9L22 2Z"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5>
+                                    <strong>Powerful Spam Filtering</strong>
+                                </h5>
+                                <p>
+                                    Keep your inbox clean with advanced spam
+                                    protection, ensuring only important emails
+                                    reach you.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 d-flex">
+                            <div class="me-3">
+                                <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M4 12L10 18L20 6"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5>
+                                    <strong>Smartphone & Tablet Sync</strong>
+                                </h5>
+                                <p>
+                                    Sync emails across all your devices,
+                                    ensuring seamless access and instant updates
+                                    on the go.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6 d-flex">
+                            <div class="me-3">
+                                <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3 12H21M3 6H21M3 18H21"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5><strong>Unlimited Forwarders</strong></h5>
+                                <p>
+                                    Create unlimited email forwarders to
+                                    redirect messages efficiently without
+                                    missing important emails.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 d-flex">
+                            <div class="me-3">
+                                <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3 12L12 3L21 12L12 21L3 12Z"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5><strong>Unlimited Aliases</strong></h5>
+                                <p>
+                                    Set up unlimited email aliases to manage
+                                    your communication better, while keeping
+                                    your inbox organized.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="row mt-4">
-        <div class="col-md-6 d-flex">
-            <div class="me-3">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M12 8v4l3 3"></path>
-                </svg>
-            </div>
-            <div>
-                <h5><strong>Hosted on Enterprise <span class="c-theme-text-color">NVMe SSD</span></strong></h5>
-                <p class="text-muted">
-                    We use enterprise-grade NVMe SSDs from Samsung, Micron, and Intel, ensuring the fastest performance and highest reliability in fully redundant arrays.
-                </p>
-            </div>
-        </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6 mb-5">
+                <h1 class="fw-bold">
+                    Backups As <span class="c-theme-text-color">Standard</span>
+                </h1>
 
-        <div class="col-md-6 d-flex">
-            <div class="me-3">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                    <path d="M12 9v4l2 2"></path>
-                </svg>
-            </div>
-            <div>
-                <h5><strong>Cloud Hosted & <span class="c-theme-text-color">Future Proofed</span></strong></h5>
-                <p class="text-muted">
-                    Our hosting is in our privately owned cloud, allowing full redundancy and self-healing. We can migrate your website onto new hardware without a second of downtime.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="row mt-4">
-        <div class="col-md-6 d-flex">
-            <div class="me-3">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M10 15l5-5"></path>
-                    <path d="M9 10h5v5"></path>
-                </svg>
-            </div>
-            <div>
-                <h5><strong>Uptime <span class="c-theme-text-color">Guarantee</span></strong></h5>
-                <p class="text-muted">
-                    We guarantee 99.9% uptime, allowing for just 43 minutes of downtime per month. In reality, we've averaged 100% uptime for 11 out of 12 months yearly.
-                </p>
-            </div>
-        </div>
-    </div>
+                <div class="d-flex mt-4">
+                    <div class="me-3">
+                        <div class="c-theme-text-color">
+    <svg
+        width="30"
+        height="30"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M3 12L12 3L21 12L12 21L3 12Z"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
 </div>
 
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >14 Restore
+                                <span class="c-theme-text-color">Points</span></strong
+                            >
+                        </h5>
+                        <p class="text-muted">
+                            7 daily & 4 weekly restore points allow you to
+                            restore any file, folder, database or email account
+                            with a few clicks.
+                        </p>
+                    </div>
+                </div>
 
-    <div class="container-fluid text-white c-theme-bg-color">
-        <div class="row">
-            <div class="col-md-6 mt-5">
-                <h2 class="">High Spec Hosting</h2>
-                <p>Reliable email with powerful anti spam protection.</p>
-                <div>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Ut quae aliquam fuga consequuntur minus, esse non
-                        at exercitationem enim aperiam.
-                    </p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Vel placeat nesciunt ducimus vero tempore
-                        inventore repudiandae architecto reiciendis magnam
-                        reprehenderit?
-                    </p>
+                <div class="d-flex mt-2">
+                    <div class="me-3">
+                        <div class="c-theme-text-color">
+                        <svg
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M3 4H21V20H3V4Z"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >4 Week Data
+                                <span class="c-theme-text-color"
+                                    >Retention</span
+                                ></strong
+                            >
+                        </h5>
+                        <p class="text-muted">
+                            We keep the backups for 4 weeks, so if you suddenly
+                            realize you've lost a file a month later, you can
+                            still get it back.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-flex mt-2">
+                    <div class="me-3">
+                        <div class="c-theme-text-color">
+                        <svg
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M12 2L12 22M2 12L22 12"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >Secure Offsite
+                                <span class="c-theme-text-color"
+                                    >Backups</span
+                                ></strong
+                            >
+                        </h5>
+                        <p class="text-muted">
+                            Backups are stored in an offsite secured data center
+                            to protect against disasters, such as fire,
+                            terrorist attacks, or theft.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-flex mt-2">
+                    <div class="me-3">
+                        <div class="c-theme-text-color">
+                        <svg
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M4 12L10 18L20 6"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+                    </div>
+                    <div>
+                        <h5>
+                            <strong
+                                >Easy to use
+                                <span class="c-theme-text-color"
+                                    >Control Panel</span
+                                ></strong
+                            >
+                        </h5>
+                        <p class="text-muted">
+                            The backup control panel puts you in control; easily
+                            restore multiple files, folders, databases, or email
+                            accounts with a couple of clicks.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
+
+            <!-- Right Side - Images -->
+            <div class="col-md-6 text-center mt-5">
                 <img
-                    src="images/Bmobile.png"
-                    alt=""
-                    width="445px"
-                    height="445px"
+                    src="/images/Active1.png"
+                    class="img-fluid"
+                    alt="Desktop View"
+                    width="577px"
+                    height="417px"
                 />
             </div>
+        </div>
+    </div>
 
-            <div class="container my-5">
-                <div class="row mt-4">
-                    <div class="col-md-6 d-flex">
-                        <!-- <div class="me-3">
-                  <img src="icon1.png" width="40" alt="icon">
-              </div> -->
-                        <div>
-                            <h5>
-                                <strong
-                                    >Fully Owned and Operated by
-                                    <span class="">HostPresto</span></strong
-                                >
-                            </h5>
-                            <p class="">
-                                HostPresto owns and operates all of our own
-                                hardware, we don't lease or resell services from
-                                other suppliers. All hardware is located in our
-                                Uk datacenters and managed by our own staff.
-                            </p>
-                        </div>
-                    </div>
+    <div class="bg-white p-2">
+    <div class="container my-5">
+        <div>
+            <h1>
+                Security of The <span class="c-theme-text-color">Highest Order</span>
+            </h1>
+        </div>
 
-                    <div class="col-md-6 d-flex">
-                        <!-- <div class="me-3">
-                  <img src="icon2.png" width="40" alt="icon">
-              </div> -->
-                        <div>
-                            <h5>
-                                <strong
-                                    >Fully
-                                    <span class="">Redundant</span></strong
-                                >
-                            </h5>
-                            <p class="">
-                                Our entire platform is fully redundant at every
-                                level, our power supply, network connection,
-                                servers and storage. We can lose any part of our
-                                infrastructure and carry on as normal.
-                            </p>
-                        </div>
-                    </div>
+        <div class="row mt-4">
+            <div class="col-md-4 d-flex">
+                <div class="me-3">
+                    <!-- SSL Icon -->
+                    <div class="c-theme-text-color">
+                    <svg
+                        width="30"
+                        height="30"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M12 2L2 7L12 12L22 7L12 2Z"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M2 17L12 22L22 17"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M2 12L12 17L22 12"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
                 </div>
-
-                <div class="row mt-4">
-                    <div class="col-md-6 d-flex">
-                        <!-- <div class="me-3">
-                  <img src="icon3.png" width="40" alt="icon">
-              </div> -->
-                        <div>
-                            <h5>
-                                <strong
-                                    >Modern, Quality
-                                    <span class="">Hardware</span></strong
-                                >
-                            </h5>
-                            <p class="">
-                                We use only the latest enterprise-grade hardware
-                                from reputable brands from Dell and supermicro
-                                that provides the highest performance per watt
-                                for the most environmentally, friendly service.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 d-flex">
-                        <!-- <div class="me-3">
-                  <img src="icon4.png" width="40" alt="icon">
-              </div> -->
-                        <div>
-                            <h5>
-                                <strong
-                                    >High Capacity
-                                    <span class="">Connectivity</span></strong
-                                >
-                            </h5>
-                            <p class="">
-                                Our core network consists of multiple links to
-                                create a 40Gb/s redundant system, and we have
-                                multiple gigabit uplinks to the UK's internet
-                                backbone; providing the lowest latency and
-                                higest network resiliency.
-                            </p>
-                        </div>
-                    </div>
                 </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Free Lets
+                            <span class="c-theme-text-color"
+                                >Encrypt SSL</span
+                            ></strong
+                        >
+                    </h5>
+                    <p>
+                        HostPresto owns and operates all of our own hardware, we
+                        don't lease or resell services from other suppliers. All
+                        hardware is located in our Uk datacenters and managed by
+                        our own staff.
+                    </p>
+                </div>
+            </div>
 
-                <div class="row mt-4">
-                    <div class="col-md-6 d-flex">
-                        <!-- <div class="me-3">
-                  <img src="icon5.png" width="40" alt="icon">
-              </div> -->
-                        <div>
-                            <h5>
-                                <strong>Hosted on Enterprise NVMe SSD</strong>
-                            </h5>
-                            <p class="">
-                                We use enterprise-grade NVMe SSD disks from
-                                samsung, Micron and intel to provide the fastest
-                                performance and higest reliability. All NVMe
-                                SSds are fully reduntant arrays, meaning when a
-                                disk fails you don't even notice, everything
-                                carries on as normal while we slot in a
-                                replacement.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-md-4 d-flex">
+                <div class="me-3">
+                    <!-- DDoS Icon -->
+                    <div class="c-theme-text-color">
+                    <svg
+                        width="30"
+                        height="30"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M3 12L12 3L21 12L12 21L3 12Z"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >DDoS
+                            <span class="c-theme-text-color">Protection</span></strong
+                        >
+                    </h5>
+                    <p>
+                        Our entire platform is fully redundant at every level,
+                        our power supply, network connection, servers and
+                        storage. We can lose any part of our infrastructure and
+                        carry on as normal.
+                    </p>
+                </div>
+            </div>
 
-                    <div class="col-md-6 d-flex">
-                        <!-- <div class="me-3">
-                  <img src="icon6.png" width="40" alt="icon">
-              </div> -->
-                        <div>
-                            <h5>
-                                <strong
-                                    >Cloud Hosted &
-                                    <span class="c-theme-text-color"
-                                        >Future Proofed</span
-                                    ></strong
-                                >
-                            </h5>
-                            <p class="">
-                                All of our hosting is in our privately owned
-                                cloud. The cloud not only allows for full
-                                redundancy and self healing, but it allows us to
-                                continually replace hardware behind the scenes
-                                and migrate your website onto brand-new hardware
-                                without a single millisecond of downtime
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-md-4 d-flex">
+                <div class="me-3">
+                    <!-- Malware Scan Icon -->
+                    <div class="c-theme-text-color">
+                    <svg
+                        width="30"
+                        height="30"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M5 12L19 12M12 5L12 19"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Malware &
+                            <span class="c-theme-text-color"
+                                >Virus Scanning</span
+                            ></strong
+                        >
+                    </h5>
+                    <p>
+                        Our core network consists of multiple links to create a
+                        40Gb/s redundant system, and we have multiple gigabit
+                        uplinks to the UK's internet backbone; providing the
+                        lowest latency and higest network resiliency.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4 d-flex">
+                <div class="me-3">
+                    <!-- Firewall Icon -->
+                    <div class="c-theme-text-color">
+                    <svg
+                        width="30"
+                        height="30"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M4 12H20M12 4V20"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+                </div>
+                <div>
+                    <h5><strong>Firewalling</strong></h5>
+                    <p>
+                        We use only the latest enterprise-grade hardware from
+                        reputable brands from Dell and supermicro that provides
+                        the highest performance per watt for the most
+                        environmentally, friendly service.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex">
+                <div class="me-3">
+                    <!-- Secure Systems Icon -->
+                    <div class="c-theme-text-color">
+                    <svg
+                        width="30"
+                        height="30"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M12 2L22 7L12 12L2 7L12 2Z"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >Highly Secure
+                            <span class="c-theme-text-color">Systems</span></strong
+                        >
+                    </h5>
+                    <p>
+                        Our core network consists of multiple links to create a
+                        40Gb/s redundant system, and we have multiple gigabit
+                        uplinks to the UK's internet backbone; providing the
+                        lowest latency and higest network resiliency.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex">
+                <div class="me-3">
+                    <!-- Certification Icon -->
+                    <div class="c-theme-text-color">
+                    <svg
+                        width="30"
+                        height="30"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M12 2L15 8H21L16 12L18 18L12 15L6 18L8 12L3 8H9L12 2Z"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+                </div>
+                <div>
+                    <h5>
+                        <strong
+                            >ISO
+                            <span class="c-theme-text-color"
+                                >Certification</span
+                            ></strong
+                        >
+                    </h5>
+                    <p>
+                        Our core network consists of multiple links to create a
+                        40Gb/s redundant system, and we have multiple gigabit
+                        uplinks to the UK's internet backbone; providing the
+                        lowest latency and higest network resiliency.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
+    <div class="container mt-5 p-2">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="mt-">
+                    <h1 class="fw-bold">
+                        Free Migrations by
+                        <span class="c-theme-text-color"> our Experts</span>
+                    </h1>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores quidem omnis sed aut dignissimos repellat
+                        assumenda fuga, quae vero ducimus! Ducimus sunt
+                        doloremque nihil cupiditate et reprehenderit inventore
+                        obcaecati. Porro explicabo impedit earum mollitia?
+                    </p>
+                    <p class="text-black">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores quidem omnis sed aut dignissimos repellat
+                        assumenda fuga, quae vero ducimus! Ducimus sunt
+                        doloremque.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img
+                    src="/images/server.png"
+                    class=" c-image"
+                    alt=""
+                    width="288px"
+                    height="252px"
+                />
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white p-2 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <img
+            src="/images/support.png"
+            class=" c-image"
+            alt=""
+            width="288px"
+            height="252px"
+          />
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="mt-">
+            <h1 class="fw-bold">
+              Support you can really
+              <span class="c-theme-text-color">depends on</span>
+            </h1>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              quidem omnis sed aut dignissimos repellat assumenda fuga, quae
+              vero ducimus! Ducimus sunt doloremque nihil cupiditate et
+              reprehenderit inventore obcaecati. Porro explicabo impedit earum
+              mollitia?
+            </p>
+            <p class="text-black">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              quidem omnis sed aut dignissimos repellat assumenda fuga, quae
+              vero ducimus! Ducimus sunt doloremque.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
 </template>
 
 <script>
@@ -1508,7 +2168,7 @@ export default {
 
 <style>
 .c-main-section {
-    height: 600px;
+    
     background: url("/images/bghosting.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1520,7 +2180,7 @@ export default {
     border-radius: 8px;
     margin-left: 80px;
 }
- 
+
 .pricing-card {
     border: 2px solid var(--product-color);
     border-radius: 10px;
@@ -1602,7 +2262,7 @@ export default {
 .pricing-box hr {
     border-top: 1px solid #ddd;
 }
- 
+
 .mb-2,
 .my-2 {
     margin-bottom: 0.5rem !important;
