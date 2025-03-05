@@ -76,7 +76,7 @@
                     >
                         <div class="contact-info-content">
                             <h2>
-                                HAVE A PROJECT? <br />
+                               HAVE A PROJECT? <br />
                                 <strong>GET IN TOUCH.</strong>
                             </h2>
                             <p>
@@ -136,7 +136,7 @@ export default {
 <style scoped>
 .contact-info {
     position: relative;
-    background: url("images/consultation.png") no-repeat center center/cover;
+    background: url("/images/consultation.png") no-repeat center center/cover;
     color: #fff;
     padding: 40px;
     text-align: left;
