@@ -19,14 +19,17 @@ export default {
     data() {
         return {
             clients: [
-                { name: "Sprinkle", image: "images/brand1.png" },
-                { name: "Cloudera", image: "images/cloudera.png" },
-                { name: "Informatica", image: "images/brand2.png" },
-                { name: "Infor", image: "images/infor.png" },
-                { name: "AWS", image: "images/brand4.png" },
-                { name: "Temenos", image: "images/temenos.png" },
-                { name: "Microsoft", image: "images/brand3.png" },
-                { name: "Formpipe", image: "images/formpipe.png" }
+                { name: "mehfoz memory", image: "images/clientsLogs/mehfoz.png" },
+                { name: "printed", image: "images/clientsLogs/printed.png" },
+                { name: "alaida", image: "images/clientsLogs/alaida.png" },
+                { name: "Millinium spring water", image: "images/clientsLogs/Millinium spring water.png" },
+                { name: "liv learn", image: "images/clientsLogs/liv_learn.png" },
+                // { name: "Ittifaq Coal Company", image: "images/clientsLogs/Ittifaq.png" },
+                { name: "sasclassic_h", image: "images/clientsLogs/sasclassic_h.png" },
+                { name: "PIMMS Institute", image: "images/clientsLogs/pimms.png" },
+                { name: "Alshamama", image: "images/clientsLogs/alshamama.png" },
+                { name: "ttc-global", image: "images/clientsLogs/ttc-global.png" }
+                  
             ]
         };
     },

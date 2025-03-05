@@ -499,4 +499,6 @@ export default {
     background-color: #296fb6;
     padding: 10px 0;
 }
+
+
 </style>
