@@ -90,7 +90,7 @@ export default {
                     description: "Goritmi Balance helps you manage financial transactions, track expenses, and generate insightful reports with ease.",
                     textClass: "text-success",
                     borderClass: "border-success",
-                    link: "/goritmi-beta",
+                    link: "/goritmi-balance",
                 },
                 {
                     name: "Goritmi Connect",

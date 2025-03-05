@@ -30,7 +30,7 @@
                 </div>
             </Slide>
             <template #addons>
-                <Navigation />
+                <!-- <Navigation /> -->
                 <Pagination />
             </template>
         </Carousel>
