@@ -4,8 +4,8 @@
             <div class="text-black">
                 <div class="row align-items-center">
                     <!-- About Content -->
-                    <h1 data-aos="fade-right" data-aos-delay="100">About <span class="c-theme-text-color" >Us</span></h1>
-                    <div class="col-md-6 col-sm-12 text-center text-md-start" data-aos="fade-right" data-aos-delay="100">
+                    <h1>About <span class="c-theme-text-color" >Us</span></h1>
+                    <div class="col-md-6 col-sm-12 text-center text-md-start">
                         <div class="content">
                             <p class="c-description">
                                 At Goritmi, we empower businesses with tailored
@@ -32,7 +32,7 @@
                     </div>
 
                     <!-- YouTube Video -->
-                    <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left" data-aos-delay="100">
+                    <div class="col-md-6 col-sm-12 text-center">
                         
                             <iframe
                                 width="100%"
