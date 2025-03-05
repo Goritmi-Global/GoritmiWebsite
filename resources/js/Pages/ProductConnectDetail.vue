@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <div class="container mt-5">
+        <div class="container mt-5" data-aos="fade-up" data-aos-delay="200">
             <!-- Background Image -->
 
             <div class="row align-items-center position-relative z-2">
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <div class="bg-white">
+        <div class="bg-white" data-aos="fade-up" data-aos-delay="200">
             <div class="container py-5">
                 <div class="mb-4">
                     <h1>
@@ -172,7 +172,7 @@
             </div>
         </div>
 
-        <div class="container py-5">
+        <div class="container py-5" data-aos="fade-up" data-aos-delay="200">
             <div>
                 <h1 class="fw-bold">
                     <span class="c-product-text-color"
@@ -208,7 +208,7 @@
 
         </div>
 
-        <div class="bg-white">
+        <div class="bg-white" data-aos="fade-up" data-aos-delay="200">
             <div class="container py-5">
                 <h1 class="fw-bold c-product-text-color">
                     A Smart Financial Solution for
@@ -263,13 +263,13 @@
         </div>
 
         <!--PRICING SECTION-->
-        <section class="section" id="pricing">
+        <section class="section" id="pricing" data-aos="fade-up" data-aos-delay="200">
             <div class="container mt-4">
                 <h1>
                     Affordable Pricing for Every <br />
-                    <span class="c-theme-text-color"> Financial Need</span>
+                    <span class="c-product-text-color"> Financial Need</span>
                 </h1>
-                <div class="row pt-4">
+                <div class="row pt-4 g-3">
                     <div class="col-lg-4">
                         <div class="pricing-box c-product-border-color">
                             <h4 class="f-20 text-center">Basic Plan</h4>

@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-delay="200">
         <div class="mt-4">
             <h1>
                 The Only Web Hosting
@@ -114,7 +114,7 @@
         </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4" data-aos="fade-up" data-aos-delay="200">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
@@ -316,7 +316,7 @@
         </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4" data-aos="fade-up" data-aos-delay="200">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
@@ -429,7 +429,7 @@
         </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4" data-aos="fade-up" data-aos-delay="200">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 hover-effect">
                 <svg
@@ -526,7 +526,7 @@
         </div>
     </div>
 
-    <section class="section" id="pricing">
+    <section class="section" id="pricing" data-aos="fade-up" data-aos-delay="200">
         <div class="mt-4">
             <!--PRICING SECTION-->
             <section class="section bg-white p-3" id="pricing">
@@ -535,7 +535,7 @@
                         UK Web Hosting Plans <br />
                         <span class="c-theme-text-color"> Try for €1.00</span>
                     </h1>
-                    <div class="row pt-4">
+                    <div class="row pt-4 g-3">
                         <div class="col-lg-4">
                             <div class="pricing-box c-product-border-color">
                                 <h4
@@ -1151,7 +1151,7 @@
         </div>
     </section>
 
-    <div class="container my-5">
+    <div class="container my-5" data-aos="fade-up" data-aos-delay="200">
         <h1 class="fw-bold">
             High Spec <span class="c-theme-text-color">Hosting</span>
         </h1>
@@ -1418,7 +1418,7 @@
         </div>
     </div>
 
-    <div class="text-white c-theme-bg-color p-2">
+    <div class="text-white c-theme-bg-color p-2" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-5">
@@ -1658,7 +1658,7 @@
         </div>
     </div>
 
-    <div class="container my-5">
+    <div class="container my-5" data-aos="fade-up" data-aos-delay="200">
         <div class="row">
             <div class="col-md-6 mb-5">
                 <h1 class="fw-bold">
@@ -1827,7 +1827,7 @@
         </div>
     </div>
 
-    <div class="bg-white p-2">
+    <div class="bg-white p-2" data-aos="fade-up" data-aos-delay="200">
         <div class="container my-5">
             <div>
                 <h1>
@@ -2080,7 +2080,7 @@
         </div>
     </div>
 
-    <div class="container mt-5 p-2">
+    <div class="container mt-5 p-2" data-aos="fade-up" data-aos-delay="200"> 
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="mt-">
@@ -2115,7 +2115,7 @@
         </div>
     </div>
 
-    <div class="container mt-5 p-2">
+    <div class="container mt-5 p-2" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">

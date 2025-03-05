@@ -1,5 +1,5 @@
 <template>
-    <section class="approach-section">
+    <section class="approach-section" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
             <div class="mb-5">
                 <h1>

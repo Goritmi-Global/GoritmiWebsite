@@ -1,5 +1,9 @@
 <template>
-    <section class="solutions-section pb-5">
+    <section
+        class="solutions-section pb-5"
+        data-aos="fade-up"
+        data-aos-delay="200"
+    >
         <div class="container">
             <!-- Title Section -->
             <div class="row">
@@ -8,8 +12,11 @@
                         Our <span class="c-theme-text-color">Solutions</span>
                     </h1>
                     <p class="c-description">
-                        Goritmi is a leading software development company that creates robust software solutions for startups and established businesses. 
-                        Embrace the demands of the modern era and transform your business with innovative, cutting-edge digital solutions.
+                        Goritmi is a leading software development company that
+                        creates robust software solutions for startups and
+                        established businesses. Embrace the demands of the
+                        modern era and transform your business with innovative,
+                        cutting-edge digital solutions.
                     </p>
                 </div>
             </div>
@@ -25,9 +32,13 @@
                         class="card h-100 solution-card w-100"
                         @mouseover="hoveredIndex = index"
                         @mouseleave="hoveredIndex = null"
-                        :class="{ [solution.borderClass]: hoveredIndex === index }"
+                        :class="{
+                            [solution.borderClass]: hoveredIndex === index,
+                        }"
                     >
-                        <div class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                        <div
+                            class="card-body text-center d-flex flex-column align-items-center justify-content-center"
+                        >
                             <!-- Image -->
                             <img
                                 :src="solution.image"
@@ -59,7 +70,10 @@
                             </div>
 
                             <!-- Button -->
-                            <a :href="solution.link" class="btn c-theme-button see-more-btn">
+                            <a
+                                :href="solution.link"
+                                class="btn c-theme-button see-more-btn"
+                            >
                                 See More
                             </a>
                         </div>
@@ -79,7 +93,8 @@ export default {
                 {
                     name: "Goritmi Active",
                     image: "/images/ProductActiveLogo.png",
-                    description: "Goritmi Active simplifies healthcare with smart scheduling, digital prescriptions, and real-time patient monitoring.",
+                    description:
+                        "Goritmi Active simplifies healthcare with smart scheduling, digital prescriptions, and real-time patient monitoring.",
                     textClass: "c-theme-text-color",
                     borderClass: "border-primary",
                     link: "/goritmi-active",
@@ -87,7 +102,8 @@ export default {
                 {
                     name: "Goritmi Balance",
                     image: "/images/ProductBetaLogo.png",
-                    description: "Goritmi Balance helps you manage financial transactions, track expenses, and generate insightful reports with ease.",
+                    description:
+                        "Goritmi Balance helps you manage financial transactions, track expenses, and generate insightful reports with ease.",
                     textClass: "text-success",
                     borderClass: "border-success",
                     link: "/goritmi-balance",
@@ -95,7 +111,8 @@ export default {
                 {
                     name: "Goritmi Connect",
                     image: "/images/ProductConnectLogo.png",
-                    description: "Goritmi Connect enhances team collaboration and communication with our seamless networking solution.",
+                    description:
+                        "Goritmi Connect enhances team collaboration and communication with our seamless networking solution.",
                     textClass: "text-warning",
                     borderClass: "border-warning",
                     link: "/goritmi-connect",
@@ -181,5 +198,22 @@ h1 {
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.solution-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 </style>

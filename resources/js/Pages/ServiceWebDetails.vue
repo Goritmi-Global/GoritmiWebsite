@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5" data-aos="fade-up" data-aos-delay="200">
         <div class="row">
             <!-- Image Section -->
             <div class="text-black fw-bold">
@@ -87,7 +87,7 @@
     </div>
 
     <!--WEB FEATURES-->
-    <div class="bg-white">
+    <div class="bg-white" data-aos="fade-up" data-aos-delay="200">
         <div class="container mt-5 py-4">
             <div class="fw-bold">
                 <h1 class="text-black mb-4">
@@ -122,7 +122,7 @@
         </div>
     </div>
 
-    <div class="container mt-5 py-4">
+    <div class="container mt-5 py-4" data-aos="fade-up" data-aos-delay="200">
         <div class="fw-bold">
             <h1>
                 Our Process & <span class="c-theme-text-color">Technology</span>
@@ -247,7 +247,7 @@
     </div>
     <!-- the, portfolio -->
 
-    <div class="bg-white">
+    <div class="bg-white" data-aos="fade-up" data-aos-delay="200">
         <div class="container mt-5 py-4">
             <div>
                 <h1 class="fw-bold mb-5">

@@ -320,6 +320,8 @@
 import Multiselect from "@vueform/multiselect";
 
 import AOS from "aos";
+import "aos/dist/aos.css";
+ 
 export default {
     mounted() {
         let bootstrapJs = document.createElement("script");

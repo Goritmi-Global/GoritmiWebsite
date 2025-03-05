@@ -1,5 +1,5 @@
 <template>
-    <section class="portfolio-section">
+    <section class="portfolio-section" data-aos="fade-up" data-aos-delay="200">
         <div class="container py-5 text-dark">
             <h1>
                 RECENT PROJECTS <br />
@@ -12,7 +12,7 @@
 
             <div class="row align-items-center mt-5">
                 <!-- Image Section -->
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-center"  data-aos="fade-right" data-aos-delay="200">
                     <img
                         class="project-image c-theme-radius img-fluid hover-effect"
                         :src="project.image"
@@ -21,7 +21,7 @@
                     />
                 </div>
                 <!-- Text Section -->
-                <div class="col-md-6">
+                <div class="col-md-6"  data-aos="fade-left" data-aos-delay="200">
                     <h2>
                         {{ project.title }} <br />
                         <span class="c-theme-text-color">{{

@@ -1,11 +1,13 @@
 <template>
     <div class="container py-5">
         <div class="container">
-            <div class="row d-flex align-items-stretch g-0 ">
+            <div class="row d-flex align-items-stretch g-0">
                 <div
-                    class="col-md-6 col-lg-6 col-sm-12 border shadow bg-dark h-100 p-3"  
+                    class="col-md-6 col-lg-6 col-sm-12 border shadow bg-dark h-100 p-3"
+                    data-aos="fade-right"
+                    data-aos-delay="200"
                 >
-                    <h1 class="text-white mt-3 ">
+                    <h1 class="text-white mt-3">
                         Request A Free <br /><span class="c-theme-text-color"
                             >Consultation</span
                         >
@@ -55,7 +57,7 @@
                             <div class="col-12">
                                 <button
                                     type="submit"
-                                    class="btn c-theme-button "
+                                    class="btn c-theme-button"
                                 >
                                     Send Message
                                 </button>
@@ -64,11 +66,15 @@
                     </form>
                 </div>
 
-                <div class="col-md-6 col-lg-6 col-sm-12">
+                <div
+                    class="col-md-6 col-lg-6 col-sm-12"
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                >
                     <div
                         class="contact-info h-100 d-flex align-items-center p-3"
                     >
-                    <div class="contact-info-content">
+                        <div class="contact-info-content">
                             <h2>
                                 HAVE A PROJECT? <br />
                                 <strong>GET IN TOUCH.</strong>
@@ -135,7 +141,7 @@ export default {
     padding: 40px;
     text-align: left;
 }
-    
+
 .contact-info::before {
     content: "";
     position: absolute;
@@ -143,9 +149,8 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    
-    background: rgba(41, 111, 182, 0.7); /* Blue Overlay */
 
+    background: rgba(41, 111, 182, 0.7); /* Blue Overlay */
 }
 .contact-info-content {
     position: relative;

@@ -1,5 +1,5 @@
 <template>
-    <section class="services-section">
+    <section class="services-section" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
             <h1>
                 {{ title_first_part }}
@@ -111,4 +111,22 @@ h1 {
     font-size: 2.5rem;
     font-weight: bold;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 </style>

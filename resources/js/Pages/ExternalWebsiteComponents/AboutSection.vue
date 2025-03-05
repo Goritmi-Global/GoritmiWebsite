@@ -1,11 +1,11 @@
 <template>
-    <section class="about-section">
+    <section class="about-section" >
         <div class="container">
             <div class="text-black">
                 <div class="row align-items-center">
                     <!-- About Content -->
-                    <h1>About <span class="c-theme-text-color">Us</span></h1>
-                    <div class="col-md-6 col-sm-12 text-center text-md-start">
+                    <h1 data-aos="fade-right" data-aos-delay="200">About <span class="c-theme-text-color" >Us</span></h1>
+                    <div class="col-md-6 col-sm-12 text-center text-md-start" data-aos="fade-right" data-aos-delay="200">
                         <div class="content">
                             <p class="c-description">
                                 At Goritmi, we empower businesses with tailored
@@ -32,8 +32,8 @@
                     </div>
 
                     <!-- YouTube Video -->
-                    <div class="col-md-6 col-sm-12 text-center">
-                        <div>
+                    <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left" data-aos-delay="200">
+                        
                             <iframe
                                 width="100%"
                                 class="rounded-4"
@@ -44,7 +44,7 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
                             ></iframe>
-                        </div>
+                         
                     </div>
                 </div>
             </div>

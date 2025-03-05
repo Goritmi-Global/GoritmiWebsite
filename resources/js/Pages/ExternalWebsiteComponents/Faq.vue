@@ -1,5 +1,5 @@
 <template>
-    <section class="faq-section p-4 bg-white mt-5">
+    <section class="faq-section p-4 bg-white mt-5" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
             <h1 class="text-uppercase fw-bold">
                 <span class="c-theme-text-color">Frequently Asked Questions</span> (FAQs) 
