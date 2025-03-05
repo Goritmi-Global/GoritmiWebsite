@@ -47,7 +47,7 @@
                     <a class="navbar-brand" href="/">
                         <img
                             class="logo"
-                            src="https://goritmi.co.uk/wp-content/uploads/2024/12/Goritmi-Logo-08-e1735209981940-300x115.png"
+                            src="images/logo1.png"
                         />
                     </a>
                     <button

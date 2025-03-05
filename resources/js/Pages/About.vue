@@ -159,7 +159,7 @@ export default {
                 {
                     name: "AHSAN KHAN",
                     role: "Accounts Dealing Manager",
-                    image: "images/default.jpg",
+                    image: "images/team/ahsan.jpg",
                 },
             ],
         };
