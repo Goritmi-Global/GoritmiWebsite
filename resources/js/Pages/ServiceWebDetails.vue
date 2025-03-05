@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <div class="container mt-5" data-aos="fade-up" data-aos-delay="200">
+    <div class="container mt-5">
         <div class="row">
             <!-- Image Section -->
             <div class="text-black fw-bold">

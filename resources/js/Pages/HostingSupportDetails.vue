@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="container" data-aos="fade-up" data-aos-delay="200">
+    <div class="container">
         <div class="mt-4">
             <h1>
                 The Only Web Hosting

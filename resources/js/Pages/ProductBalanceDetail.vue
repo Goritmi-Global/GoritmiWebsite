@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <div class="container mt-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="container mt-5">
             <!-- Background Image -->
 
             <div class="row align-items-center position-relative z-2">

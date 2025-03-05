@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white c-main-section" data-aos="fade-up" data-aos-delay="200">
+    <div class="bg-white c-main-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-12">
