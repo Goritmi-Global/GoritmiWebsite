@@ -292,7 +292,7 @@
                                 >info@goritmi.co.uk
                             </p>
                             <p>
-                                <i class="fas fa-phone me-2"></i>+44 7858 870913
+                                <i class="fas fa-phone me-2"></i>+44 116 488 2896
                             </p>
                         </address>
                     </div>
