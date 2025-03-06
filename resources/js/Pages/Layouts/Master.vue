@@ -13,9 +13,10 @@
                 <div class="container">
                     <div class="c-top-nav-bar">
                         <div>
-                            <span v-if="tiktok_link">
-                                <a :href="tiktok_link" target="_blank">
-                                    <i class="bi bi-tiktok ms-3 text-white"></i>
+                            <span v-if="linked_in">
+                                <a :href="linked_in" target="_blank">
+                                    <i class="bi bi-linkedin ms-3 text-white"></i>
+
                                 </a>
                             </span>
                             <span v-if="instagram_link">
@@ -360,11 +361,11 @@ export default {
         return {
             showTopBar: true,
             isSticky: false,
-            youtube_link: "www.youtube.com",
-            tiktok_link: "www.tiktok.com",
-            instagram_link: "www.instagram.com",
-            facebook_link: "www.facebook.com",
-            email: "goritmi.co.uk",
+            youtube_link: "https://www.youtube.com/@GoritmiLtd",
+            linked_in: "https://www.linkedin.com/company/goritmi",
+            instagram_link: "https://www.instagram.com/goritmi.uk/profilecard/?igsh=NzJnc2wxMTB0ZmI1",
+            facebook_link: "https://www.facebook.com/profile.php?id=61570754301545",
+            email: "info@goritmi.co.uk",
         };
     },
     methods: {
