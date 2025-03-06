@@ -175,7 +175,7 @@ export default {
 <style scoped>
 /* Hero Section */
 .c-about {
-    background: url("images/about.png") no-repeat center center/cover;
+    background: url("/images/about.png") no-repeat center center/cover;
     min-height: 300px;
     display: flex;
     align-items: center;
