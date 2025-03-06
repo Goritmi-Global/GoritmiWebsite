@@ -46,9 +46,10 @@
                 <div class="container">
                     <a class="navbar-brand" href="/">
                         <img
-                            class="logo"
-                            src="images/logo1.png"
-                        />
+        class="logo"
+        :src="isSticky ? 'images/logo1.png' : 'images/logo.png'"
+        alt="Goritmi Logo"
+    />
                     </a>
                     <button
                         class="navbar-toggler"
@@ -71,7 +72,14 @@
                                     >Home</a
                                 >
                             </li>
-
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active link-light"
+                                    href="/about"
+                                    >About</a
+                                >
+                            </li>
+                            
                             <!-- Services Dropdown -->
                             <li class="nav-item dropdown">
                                 <a
@@ -151,13 +159,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active link-light"
-                                    href="/about"
-                                    >About</a
-                                >
-                            </li>
+                            
                             <li class="nav-item">
                                 <a
                                     class="nav-link active link-light"
@@ -185,7 +187,7 @@
                             src="/images/logo1.png"
                             alt="Goritmi Logo"
                             class="img-fluid mb-2"
-                            width="190"
+                            width="290"
                         />
                         <p class="small text-white-50">
                             Boost your business with smart digital solutions
@@ -415,7 +417,7 @@ export default {
     color: white !important;
 }
 .logo {
-    width: 100px !important;
+    width: 250px !important;
 }
 
 /* Custom Button */
@@ -484,7 +486,7 @@ export default {
 .hover-effect:hover {
     transform: scale(1.05); /* Slightly enlarges the image on hover */
 }
-/* Sticky Navbar */
+ 
 /* Sticky Navbar */
 .sticky-navbar {
     position: fixed; /* Changed from sticky to fixed */
@@ -495,6 +497,15 @@ export default {
     background-color: #296fb6 !important; /* Ensures visibility */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds slight shadow */
     transition: all 0.3s ease-in-out;
+}
+.logo {
+    width: 250px !important;
+    transition: all 0.3s ease-in-out;
+}
+
+/* When Navbar Becomes Sticky */
+.sticky-navbar .logo {
+ 
 }
 
 .c-top-bar-section {
