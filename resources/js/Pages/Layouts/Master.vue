@@ -10,30 +10,38 @@
                 v-if="showTopBar"
                 class="navbar navbar-expand-lg navbar-dark text-white d-none d-lg-block c-top-bar-section c-theme-bg-color"
             >
-                <div class="container">
-                    <div class="c-top-nav-bar">
-                        <div>
-                            <span v-if="linked_in">
-                                <a :href="linked_in" target="_blank">
-                                    <i class="bi bi-linkedin ms-3 text-white"></i>
+                <div
+                    class="container d-flex justify-content-between align-items-center"
+                >
+                    <!-- Left Side: Social Icons -->
+                    <div class="c-top-nav-bar d-flex align-items-center">
+                        <span v-if="linked_in">
+                            <a :href="linked_in" target="_blank">
+                                <i class="bi bi-linkedin ms-3 text-white"></i>
+                            </a>
+                        </span>
+                        <span v-if="youtube_link">
+                            <a :href="youtube_link" target="_blank">
+                                <i class="bi bi-youtube ms-3 text-white"></i>
+                            </a>
+                        </span>
+                        <span v-if="instagram_link">
+                            <a :href="instagram_link" target="_blank">
+                                <i class="bi bi-instagram ms-3 text-white"></i>
+                            </a>
+                        </span>
+                        <span v-if="facebook_link">
+                            <a :href="facebook_link" target="_blank">
+                                <i class="bi bi-facebook ms-3 text-white"></i>
+                            </a>
+                        </span>
+                    </div>
 
-                                </a>
-                            </span>
-                            <span v-if="instagram_link">
-                                <a :href="instagram_link" target="_blank">
-                                    <i
-                                        class="bi bi-instagram ms-3 text-white"
-                                    ></i>
-                                </a>
-                            </span>
-                            <span v-if="facebook_link">
-                                <a :href="facebook_link" target="_blank">
-                                    <i
-                                        class="bi bi-facebook ms-3 me-3 text-white"
-                                    ></i>
-                                </a>
-                            </span>
-                        </div>
+                    <!-- Right Side: Email -->
+                    <div>
+                        <a :href="'mailto:' + email" class="contact text-white">
+                            {{ email }}
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -47,10 +55,14 @@
                 <div class="container">
                     <a class="navbar-brand" href="/">
                         <img
-        class="logo"
-        :src="isSticky ? 'images/logo1.png' : 'images/logo.png'"
-        alt="Goritmi Logo"
-    />
+                            class="logo"
+                            :src="
+                                isSticky
+                                    ? 'images/logo1.png'
+                                    : 'images/logo.png'
+                            "
+                            alt="Goritmi Logo"
+                        />
                     </a>
                     <button
                         class="navbar-toggler"
@@ -80,7 +92,7 @@
                                     >About</a
                                 >
                             </li>
-                            
+
                             <!-- Services Dropdown -->
                             <li class="nav-item dropdown">
                                 <a
@@ -160,7 +172,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            
+
                             <li class="nav-item">
                                 <a
                                     class="nav-link active link-light"
@@ -208,14 +220,6 @@
                                     >Home</a
                                 >
                             </li>
-
-                            <li>
-                                <a
-                                    href="/services"
-                                    class="text-white-50 text-decoration-none"
-                                    >Services</a
-                                >
-                            </li>
                             <li>
                                 <a
                                     href="/about"
@@ -223,6 +227,14 @@
                                     >About Us</a
                                 >
                             </li>
+                            <li>
+                                <a
+                                    href="/services"
+                                    class="text-white-50 text-decoration-none"
+                                    >Services</a
+                                >
+                            </li>
+                           
                             <li>
                                 <a
                                     href="/contact"
@@ -295,7 +307,8 @@
                                 >info@goritmi.co.uk
                             </p>
                             <p>
-                                <i class="fas fa-phone me-2"></i>+44 116 488 2896
+                                <i class="fas fa-phone me-2"></i>+44 116 488
+                                2896
                             </p>
                         </address>
                     </div>
@@ -324,7 +337,7 @@ import Multiselect from "@vueform/multiselect";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
- 
+
 export default {
     mounted() {
         let bootstrapJs = document.createElement("script");
@@ -363,8 +376,10 @@ export default {
             isSticky: false,
             youtube_link: "https://www.youtube.com/@GoritmiLtd",
             linked_in: "https://www.linkedin.com/company/goritmi",
-            instagram_link: "https://www.instagram.com/goritmi.uk/profilecard/?igsh=NzJnc2wxMTB0ZmI1",
-            facebook_link: "https://www.facebook.com/profile.php?id=61570754301545",
+            instagram_link:
+                "https://www.instagram.com/goritmi.uk/profilecard/?igsh=NzJnc2wxMTB0ZmI1",
+            facebook_link:
+                "https://www.facebook.com/profile.php?id=61570754301545",
             email: "info@goritmi.co.uk",
         };
     },
@@ -394,7 +409,6 @@ export default {
 @import url("public/backend/assets/vendor/simple-datatables/style.css");
 @import url("public/backend/assets/css/style.css");
 @import url("public/backend/assets/css/custom.css");
-
 
 @import "toastr";
 
@@ -487,7 +501,7 @@ export default {
 .hover-effect:hover {
     transform: scale(1.05); /* Slightly enlarges the image on hover */
 }
- 
+
 /* Sticky Navbar */
 .sticky-navbar {
     position: fixed; /* Changed from sticky to fixed */
@@ -506,13 +520,10 @@ export default {
 
 /* When Navbar Becomes Sticky */
 .sticky-navbar .logo {
- 
 }
 
 .c-top-bar-section {
     background-color: #296fb6;
     padding: 10px 0;
 }
-
-
 </style>
