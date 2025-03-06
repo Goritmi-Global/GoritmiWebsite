@@ -49,15 +49,20 @@
 
                         <!-- YouTube Video -->
                         <div class="col-md-5 col-sm-12 text-center">
-                            <div>
-                                <img
-                                    src="/images/scientist.png"
-                                    alt="Scientist Image"
-                                    class="img-fluid rounded"
-                                    width="618"
-                                    height="280"
-                                />
-                            </div>
+                            
+                        
+                        <iframe
+                            width="100%"
+                            class="rounded-4"
+                            height="315"
+                            src="https://www.youtube.com/embed/AqZ8VYS6bP0"
+                            title="Goritmi Introduction"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                     
+                             
                         </div>
                     </div>
                 </div>
