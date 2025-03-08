@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-5">
+    <div class="container py-5 c-contact-section">
         <div class="container">
             <div class="row d-flex align-items-stretch g-0">
                 <div
@@ -76,7 +76,7 @@
                     >
                         <div class="contact-info-content">
                             <h2>
-                               HAVE A PROJECT? <br />
+                                HAVE A PROJECT? <br />
                                 <strong>GET IN TOUCH.</strong>
                             </h2>
                             <p>
@@ -134,6 +134,9 @@ export default {
 </script>
 
 <style scoped>
+.c-contact-section {
+    overflow-x: hidden;
+}
 .contact-info {
     position: relative;
     background: url("/images/consultation.png") no-repeat center center/cover;

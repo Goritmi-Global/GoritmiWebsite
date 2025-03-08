@@ -4,63 +4,17 @@
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
             rel="stylesheet"
         />
-        <header>
-            <!-- Top Bar -->
-            <nav
-                v-if="showTopBar"
-                class="navbar navbar-expand-lg navbar-dark text-white d-none d-lg-block c-top-bar-section c-theme-bg-color"
-            >
-                <div
-                    class="container d-flex justify-content-between align-items-center"
-                >
-                    <!-- Left Side: Social Icons -->
-                    <div class="c-top-nav-bar d-flex align-items-center">
-                        <span v-if="linked_in">
-                            <a :href="linked_in" target="_blank">
-                                <i class="bi bi-linkedin ms-3 text-white"></i>
-                            </a>
-                        </span>
-                        <span v-if="youtube_link">
-                            <a :href="youtube_link" target="_blank">
-                                <i class="bi bi-youtube ms-3 text-white"></i>
-                            </a>
-                        </span>
-                        <span v-if="instagram_link">
-                            <a :href="instagram_link" target="_blank">
-                                <i class="bi bi-instagram ms-3 text-white"></i>
-                            </a>
-                        </span>
-                        <span v-if="facebook_link">
-                            <a :href="facebook_link" target="_blank">
-                                <i class="bi bi-facebook ms-3 text-white"></i>
-                            </a>
-                        </span>
-                    </div>
-
-                    <!-- Right Side: Email -->
-                    <div>
-                        <a :href="'mailto:' + email" class="contact text-white">
-                            {{ email }}
-                        </a>
-                    </div>
-                </div>
-            </nav>
-
+        <header style="margin-bottom: 120px !important">
             <!-- Sticky Second Navbar -->
             <nav
                 ref="stickyNav"
-                class="navbar navbar-expand-lg navbar-dark bg-secondary nav-fixed"
-                :class="{ 'sticky-navbar': isSticky }"
+                class="navbar navbar-expand-lg fixed-top bg-white shadow"
             >
                 <div class="container">
                     <a class="navbar-brand" href="/">
                         <img
                             class="logo"
-                            :src="
-                                isSticky
-                                    ? 'images/logo1.png'
-                                    : 'images/logo.png'
-                            "
+                            :src="'images/logo.png'"
                             alt="Goritmi Logo"
                         />
                     </a>
@@ -234,7 +188,7 @@
                                     >Services</a
                                 >
                             </li>
-                           
+
                             <li>
                                 <a
                                     href="/contact"
@@ -502,24 +456,19 @@ export default {
     transform: scale(1.05); /* Slightly enlarges the image on hover */
 }
 
-/* Sticky Navbar */
-.sticky-navbar {
-    position: fixed; /* Changed from sticky to fixed */
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: #296fb6 !important; /* Ensures visibility */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds slight shadow */
-    transition: all 0.3s ease-in-out;
-}
 .logo {
     width: 250px !important;
     transition: all 0.3s ease-in-out;
 }
 
-/* When Navbar Becomes Sticky */
-.sticky-navbar .logo {
+.navbar-nav .nav-link {
+    color: #296fb6 !important;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #296fb6 !important;
+    font-weight: bold;
 }
 
 .c-top-bar-section {

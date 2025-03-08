@@ -1,23 +1,18 @@
 <template>
     <div>
-        
         <CarouselSection />
         <AboutSection />
-        <ProductsSection />
-        
-   
-        <ServicesSection :title_first_part="'Our'" :title_last_part="'Services'"/>
-
+        <ProductsSection /> 
+        <ServicesSection
+            :title_first_part="'Our'"
+            :title_last_part="'Services'"
+        /> 
         <OurClientsSection />
         <NewsSection />
         <LetDiscuccSection />
         <WhyUsSection />
         <HappyClientsSection />
         <ContactUsSection />
-
-        
-      
- 
     </div>
 </template>
 
@@ -56,7 +51,6 @@ export default {
 </script>
 
 <style>
-
 .logos {
     overflow: hidden;
     white-space: nowrap;
@@ -153,5 +147,4 @@ export default {
 .stars {
     color: #ffcc00;
 }
-
 </style>

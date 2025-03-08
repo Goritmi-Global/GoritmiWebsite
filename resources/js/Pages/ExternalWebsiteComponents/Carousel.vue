@@ -4,7 +4,7 @@
             v-bind="carouselConfig"
             :wrapAround="true"
             :transition="500"
-            :autoplay="3000"
+            :autoplay="8000"
             :pauseAutoplayOnHover="true"
         >
             <Slide
@@ -124,10 +124,10 @@ export default {
         0,
         0,
         0,
-        0.5
+        0.9
     ); /* Example: Semi-transparent black overlay */
 
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 /* Background images */

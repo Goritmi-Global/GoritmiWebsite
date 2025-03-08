@@ -31,14 +31,7 @@
                     <p class="mt-3 c-description">
                         {{ project.description }}
                     </p>
-                    <!-- <div class="mt-4">
-                        <a :href="project.caseStudyLink" class="btn c-theme-button fw-bold">
-                            Case Study
-                        </a>
-                        <a :href="project.contactLink" class="btn c-theme-button fw-bold ms-3">
-                            Contact Us
-                        </a>
-                    </div> -->
+                     
                 </div>
             </div>
         </div>
@@ -64,9 +57,7 @@ export default {
 </script>
 
 <style scoped>
-.portfolio-section {
-    background-color: #f8f9fa;
-}
+ 
 
 h1 {
     font-size: 2.5rem;
@@ -80,6 +71,13 @@ h2 {
 .project-image {
     max-width: 100%;
     height: auto;
+    display: block;
+}
+.portfolio-section {
+    background-color: #f8f9fa;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 50px;
 }
 
 p {
