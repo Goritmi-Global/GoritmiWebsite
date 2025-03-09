@@ -4,7 +4,7 @@
             v-bind="carouselConfig"
             :wrapAround="true"
             :transition="500"
-            :autoplay="8000"
+            :autoplay="6000"
             :pauseAutoplayOnHover="true"
         >
             <Slide
@@ -93,7 +93,7 @@ export default {
 
 <style scoped>
 .carousel-item {
-    height: 600px;
+    height: 470px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -124,7 +124,7 @@ export default {
         0,
         0,
         0,
-        0.9
+        0.3
     ); /* Example: Semi-transparent black overlay */
 
     opacity: 0.9;
@@ -135,13 +135,13 @@ export default {
     background-image: url("/images/carousel/transform-business.jpeg");
 }
 .bg-image-2 {
-    background-image: url("/images/carousel/goritmi-acitve.jpeg");
+    background-image: url("/images/carousel/carousel_active.png");
 }
 .bg-image-3 {
-    background-image: url("/images/carousel/goritmi-balance.jpeg");
+    background-image: url("/images/carousel/carousel_balance.png");
 }
 .bg-image-4 {
-    background-image: url("/images/carousel/goritmi-connect.jpeg");
+    background-image: url("/images/carousel/carousel_connect.png");
 }
 
 h1 {
