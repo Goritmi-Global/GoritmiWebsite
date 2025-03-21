@@ -258,7 +258,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <img
-                        src="/images/active1.png"
+                        src="/images/webdev2.png"
                         class="c-image hover-effect img-fluid"
                         alt=""
                     />
