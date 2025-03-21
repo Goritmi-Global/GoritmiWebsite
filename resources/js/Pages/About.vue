@@ -126,46 +126,46 @@ export default {
     data() {
         return {
             team: [
-                {
-                    name: "M SHAH",
-                    role: "Managing Director",
-                    image: "images/default.jpg",
-                },
+                // {
+                //     name: "M SHAH",
+                //     role: "Managing Director",
+                //     image: "images/default.jpg",
+                // },
                 {
                     name: "FARHAN SHAH",
-                    role: "Business Development Manager",
+                    role: "Managing Director",
                     image: "images/team/farhan.jpg",
                 },
                 {
                     name: "BILAL HUSSAIN",
-                    role: "Web Team Lead",
+                    role: "Head Of Web Development",
                     image: "images/default.jpg",
                 },
                 {
                     name: "WASIM AHMAD",
-                    role: "App Team Lead",
+                    role: "Head Of App Development",
                     image: "images/default.jpg",
                 },
-                {
-                    name: "CHASHMAN KHAN",
-                    role: "UI/UX Designer",
-                    image: "images/team/chashman.jpg",
-                },
-                {
-                    name: "HAMZA KHAN",
-                    role: "Web Designer",
-                    image: "images/team/hamza.jpg",
-                },
-                {
-                    name: "SHAKIR ULLAH",
-                    role: "Mobile App Developer",
-                    image: "images/team/shakir.jpg",
-                },
-                {
-                    name: "AHSAN KHAN",
-                    role: "Accounts Dealing Manager",
-                    image: "images/team/ahsan.jpg",
-                },
+                // {
+                //     name: "CHASHMAN KHAN",
+                //     role: "UI/UX Designer",
+                //     image: "images/team/chashman.jpg",
+                // },
+                // {
+                //     name: "HAMZA KHAN",
+                //     role: "Web Designer",
+                //     image: "images/team/hamza.jpg",
+                // },
+                // {
+                //     name: "SHAKIR ULLAH",
+                //     role: "Mobile App Developer",
+                //     image: "images/team/shakir.jpg",
+                // },
+                // {
+                //     name: "AHSAN KHAN",
+                //     role: "Accounts Dealing Manager",
+                //     image: "images/team/ahsan.jpg",
+                // },
             ],
         };
     },

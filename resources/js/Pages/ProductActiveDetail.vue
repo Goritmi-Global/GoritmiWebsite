@@ -300,7 +300,7 @@
                             <h4 class="f-20 text-center c-product-text-color">
                                 Basic Plan
                             </h4>
-                            <div
+                            <!-- <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
                                 Monthly
@@ -310,7 +310,7 @@
                                         >$8.99
                                     </span>
                                 </h4>
-                            </div>
+                            </div> -->
                             <div class="mt-4 pt-2 text-left">
                                 <p class="f-18">
                                     <svg
@@ -487,13 +487,13 @@
                                     Automated transaction categorization
                                 </p>
                             </div>
-                            <div class="pt-1 text-center">
+                            <!-- <div class="pt-1 text-center">
                                 <a
                                     href=""
                                     class="btn c-theme-button btn-rounded px-5"
                                     >Buy Now</a
                                 >
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -501,7 +501,7 @@
                             <h4 class="f-20 text-center c-product-text-color">
                                 Business Plan
                             </h4>
-                            <div
+                            <!-- <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
                                 Monthly
@@ -511,7 +511,7 @@
                                         >$13.99
                                     </span>
                                 </h4>
-                            </div>
+                            </div> -->
                             <div class="mt-4 pt-2 text-left">
                                 <p class="f-18">
                                     <svg
@@ -688,13 +688,13 @@
                                     Multi-user access
                                 </p>
                             </div>
-                            <div class="pt-1 text-center">
+                            <!-- <div class="pt-1 text-center">
                                 <a
                                     href=""
                                     class="btn c-theme-button btn-rounded px-5"
                                     >Buy Now</a
                                 >
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -702,7 +702,7 @@
                             <h4 class="f-20 text-center c-product-text-color">
                                 Enterprise Plan
                             </h4>
-                            <div
+                            <!-- <div
                                 class="pricing-plan mt-4 pt-2 text-center bg-grey rounded"
                             >
                                 Monthly
@@ -712,7 +712,7 @@
                                         >$20.99
                                     </span>
                                 </h4>
-                            </div>
+                            </div> -->
                             <div class="mt-4 pt-2 text-left">
                                 <p class="f-18">
                                     <svg
@@ -889,20 +889,20 @@
                                     24/7 premium customer support
                                 </p>
                             </div>
-                            <div class="pt-1 text-center">
+                            <!-- <div class="pt-1 text-center">
                                 <a
                                     href=""
                                     class="btn c-theme-button btn-rounded px-5"
                                     >Buy Now</a
                                 >
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <Faq />
+        <!-- <Faq /> -->
     </div>
 </template>
 

@@ -1,92 +1,53 @@
 <template>
     <div>
-        <div class="c-contact position-relative">
-            <div class="bg-overlay"></div>
-            <div class="container text-center py-5 position-relative">
-                <h1 class="text-white fw-bold">
-                    Contact <span class="text-dark">Us</span>
-                </h1>
+        <section class="c-contact text-center">
+            <div class="container">
+                <h1>Contact <span class="c-theme-text-color">Us</span></h1>
             </div>
-        </div>
+        </section>
 
         <div class="container c-top mt-5">
             <div class="row g-4">
-                <div
-                    class="col-md-6 col-lg-6 col-sm-12 border shadow bg-dark h-100 p-3"
-                >
-                    <h1 class="text-white mt-3">
-                        Request A Free <br /><span class="c-theme-text-color"
-                            >Consultation</span
-                        >
-                    </h1>
+                <div class="col-md-6 col-lg-6 col-sm-12 border shadow-lg bg-dark text-white p-4 rounded">
+                    <h2 class="fw-bold">Request A Free <br /><span class="c-theme-text-color">Consultation</span></h2>
+                    <div class="mt-4">
+                        <p>Email: <a href="mailto:info@goritmi.co.uk" class="text-white">info@goritmi.co.uk</a></p>
+                        <p>Phone: <a href="tel:+441164882896" class="text-white">+44 116 488 2896</a></p>
+                    </div>
                     <form>
                         <div class="row mb-4">
                             <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="First Name"
-                                />
+                                <input type="text" class="form-control" placeholder="First Name" required />
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="Last Name"
-                                />
+                                <input type="text" class="form-control" placeholder="Last Name" required />
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    placeholder="Email"
-                                />
+                                <input type="email" class="form-control" placeholder="Email" required />
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label class="form-label"></label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="Contact No"
-                                />
+                                <input type="text" class="form-control" placeholder="Contact No" required />
                             </div>
                             <div class="col-12 mb-3">
-                                <label class="form-label"></label>
-                                <textarea
-                                    class="form-control"
-                                    rows="4"
-                                    placeholder="Your message"
-                                ></textarea>
+                                <textarea class="form-control" rows="4" placeholder="Your message" required></textarea>
                             </div>
                             <div class="col-12">
-                                <button
-                                    type="submit"
-                                    class="btn c-theme-button"
-                                >
-                                    Send Message
-                                </button>
+                                <button type="submit" class="btn c-theme-button">Send Message</button>
                             </div>
                         </div>
                     </form>
                 </div>
 
-                <div class="col-lg-6">
-                    <div
-                        class="contact-info rounded h-100 d-flex align-items-center"
-                    >
-                        <div class="w-100">
-                            <iframe
-                                class="gmap_iframe w-100"
-                                height="500"
-                                frameborder="0"
-                                scrolling="no"
-                                src="https://maps.google.com/maps?width=100%&amp;height=350&amp;hl=en&amp;q=Leicester&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                            >
-                            </iframe>
-                        </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-light p-4 rounded shadow-lg">
+                    <h3 class="text-dark">Contact Information</h3>
+                    <p>Email: <a href="mailto:info@goritmi.co.uk" class="text-dark">info@goritmi.co.uk</a></p>
+                    <p>Phone: <a href="tel:+441164882896" class="text-dark">+44 116 488 2896</a></p>
+                    <div class="social-icons mt-3">
+                        <a href="https://www.facebook.com/profile.php?id=61570754301545" target="_blank" class="me-3" style="color: #1877f2;"><i class="bi bi-facebook fa-2x"></i></a>
+                        <a href="https://www.instagram.com/goritmi.uk/profilecard/?igsh=NzJnc2wxMTB0ZmI1" target="_blank" class="me-3" style="color: #e4405f;"><i class="bi bi-instagram fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/company/goritmi/" target="_blank" class="me-3" style="color: #0a66c2;"><i class="bi bi-linkedin fa-2x"></i></a>
+                        <a href="https://www.youtube.com/@GoritmiLtd" target="_blank" class="me-3" style="color: #ff0000;"><i class="bi bi-youtube fa-2x"></i></a>
+                        <a href="https://linktr.ee/goritmi" target="_blank" class="me-3" style="color: #43b02a;"><i class="bi bi-tree fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -105,11 +66,13 @@ export default {
 
 <style>
 .c-contact {
-    text-align: center;
-    width: 100%;
-    height: 504px;
-    padding-top: 100px;
-    background: url("/images/contactus.png") no-repeat center center/cover;
+    background: url("/images/about.png") no-repeat center center/cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 60px 0;
 }
 
 .bg-overlay {
@@ -118,21 +81,30 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.116);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .c-top {
     margin-top: -50px;
 }
 
-.gmap_iframe {
-    border-radius: 8px;
+.social-icons a {
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
+
+ 
 
 @media (max-width: 768px) {
     .c-contact {
         height: auto;
         padding: 50px 0;
     }
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 </style>

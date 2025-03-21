@@ -54,8 +54,8 @@ export default {
                 {
                     bgClass: "bg-image-1",
                     top_text: "Ready to Drive Growth?",
-                    main_text: "Transform Your Business with",
-                    highlighted_text: " Goritmi",
+                    main_text: "Transform Your Business with Goritmi",
+                     
                     description:
                         "We empower your business with innovative digital solutions that captivate customers and enhance efficiency.",
                 },
@@ -72,7 +72,7 @@ export default {
                     bgClass: "bg-image-3",
                     top_text:
                         "Smarter Financial Management for Better Business",
-                    main_text: "Goritmi Balance - ",
+                    main_text: "Goritmi Balance ",
                     highlighted_text: "Simplified Accounting",
                     description:
                         "Automate bookkeeping, manage cash flow & generate real-time reports for smarter financial decisions.",
