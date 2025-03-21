@@ -1,15 +1,15 @@
 {
-  "_carousel-b328848f.js": {
+  "_carousel-c6390584.js": {
     "css": [
       "assets/carousel-dfe28437.css"
     ],
-    "file": "assets/carousel-b328848f.js",
+    "file": "assets/carousel-c6390584.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_multiselect-0c01c00e.js": {
-    "file": "assets/multiselect-0c01c00e.js",
+  "_multiselect-1a64036c.js": {
+    "file": "assets/multiselect-1a64036c.js",
     "imports": [
       "resources/js/app.js"
     ]
@@ -79,21 +79,21 @@
     "css": [
       "assets/About-834d9db8.css"
     ],
-    "file": "assets/About-e35b3c29.js",
+    "file": "assets/About-452ba3cb.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/Pages/ExternalWebsiteComponents/Services.vue",
       "resources/js/Pages/ExternalWebsiteComponents/ContactUsSection.vue",
       "resources/js/Pages/ExternalWebsiteComponents/HappyClients.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js",
-      "_carousel-b328848f.js"
+      "_multiselect-1a64036c.js",
+      "_carousel-c6390584.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/About.vue"
   },
   "resources/js/Pages/Backend/Dashboard/Index.vue": {
-    "file": "assets/Index-0c130809.js",
+    "file": "assets/Index-a3e5d220.js",
     "imports": [
       "resources/js/Pages/Backend/Layout/Master.vue",
       "resources/js/app.js"
@@ -123,7 +123,7 @@
     "css": [
       "assets/Master-670bc92e.css"
     ],
-    "file": "assets/Master-0eae0361.js",
+    "file": "assets/Master-dfc29f1b.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -138,10 +138,10 @@
     "css": [
       "assets/Create-d79837f0.css"
     ],
-    "file": "assets/Create-857d3d62.js",
+    "file": "assets/Create-db63aebb.js",
     "imports": [
       "resources/js/Pages/Backend/Layout/Master.vue",
-      "_multiselect-0c01c00e.js",
+      "_multiselect-1a64036c.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
@@ -155,10 +155,10 @@
     "css": [
       "assets/Index-7a38d49c.css"
     ],
-    "file": "assets/Index-b188bd96.js",
+    "file": "assets/Index-095460ec.js",
     "imports": [
       "resources/js/Pages/Backend/Layout/Master.vue",
-      "_multiselect-0c01c00e.js",
+      "_multiselect-1a64036c.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
@@ -172,21 +172,21 @@
     "css": [
       "assets/Update-9cf7b4f7.css"
     ],
-    "file": "assets/Update-9076b4af.js",
+    "file": "assets/Update-cc32c6c1.js",
     "imports": [
       "resources/js/Pages/Backend/Layout/Master.vue",
-      "_multiselect-0c01c00e.js",
+      "_multiselect-1a64036c.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Backend/User/Update.vue"
   },
   "resources/js/Pages/Client.vue": {
-    "file": "assets/Client-81e4fac1.js",
+    "file": "assets/Client-3e882e75.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Client.vue"
@@ -199,11 +199,11 @@
     "css": [
       "assets/Contact-9ce0513a.css"
     ],
-    "file": "assets/Contact-d60eacbe.js",
+    "file": "assets/Contact-2401cd12.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Contact.vue"
@@ -216,7 +216,7 @@
     "css": [
       "assets/AboutSection-854ee42b.css"
     ],
-    "file": "assets/AboutSection-918dcce7.js",
+    "file": "assets/AboutSection-7d04d809.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -231,9 +231,9 @@
     "css": [
       "assets/Carousel-d5b7904a.css"
     ],
-    "file": "assets/Carousel-80a90aae.js",
+    "file": "assets/Carousel-75583a88.js",
     "imports": [
-      "_carousel-b328848f.js",
+      "_carousel-c6390584.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
@@ -247,7 +247,7 @@
     "css": [
       "assets/ContactUsSection-d3e362ea.css"
     ],
-    "file": "assets/ContactUsSection-49dbc973.js",
+    "file": "assets/ContactUsSection-c03a9617.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -262,7 +262,7 @@
     "css": [
       "assets/Faq-4748f56c.css"
     ],
-    "file": "assets/Faq-cc18271c.js",
+    "file": "assets/Faq-be0592a6.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -277,9 +277,9 @@
     "css": [
       "assets/HappyClients-f323c71a.css"
     ],
-    "file": "assets/HappyClients-b173ee80.js",
+    "file": "assets/HappyClients-fa263083.js",
     "imports": [
-      "_carousel-b328848f.js",
+      "_carousel-c6390584.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
@@ -293,7 +293,7 @@
     "css": [
       "assets/LetDiscuccSection-d0b239e8.css"
     ],
-    "file": "assets/LetDiscuccSection-279de45f.js",
+    "file": "assets/LetDiscuccSection-772bf766.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -308,7 +308,7 @@
     "css": [
       "assets/News-92b499b9.css"
     ],
-    "file": "assets/News-6614cf57.js",
+    "file": "assets/News-3cf1bb3e.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -323,7 +323,7 @@
     "css": [
       "assets/OurClients-cdfcc2c1.css"
     ],
-    "file": "assets/OurClients-d626df46.js",
+    "file": "assets/OurClients-81b04421.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -338,7 +338,7 @@
     "css": [
       "assets/Products-4ea9aa44.css"
     ],
-    "file": "assets/Products-4daabcd8.js",
+    "file": "assets/Products-f0674bda.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -353,7 +353,7 @@
     "css": [
       "assets/Services-ae05385f.css"
     ],
-    "file": "assets/Services-55eb682e.js",
+    "file": "assets/Services-44d5f4ba.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -368,7 +368,7 @@
     "css": [
       "assets/WhyUs-05c57e82.css"
     ],
-    "file": "assets/WhyUs-cdfa0317.js",
+    "file": "assets/WhyUs-dfefb979.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -383,7 +383,7 @@
     "css": [
       "assets/Cropper-f6283329.css"
     ],
-    "file": "assets/Cropper-9ca4fc80.js",
+    "file": "assets/Cropper-caa1c78b.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -398,11 +398,11 @@
     "css": [
       "assets/HostingSupportDetails-15941205.css"
     ],
-    "file": "assets/HostingSupportDetails-7e2aaebf.js",
+    "file": "assets/HostingSupportDetails-77e7dae4.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/HostingSupportDetails.vue"
@@ -415,7 +415,7 @@
     "css": [
       "assets/Index-98858d50.css"
     ],
-    "file": "assets/Index-2408d369.js",
+    "file": "assets/Index-a82064d1.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/Pages/ExternalWebsiteComponents/Carousel.vue",
@@ -429,8 +429,8 @@
       "resources/js/Pages/ExternalWebsiteComponents/HappyClients.vue",
       "resources/js/Pages/ExternalWebsiteComponents/ContactUsSection.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js",
-      "_carousel-b328848f.js"
+      "_multiselect-1a64036c.js",
+      "_carousel-c6390584.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Index.vue"
@@ -457,9 +457,9 @@
     "css": [
       "assets/Master-166c5d92.css"
     ],
-    "file": "assets/Master-364cba37.js",
+    "file": "assets/Master-898cda17.js",
     "imports": [
-      "_multiselect-0c01c00e.js",
+      "_multiselect-1a64036c.js",
       "resources/js/app.js"
     ],
     "isDynamicEntry": true,
@@ -473,7 +473,7 @@
     "css": [
       "assets/Login-c7650a9b.css"
     ],
-    "file": "assets/Login-14742185.js",
+    "file": "assets/Login-7830b65b.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -488,12 +488,12 @@
     "css": [
       "assets/ProductActiveDetail-7990d1c5.css"
     ],
-    "file": "assets/ProductActiveDetail-0e6e9b37.js",
+    "file": "assets/ProductActiveDetail-8f3aa6a9.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/Pages/ExternalWebsiteComponents/Faq.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/ProductActiveDetail.vue"
@@ -506,12 +506,12 @@
     "css": [
       "assets/ProductBalanceDetail-30b0799d.css"
     ],
-    "file": "assets/ProductBalanceDetail-bdc87e33.js",
+    "file": "assets/ProductBalanceDetail-97f95bcf.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/Pages/ExternalWebsiteComponents/Faq.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/ProductBalanceDetail.vue"
@@ -524,12 +524,12 @@
     "css": [
       "assets/ProductConnectDetail-d1ccaf75.css"
     ],
-    "file": "assets/ProductConnectDetail-a13f9172.js",
+    "file": "assets/ProductConnectDetail-eef7fb72.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/Pages/ExternalWebsiteComponents/Faq.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/ProductConnectDetail.vue"
@@ -542,7 +542,7 @@
     "css": [
       "assets/Service-0d1a2338.css"
     ],
-    "file": "assets/Service-c9206a87.js",
+    "file": "assets/Service-62d2f733.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/Pages/ExternalWebsiteComponents/Services.vue",
@@ -550,8 +550,8 @@
       "resources/js/Pages/ExternalWebsiteComponents/Products.vue",
       "resources/js/Pages/ExternalWebsiteComponents/HappyClients.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js",
-      "_carousel-b328848f.js"
+      "_multiselect-1a64036c.js",
+      "_carousel-c6390584.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Service.vue"
@@ -564,11 +564,11 @@
     "css": [
       "assets/ServiceAppDetails-606d6bb3.css"
     ],
-    "file": "assets/ServiceAppDetails-b95b514a.js",
+    "file": "assets/ServiceAppDetails-165a5409.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/ServiceAppDetails.vue"
@@ -581,11 +581,11 @@
     "css": [
       "assets/ServiceAppDetails-606d6bb3.css"
     ],
-    "file": "assets/ServiceWebDetails-a7df840e.js",
+    "file": "assets/ServiceWebDetails-5c74d238.js",
     "imports": [
       "resources/js/Pages/Layouts/Master.vue",
       "resources/js/app.js",
-      "_multiselect-0c01c00e.js"
+      "_multiselect-1a64036c.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/ServiceWebDetails.vue"
@@ -612,7 +612,7 @@
     "css": [
       "assets/UserRegister-6bf496d2.css"
     ],
-    "file": "assets/UserRegister-c3d8ad80.js",
+    "file": "assets/UserRegister-017f0a72.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -641,7 +641,7 @@
     "css": [
       "assets/forgotPassword-30c5e6cf.css"
     ],
-    "file": "assets/forgotPassword-9ddcf5e1.js",
+    "file": "assets/forgotPassword-34c5a5fa.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -670,7 +670,7 @@
     "css": [
       "assets/resetPassword-269905a1.css"
     ],
-    "file": "assets/resetPassword-cbc9043f.js",
+    "file": "assets/resetPassword-db235547.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -720,7 +720,7 @@
       "resources/js/Pages/forgotPassword.vue",
       "resources/js/Pages/resetPassword.vue"
     ],
-    "file": "assets/app-361ae2ee.js",
+    "file": "assets/app-e5ae4bc2.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

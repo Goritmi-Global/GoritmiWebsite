@@ -181,13 +181,13 @@
                                     >About Us</a
                                 >
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a
                                     href="/services"
                                     class="text-white-50 text-decoration-none"
                                     >Services</a
                                 >
-                            </li>
+                            </li> -->
 
                             <li>
                                 <a

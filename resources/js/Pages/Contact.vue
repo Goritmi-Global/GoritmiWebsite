@@ -10,10 +10,10 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-sm-12 border shadow-lg bg-dark text-white p-4 rounded">
                     <h2 class="fw-bold">Request A Free <br /><span class="c-theme-text-color">Consultation</span></h2>
-                    <div class="mt-4">
+                    <!-- <div class="mt-4">
                         <p>Email: <a href="mailto:info@goritmi.co.uk" class="text-white">info@goritmi.co.uk</a></p>
                         <p>Phone: <a href="tel:+441164882896" class="text-white">+44 116 488 2896</a></p>
-                    </div>
+                    </div> -->
                     <form>
                         <div class="row mb-4">
                             <div class="col-md-6 mb-3">

@@ -1,1 +1,0 @@
-import t from"./Master-364cba37.js";import{_ as e,o,c as r}from"./app-361ae2ee.js";import"./multiselect-0c01c00e.js";const s={layout:t,setup(){}};function c(a,n,p,_,i,f){return o(),r("div")}const d=e(s,[["render",c]]);export{d as default};
